@@ -54,7 +54,8 @@ def parse_details(html, url, source):
         node = soup.select_one('#job-description')
         body = node.decode_contents() if node else ''
     elif source == 'euraxess':
-        node = soup.select_one('.field--name-field-job-description, .field--name-body')
+        heading = soup.select_one('#offer-description')
+        node = heading.parent if heading else soup.select_one('.field--name-field-job-description, .field--name-body')
         body = node.decode_contents() if node else ''
     body = body or posting.get('description', '')
     result = {'description_html': clean_html(body, url)} if body else {}
@@ -87,7 +88,7 @@ def enrich(session, jobs, source):
         try:
             response = session.get(job['source_url'], timeout=20)
             response.raise_for_status()
-            detail = parse_details(response.text, job['source_url'], source)
+            detail = parse_details(response.content, job['source_url'], source)
             job.update(detail)
             job['details_checked_at'] = datetime.now(timezone.utc).isoformat()
             if detail.get('description_html'):
@@ -98,8 +99,11 @@ def enrich(session, jobs, source):
                 print(f'[{source}] details {counts}', flush=True)
         except Exception:
             counts['unavailable'] += 1
+            if response is not None and response.status_code in {404, 410}:
+                job['status'] = 'closed'
             # Stop promptly on rate limiting or access denial, preserving original links.
             if response is not None and response.status_code in {403, 429}:
+                counts['stopped_http'] = response.status_code
                 break
         finally:
             time.sleep(0.4)

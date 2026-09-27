@@ -24,6 +24,11 @@ class DetailTests(unittest.TestCase):
         self.assertNotIn('onclick', body)
         self.assertIn('https://example.org/apply', body)
 
+    def test_euraxess_offer_section(self):
+        detail = parse_details('<nav>Menu</nav><div><h2 id="offer-description">Offer Description</h2><p>PhD in power electronics</p></div>', 'https://euraxess.ec.europa.eu/jobs/1', 'euraxess')
+        self.assertIn('power electronics', detail['description_html'])
+        self.assertNotIn('Menu', detail['description_html'])
+
 
 if __name__ == '__main__':
     unittest.main()

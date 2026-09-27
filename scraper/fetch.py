@@ -42,6 +42,7 @@ def _make_session() -> requests.Session:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", action="append", help="Refresh one named adapter, preserving other sources")
+    parser.add_argument("--details-only", action="store_true", help="Enrich cached records without repeating list collection")
     args = parser.parse_args()
     selected = [m for m in ALL_SOURCES if not args.source or m.SOURCE_ID in args.source]
     if args.source and set(args.source) - {m.SOURCE_ID for m in selected}:
@@ -52,7 +53,10 @@ def main() -> int:
     def collect(mod):
         started = monotonic()
         with _make_session() as session:
-            jobs = mod.fetch(session)
+            if args.details_only:
+                jobs = [j for j in json.loads(OUT.read_text())["jobs"] if j.get("source") == mod.SOURCE_ID]
+            else:
+                jobs = mod.fetch(session)
             # Enrich only eligible PhDs rather than every raw aggregator record.
             now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
             candidates, _ = filter_phds(jobs, observed_at=now)
@@ -76,7 +80,7 @@ def main() -> int:
             report.append({"source": name, "result": "failed", "error": str(e)[:300]})
             continue
         print(f"[{name}] {len(jobs)} jobs")
-        report.append({"source": name, "result": "records_returned" if jobs else "empty_or_adapter_error", "raw_count": len(jobs), "seconds": seconds, "details": details, "warnings": getattr(mod, "FETCH_WARNINGS", [])})
+        report.append({"source": name, "mode": "cached_details" if args.details_only else "list_and_details", "result": "records_returned" if jobs else "empty_or_adapter_error", "raw_count": len(jobs), "seconds": seconds, "details": details, "warnings": getattr(mod, "FETCH_WARNINGS", [])})
         successful_sources += 1
         for j in jobs:
             classify_job(j)
@@ -92,7 +96,8 @@ def main() -> int:
         bundle()
         return 1
     for job in all_jobs:
-        job["last_seen"] = observed_at
+        if not args.details_only:
+            job["last_seen"] = observed_at
     if args.source and OUT.exists():
         previous = json.loads(OUT.read_text())["jobs"]
         all_jobs = [j for j in previous if j.get("source") not in args.source] + all_jobs
