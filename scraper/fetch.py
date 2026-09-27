@@ -13,12 +13,15 @@ from pathlib import Path
 import requests
 
 from classify import classify_job
+from eligibility import filter_phds
+
+# Source modules inspect JOB_KIND at import time. This project publishes PhDs only.
+if os.getenv("JOB_KIND", "phd").lower() != "phd":
+    raise SystemExit("Only JOB_KIND=phd is supported; no postdoc output will be written.")
 from sources import ALL_SOURCES
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-JOB_KIND = os.getenv("JOB_KIND", "phd").lower()
-_OUT_NAME = "postdocs.json" if JOB_KIND == "postdoc" else "jobs.json"
-OUT = Path(__file__).resolve().parent.parent / "data" / _OUT_NAME
+OUT = Path(__file__).resolve().parent.parent / "data" / "jobs.json"
 
 
 def _make_session() -> requests.Session:
@@ -34,6 +37,7 @@ def _make_session() -> requests.Session:
 def main() -> int:
     session = _make_session()
     all_jobs: list[dict] = []
+    successful_sources = 0
     for mod in ALL_SOURCES:
         name = getattr(mod, "SOURCE_ID", mod.__name__)
         try:
@@ -42,17 +46,28 @@ def main() -> int:
             print(f"[{name}] FAILED: {e}", file=sys.stderr)
             continue
         print(f"[{name}] {len(jobs)} jobs")
+        successful_sources += 1
         for j in jobs:
             classify_job(j)
         all_jobs.extend(jobs)
 
+    if not successful_sources or not all_jobs:
+        print("No usable source records; keeping the previous snapshot.", file=sys.stderr)
+        return 1
+    observed_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    for job in all_jobs:
+        job["last_seen"] = observed_at
+    all_jobs, removed = filter_phds(all_jobs, observed_at=observed_at)
     out = {
-        "updated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "updated_at": observed_at,
+        "removed_by_reason": removed,
         "total": len(all_jobs),
         "jobs": all_jobs,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    temporary = OUT.with_suffix(".json.tmp")
+    temporary.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    temporary.replace(OUT)
     print(f"\nWrote {len(all_jobs)} jobs -> {OUT}")
 
     by_src: dict[str, int] = {}

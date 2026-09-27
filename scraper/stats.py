@@ -82,7 +82,8 @@ def main() -> int:
         prev_history[-1].get("by_source", {}) if prev_history else {}
     )
 
-    alerts = _diff_alerts(by_source, prev_by_source)
+    # A local cleanup deliberately reduces counts; it is not a failed scrape.
+    alerts = [] if data.get("cleanup") else _diff_alerts(by_source, prev_by_source)
 
     snapshot = {
         "ts": _utc_now(),
@@ -94,6 +95,8 @@ def main() -> int:
 
     out = {
         "updated_at": snapshot["ts"],
+        "data_updated_at": data.get("updated_at"),
+        "operation": "cleanup" if data.get("cleanup") else "collection",
         "total": snapshot["total"],
         "by_source": by_source,
         "by_country": by_country,
