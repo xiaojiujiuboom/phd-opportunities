@@ -18,6 +18,7 @@ import requests
 from classify import classify_job
 from eligibility import filter_phds
 from bundle import bundle
+from details import enrich
 
 # Source modules inspect JOB_KIND at import time. This project publishes PhDs only.
 if os.getenv("JOB_KIND", "phd").lower() != "phd":
@@ -52,7 +53,15 @@ def main() -> int:
         started = monotonic()
         with _make_session() as session:
             jobs = mod.fetch(session)
-        return jobs, round(monotonic() - started, 1)
+            # Enrich only eligible PhDs rather than every raw aggregator record.
+            now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+            candidates, _ = filter_phds(jobs, observed_at=now)
+            details = enrich(session, candidates, mod.SOURCE_ID)
+            enriched = {j['source_url']: j for j in candidates}
+            for job in jobs:
+                if job.get('source_url') in enriched:
+                    job.update(enriched[job['source_url']])
+        return jobs, round(monotonic() - started, 1), details
 
     # Parallelize independent websites, never requests within one website.
     with ThreadPoolExecutor(max_workers=4) as pool:
@@ -61,13 +70,13 @@ def main() -> int:
         mod = pending[future]
         name = getattr(mod, "SOURCE_ID", mod.__name__)
         try:
-            jobs, seconds = future.result()
+            jobs, seconds, details = future.result()
         except Exception as e:
             print(f"[{name}] FAILED: {e}", file=sys.stderr)
             report.append({"source": name, "result": "failed", "error": str(e)[:300]})
             continue
         print(f"[{name}] {len(jobs)} jobs")
-        report.append({"source": name, "result": "records_returned" if jobs else "empty_or_adapter_error", "raw_count": len(jobs), "seconds": seconds, "warnings": getattr(mod, "FETCH_WARNINGS", [])})
+        report.append({"source": name, "result": "records_returned" if jobs else "empty_or_adapter_error", "raw_count": len(jobs), "seconds": seconds, "details": details, "warnings": getattr(mod, "FETCH_WARNINGS", [])})
         successful_sources += 1
         for j in jobs:
             classify_job(j)
