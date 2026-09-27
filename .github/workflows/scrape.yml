@@ -30,7 +30,7 @@ jobs:
         run: python -m pip install -r scraper/requirements.txt
       - name: Test eligibility and offline bundle
         working-directory: scraper
-        run: python -m unittest test_eligibility test_sources
+        run: python -m unittest test_eligibility test_sources test_details
       - name: Collect PhD opportunities
         id: collect
         continue-on-error: true
