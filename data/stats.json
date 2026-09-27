@@ -1,48 +1,13 @@
 {
-  "updated_at": "2026-04-20T13:35:36Z",
-  "total": 1151,
+  "updated_at": "2026-09-27T02:43:16Z",
+  "data_updated_at": "2026-04-20T13:33:22Z",
+  "operation": "cleanup",
+  "total": 5,
   "by_source": {
-    "euraxess": 487,
-    "jobsac_uk": 200,
-    "jobbnorge": 139,
-    "academictransfer": 120,
-    "phdgermany": 40,
-    "varbi-su": 31,
-    "varbi-lu": 27,
-    "varbi-kth": 25,
-    "academics": 21,
-    "ku": 18,
-    "varbi-uu": 18,
-    "liu": 12,
-    "umu": 8,
-    "aalto": 4,
-    "varbi-kau": 1
+    "phdgermany": 5
   },
   "by_country": {
-    "GB": 203,
-    "DE": 161,
-    "NO": 146,
-    "SE": 139,
-    "NL": 132,
-    "IT": 129,
-    "FI": 97,
-    "FR": 37,
-    "PL": 23,
-    "ES": 22,
-    "DK": 21,
-    "PT": 18,
-    "?": 5,
-    "HR": 4,
-    "CH": 2,
-    "GR": 2,
-    "SI": 2,
-    "SK": 2,
-    "BE": 1,
-    "BG": 1,
-    "CY": 1,
-    "CZ": 1,
-    "HU": 1,
-    "LU": 1
+    "DE": 5
   },
   "history": [
     {
@@ -259,6 +224,26 @@
         "CZ": 1,
         "HU": 1,
         "LU": 1
+      }
+    },
+    {
+      "ts": "2026-09-27T02:42:21Z",
+      "total": 5,
+      "by_source": {
+        "phdgermany": 5
+      },
+      "by_country": {
+        "DE": 5
+      }
+    },
+    {
+      "ts": "2026-09-27T02:43:16Z",
+      "total": 5,
+      "by_source": {
+        "phdgermany": 5
+      },
+      "by_country": {
+        "DE": 5
       }
     }
   ],
