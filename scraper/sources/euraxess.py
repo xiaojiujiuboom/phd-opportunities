@@ -16,6 +16,8 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 
 SOURCE_ID = "euraxess"
+FETCH_WARNINGS = []
+RATE_LIMITED = False
 BASE = "https://euraxess.ec.europa.eu"
 # JOB_KIND switches the research_profile facet:
 #   phd     -> R1 (First Stage Researcher, up to PhD) — default
@@ -221,30 +223,18 @@ def _parse_page(html: str, default_iso: str = "") -> list[dict]:
 
 def _fetch_pages(session, url_template: str, max_pages: int,
                  default_iso: str, seen_urls: set[str], label: str) -> list[dict]:
+    global RATE_LIMITED
     out: list[dict] = []
     tid = COUNTRY_TID.get(default_iso, "")
-    consecutive_429 = 0
     for page in range(max_pages):
         url = url_template.format(page=page, iso=default_iso, tid=tid)
         try:
             r = session.get(url, timeout=30)
             if r.status_code == 429:
-                wait = float(r.headers.get("Retry-After") or _RETRY_AFTER_DEFAULT)
-                consecutive_429 += 1
-                print(
-                    f"  [euraxess:{label}] page {page} 429 — sleeping {wait:.0f}s",
-                    file=sys.stderr,
-                )
-                time.sleep(wait)
-                if consecutive_429 >= 3:
-                    print(
-                        f"  [euraxess:{label}] giving up after 3 consecutive 429s",
-                        file=sys.stderr,
-                    )
-                    break
-                continue
+                RATE_LIMITED = True
+                FETCH_WARNINGS.append(f"{label}: HTTP 429; remaining country requests skipped")
+                break
             r.raise_for_status()
-            consecutive_429 = 0
         except Exception as e:
             print(f"  [euraxess:{label}] page {page} FAILED: {e}", file=sys.stderr)
             continue
@@ -264,6 +254,9 @@ def _fetch_pages(session, url_template: str, max_pages: int,
 
 
 def fetch(session) -> list[dict]:
+    global RATE_LIMITED
+    RATE_LIMITED = False
+    FETCH_WARNINGS.clear()
     all_jobs: list[dict] = []
     seen_urls: set[str] = set()
 
@@ -274,6 +267,8 @@ def fetch(session) -> list[dict]:
 
     # 2) Per-country supplemental fetches for under-represented countries
     for iso in _PER_COUNTRY:
+        if RATE_LIMITED:
+            break
         if iso not in COUNTRY_TID:
             print(f"  [euraxess:{iso}] skip — no term ID mapping", file=sys.stderr)
             continue

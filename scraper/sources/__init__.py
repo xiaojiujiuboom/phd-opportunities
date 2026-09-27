@@ -1,10 +1,10 @@
 """Source adapters. Each module exposes fetch(session) -> list[dict] matching jobs.json schema."""
 from . import (
     liu, varbi, umu, jobbnorge, ku, aalto, academictransfer,
-    euraxess, academics, jobsac_uk, phdgermany,
+    euraxess, academics, jobsac_uk, phdgermany, ethz,
 )
 
 ALL_SOURCES = [
     liu, varbi, umu, jobbnorge, ku, aalto, academictransfer,
-    euraxess, academics, jobsac_uk, phdgermany,
+    euraxess, academics, jobsac_uk, phdgermany, ethz,
 ]
