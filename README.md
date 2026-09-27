@@ -40,14 +40,19 @@ Double-click `打开博士工作台.command`, or open `index.html` directly. The
 `data/offline-data.js` snapshot avoids `file://` JSON fetch restrictions. After
 editing JSON manually run `python3 scraper/bundle.py`. HTTP mode reads JSON directly.
 `刷新博士岗位.command` collects the configured sources and regenerates the snapshot.
-The source directory distinguishes actual adapters from portal-only links; portal
-links are not vacancies and are not counted as vacancies.
+Source coverage is documented in `data/sources.json`; the homepage does not show the
+source directory. Portal links are not vacancies and are not counted as vacancies.
+The world map includes North America and Oceania; its counts reflect actual retained
+records, not the existence of a source portal. Empty details from academics.com,
+jobs.ac.uk and EURAXESS are enriched from their public pages during collection.
+Explicit application deadlines take precedence over advert expiry metadata.
 
 ```bash
 python3 -m pip install -r scraper/requirements.txt
 python3 scraper/clean.py
 python3 scraper/test_eligibility.py -v
 python3 scraper/test_sources.py -v
+python3 scraper/test_details.py -v
 python3 scraper/fetch.py
 python3 scraper/stats.py
 python3 -m http.server 8000 --bind 127.0.0.1

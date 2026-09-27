@@ -255,7 +255,7 @@ footer a.legal-link{color:var(--accent);text-decoration:underline;cursor:pointer
 .map-head h2{font-family:var(--serif);font-weight:800;font-size:clamp(1.6rem,2.4vw,2.4rem);letter-spacing:-0.02em;margin:0;font-variation-settings:"opsz" 144}
 .map-head .map-hint{font-family:var(--serif);font-style:italic;color:var(--muted);font-size:.95rem}
 .map-wrap{position:relative;max-width:1200px;margin:0 auto;background:var(--card);border:1px solid var(--rule-strong);box-shadow:var(--shadow-md)}
-#europe-map{display:block;width:100%;height:auto;min-height:520px;background:linear-gradient(180deg,var(--card),var(--bg-2))}
+#europe-map{display:block;width:100%;height:auto;background:linear-gradient(180deg,var(--card),var(--bg-2))}
 #europe-map path{transition:fill .15s,stroke-width .15s;stroke:var(--bg);stroke-width:.6;stroke-linejoin:round}
 #europe-map path.has-jobs{cursor:pointer}
 #europe-map path.has-jobs:hover{stroke:var(--rule-strong);stroke-width:1.2}
@@ -316,7 +316,6 @@ footer a.legal-link{color:var(--accent);text-decoration:underline;cursor:pointer
   <div class="hero-wrap">
     <div class="hero-left">
       <h1 data-i18n="gateTitle">博士<em>申请机会</em>,<br>个人工作台。</h1>
-      <p data-i18n="gateDesc">覆盖全欧 20+ 国家的开放博士岗位 — 数据直接抓取自各大学官方招聘板与 EURAXESS、DAAD 等欧盟科研平台。</p>
       <div class="hero-badge" data-i18n="betaBadge">定时更新 · 仅博士</div>
     </div>
     <aside class="hero-right">
@@ -336,11 +335,11 @@ footer a.legal-link{color:var(--accent);text-decoration:underline;cursor:pointer
 
 <section id="europe-map-section">
   <div class="map-head">
-    <h2 data-i18n="mapTitle">欧洲岗位地图</h2>
+    <h2 data-i18n="mapTitle">全球岗位地图</h2>
     <div class="map-hint" data-i18n="mapHint">点击任一国家查看开放岗位</div>
   </div>
   <div class="map-wrap">
-    <svg id="europe-map" viewBox="0 0 800 720" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Map of Europe with PhD position counts"></svg>
+    <svg id="europe-map" viewBox="0 0 1200 620" preserveAspectRatio="xMidYMid meet" role="img" aria-label="World map with PhD position counts"></svg>
     <div id="map-tooltip"></div>
     <div id="map-legend">
       <span data-i18n="mapLegendLow">少</span>
@@ -365,12 +364,6 @@ footer a.legal-link{color:var(--accent);text-decoration:underline;cursor:pointer
   <div class="filter-bar" id="filter-bar"></div>
   <div id="view"></div>
 </main>
-<section id="source-directory" style="padding:2rem max(1rem,5vw);border-top:1px solid var(--line)">
-  <h2>来源与覆盖 / Sources & coverage</h2>
-  <p>自动抓取和官方检索入口分开列出；入口不是岗位，不计入岗位总数。资助不等于工作签证。</p>
-  <label>地区 <select id="source-region"><option value="">全部地区</option></select></label>
-  <div id="source-list" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin-top:1rem"></div>
-</section>
 <div class="overlay" id="overlay" aria-hidden="true">
   <article class="detail" id="detail"></article>
 </div>
@@ -604,7 +597,7 @@ const L = {
     staleData:"数据快照已超过 7 天，保留项也需在原网站核验；本次清理不代表重新抓取。",
     updatedPrefix:"更新于 ", neverUpdated:"暂无数据", failedLoad:"加载数据失败",
     positionsUnit:"个岗位", positionsUpdated:"个岗位 · 更新于 ",
-    mapTitle:"欧洲岗位地图", mapHint:"点击任一国家查看保留机会",
+    mapTitle:"全球岗位地图", mapHint:"点击有岗位的国家查看机会",
     mapLegendLow:"少", mapLegendHigh:"多",
     mapPanelEmpty:"点击国家查看岗位", mapPanelNone:"暂无保留机会",
     mapMore:"还有 {n} 个岗位 — 在下方列表查看全部",
@@ -678,7 +671,7 @@ const L = {
     staleData:"The data snapshot is over 7 days old. Verify retained opportunities on the original posting; cleaning is not a new collection.",
     updatedPrefix:"Updated ", neverUpdated:"never", failedLoad:"Failed to load data",
     positionsUnit:"positions", positionsUpdated:"positions · updated ",
-    mapTitle:"Europe Position Map", mapHint:"Click any country to see retained opportunities",
+    mapTitle:"World Position Map", mapHint:"Click a country with positions to explore",
     mapLegendLow:"few", mapLegendHigh:"many",
     mapPanelEmpty:"Click a country to see positions", mapPanelNone:"No retained opportunities",
     mapMore:"{n} more positions — see the full list below",
@@ -764,7 +757,6 @@ function daysTo(s){
 
 async function load(){
   loadFavs();
-  await loadSourceDirectory();
   // Rankings are optional — failure is silent (cards just skip the badge).
   try{
     const rr = await readData("rankings");
@@ -841,8 +833,8 @@ function renderSourceDirectory(){
   }).join("");
 }
 
-// === Europe map: fetch GeoJSON once, render, attach click/hover ===
-const MAP_GEO_URL = "https://cdn.jsdelivr.net/gh/leakyMirror/map-of-europe@master/GeoJSON/europe.geojson";
+// Natural Earth world countries, including North America and Oceania.
+const MAP_GEO_URL = "https://cdn.jsdelivr.net/gh/nvkelso/natural-earth-vector@master/geojson/ne_110m_admin_0_countries.geojson";
 let _mapGeo = null;
 let _mapSelected = null;
 
@@ -862,9 +854,9 @@ async function initEuropeMap(){
   state.jobs.forEach(j => { const c=j.country; if(c) counts[c]=(counts[c]||0)+1; });
   const maxN = Math.max(1, ...Object.values(counts));
 
-  // Equirectangular projection clipped to Europe.
-  const W=800, H=720;
-  const minLon=-25, maxLon=42, minLat=34, maxLat=72;
+  // Global equirectangular projection; Antarctica is omitted.
+  const W=1200, H=620;
+  const minLon=-180, maxLon=180, minLat=-60, maxLat=85;
   const proj = ([lon,lat]) => {
     const x = ((lon-minLon)/(maxLon-minLon))*W;
     const y = H - ((lat-minLat)/(maxLat-minLat))*H;
@@ -887,7 +879,8 @@ async function initEuropeMap(){
 
   svg.innerHTML = "";
   _mapGeo.features.forEach(f => {
-    const iso = f.properties.ISO2;
+    if(f.properties.NAME === "Antarctica") return;
+    const iso = f.properties.ISO_A2_EH || f.properties.ISO_A2;
     const name = f.properties.NAME || iso;
     const n = counts[iso] || 0;
     const path = document.createElementNS("http://www.w3.org/2000/svg","path");
@@ -896,6 +889,10 @@ async function initEuropeMap(){
     path.dataset.country = iso;
     path.dataset.name = name;
     path.dataset.count = n;
+    path.setAttribute("aria-label", `${countryName(iso)||name}: ${n}`);
+    const title = document.createElementNS("http://www.w3.org/2000/svg","title");
+    title.textContent = `${countryName(iso)||name}: ${n}`;
+    path.appendChild(title);
     if(n>0) path.classList.add("has-jobs");
     path.addEventListener("mousemove", _mapTooltipMove);
     path.addEventListener("mouseleave", _mapTooltipHide);
@@ -1506,7 +1503,7 @@ function renderJobs(){
 function openDetail(j){
   const d = document.getElementById("detail");
   const days = daysTo(j.deadline);
-  let countdownHtml = j.deadline ? "" : '<p role="status">截止日期未提供：本次仅观察到列表，仍需原发布页确认开放状态。 / No deadline supplied: availability needs verification.</p>';
+  let countdownHtml = j.deadline ? "" : `<p role="status">${state.lang==="zh"?"未提供申请截止日期，请查看原发布页。":"No application deadline supplied; check the original posting."}</p>`;
   if(j.deadline){
     const cls = days===null?"":days<=7?"urgent":days<=30?"warn":"";
     const big = days===null?"—":days<0?t("closed"):`${days}`;
@@ -1537,7 +1534,7 @@ function openDetail(j){
       <div class="cell"><b>${t("profile")}</b><div class="val">${esc(j.profile||"R1")}</div></div>
       <div class="cell"><b>${t("fields")}</b><div class="val">${(j.research_fields||[]).map(esc).join(", ")||"—"}</div></div>
     </div>
-    <div class="desc">${j.description_html || esc(j.description||"")}</div>
+    <div class="desc">${j.description_html || esc(j.description||"") || `<p>${state.lang==="zh"?"该来源暂未返回正文，可通过下方原链接查看详情。":"This source did not return a description. View details through the original link below."}</p>`}</div>
     ${contactsHtml}
     ${j.source_url?`<div class="source-link"><b>${t("sourceLink")}:</b><br><a href="${esc(j.source_url)}" target="_blank" rel="noopener">${esc(j.source_url)}</a></div>`:""}`;
   document.getElementById("overlay").classList.add("on");
