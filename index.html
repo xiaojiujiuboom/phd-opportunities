@@ -370,6 +370,12 @@ footer a.legal-link{color:var(--accent);text-decoration:underline;cursor:pointer
   <div class="filter-bar" id="filter-bar"></div>
   <div id="view"></div>
 </main>
+<section id="source-directory" style="padding:2rem max(1rem,5vw);border-top:1px solid var(--line)">
+  <h2>来源与覆盖 / Sources & coverage</h2>
+  <p>自动抓取和官方检索入口分开列出；入口不是岗位，不计入岗位总数。资助不等于工作签证。</p>
+  <label>地区 <select id="source-region"><option value="">全部地区</option></select></label>
+  <div id="source-list" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin-top:1rem"></div>
+</section>
 <div class="overlay" id="overlay" aria-hidden="true">
   <article class="detail" id="detail"></article>
 </div>
@@ -389,10 +395,12 @@ footer a.legal-link{color:var(--accent);text-decoration:underline;cursor:pointer
     <a class="legal-link" data-legal="about" data-i18n="aboutLink">关于</a>
   </span>
 </footer>
+<script src="./data/offline-data.js"></script>
 <script type="module">
 // Supabase auth removed for public beta — site is fully static.
 
 const COUNTRY_NAMES = {
+  AU:"Australia",NZ:"New Zealand",CA:"Canada",US:"United States",
   SE:"Sweden",NO:"Norway",DK:"Denmark",FI:"Finland",NL:"Netherlands",DE:"Germany",
   GB:"United Kingdom",IE:"Ireland",FR:"France",IT:"Italy",ES:"Spain",PT:"Portugal",
   CH:"Switzerland",AT:"Austria",BE:"Belgium",LU:"Luxembourg",PL:"Poland",CZ:"Czechia",
@@ -401,6 +409,7 @@ const COUNTRY_NAMES = {
   MT:"Malta",IL:"Israel",RS:"Serbia",UA:"Ukraine",
 };
 const COUNTRY_FLAGS = {
+  AU:"🇦🇺",NZ:"🇳🇿",CA:"🇨🇦",US:"🇺🇸",
   SE:"🇸🇪",NO:"🇳🇴",DK:"🇩🇰",FI:"🇫🇮",NL:"🇳🇱",DE:"🇩🇪",
   GB:"🇬🇧",IE:"🇮🇪",FR:"🇫🇷",IT:"🇮🇹",ES:"🇪🇸",PT:"🇵🇹",
   CH:"🇨🇭",AT:"🇦🇹",BE:"🇧🇪",LU:"🇱🇺",PL:"🇵🇱",CZ:"🇨🇿",
@@ -574,6 +583,7 @@ function parseURL(){
 }
 
 const COUNTRY_NAMES_ZH = {
+  AU:"澳大利亚",NZ:"新西兰",CA:"加拿大",US:"美国",
   SE:"瑞典",NO:"挪威",DK:"丹麦",FI:"芬兰",NL:"荷兰",DE:"德国",
   GB:"英国",IE:"爱尔兰",FR:"法国",IT:"意大利",ES:"西班牙",PT:"葡萄牙",
   CH:"瑞士",AT:"奥地利",BE:"比利时",LU:"卢森堡",PL:"波兰",CZ:"捷克",
@@ -754,13 +764,14 @@ function daysTo(s){
 
 async function load(){
   loadFavs();
+  await loadSourceDirectory();
   // Rankings are optional — failure is silent (cards just skip the badge).
   try{
-    const rr = await fetch("./data/rankings.json",{cache:"no-store"});
+    const rr = await readData("rankings");
     if(rr.ok) state.rankings = await rr.json();
   }catch(_){}
   try{
-    const r = await fetch("./data/jobs.json",{cache:"no-store"});
+    const r = await readData("jobs");
     if(!r.ok) throw new Error("PhD data could not be loaded");
     const data = await r.json();
     // The scraper confirms PhD eligibility. Unknown dates expire after 7 days.
@@ -790,12 +801,44 @@ async function load(){
     if(gs("gs-urgent")) gs("gs-urgent").textContent = nUrgent;
     if(gs("gs-updated")) gs("gs-updated").textContent = t("updatedPrefix")+u;
     const snapshotAge=-daysTo((data.updated_at||"").slice(0,10));
-    if(gs("data-freshness")) gs("data-freshness").textContent = !data.updated_at||!Number.isFinite(snapshotAge)||snapshotAge>7 ? t("staleData") : "";
+    if(gs("data-freshness")) gs("data-freshness").textContent = !data.updated_at||!Number.isFinite(snapshotAge)||snapshotAge>7 ? t("staleData") : "本轮是有限范围抓取，不保证全覆盖或去除跨网站重复；截止日期不明的记录需要原页核验。";
     renderTicker();
     // Source counts after deliberate pruning are not scraper health signals.
     initEuropeMap();
-  }catch(e){ document.getElementById("hdr-meta").textContent = t("failedLoad"); }
+  }catch(e){ document.getElementById("hdr-meta").textContent = t("failedLoad"); document.getElementById("data-freshness").textContent = "请运行 python3 scraper/bundle.py 更新本地快照，或用本地 HTTP 服务打开。"; }
   render();
+}
+
+async function readData(name){
+  if(location.protocol==="file:"){
+    const data=window.PHD_OFFLINE_DATA?.[name];
+    return {ok:!!data,json:async()=>data};
+  }
+  return fetch(`./data/${name}.json`,{cache:"no-store"});
+}
+
+let sourceDirectory=[], sourceRuns=[];
+async function loadSourceDirectory(){
+  try{
+    const r=await readData("sources");
+    if(r.ok) sourceDirectory=(await r.json()).sources||[];
+    const report=await readData("collection-report");
+    if(report.ok) sourceRuns=(await report.json()).sources||[];
+    const select=document.getElementById("source-region");
+    const current=select.value;
+    select.innerHTML='<option value="">全部地区 / All regions</option>'+[...new Set(sourceDirectory.map(s=>s.region))].map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join("");
+    select.value=current;
+    select.onchange=renderSourceDirectory;
+    renderSourceDirectory();
+  }catch(e){ document.getElementById("source-list").textContent="来源目录暂不可用 / Source directory unavailable"; }
+}
+function renderSourceDirectory(){
+  const region=document.getElementById("source-region").value;
+  document.getElementById("source-list").innerHTML=sourceDirectory.filter(s=>!region||s.region===region).map(s=>{
+    const run=sourceRuns.find(r=>r.source===s.id);
+    const result=run ? (run.result==="failed" ? "本轮失败" : run.result==="empty_or_adapter_error" ? "本轮返回0条，可能空列表或解析失败" : `本轮返回 ${run.raw_count} 条原始记录（未筛选）`) : "本轮尚无结果";
+    return `<article style="border:1px solid var(--line);padding:1rem"><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.name)} ↗</a><p>${esc(s.region)} · ${s.mode==="adapter"?"自动抓取模块 / Adapter":"检索入口，未自动接入 / Portal only"}</p><p>${esc(s.note)}</p>${s.mode==="adapter"?`<small>${esc(result)} ${esc((run?.warnings||[]).join("; "))}</small>`:""}</article>`;
+  }).join("");
 }
 
 // === Europe map: fetch GeoJSON once, render, attach click/hover ===
@@ -1463,7 +1506,7 @@ function renderJobs(){
 function openDetail(j){
   const d = document.getElementById("detail");
   const days = daysTo(j.deadline);
-  let countdownHtml = "";
+  let countdownHtml = j.deadline ? "" : '<p role="status">截止日期未提供：本次仅观察到列表，仍需原发布页确认开放状态。 / No deadline supplied: availability needs verification.</p>';
   if(j.deadline){
     const cls = days===null?"":days<=7?"urgent":days<=30?"warn":"";
     const big = days===null?"—":days<0?t("closed"):`${days}`;

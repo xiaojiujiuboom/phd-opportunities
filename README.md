@@ -10,17 +10,24 @@ private copy, not a public GitHub fork. No new redistribution license is asserte
 - Reject closed/expired records, non-PhD titles and mixed PhD/postdoc advertisements.
 - Undated records require an observation within the last seven days; unknown deadline
   never means confirmed open. R1 alone is not enough to establish PhD eligibility.
-- Existing data is a historical snapshot. Cleaning keeps its original `updated_at`.
-- AU/NZ/CA/US expansion is planned in `docs/current-state-and-expansion.md`;
-  new-country sources have not been implemented yet.
+- Data was freshly collected on 2026-09-27: 652 retained records, with partial source coverage and possible cross-board duplication. See `docs/refresh-2026-09-27.md`.
+- Twelve automatic adapters are configured (including new ETH Zurich), plus fifteen clearly marked portal-only entries. AU/NZ/CA/US currently have portals, not automated vacancy feeds.
 - No public site or automatic scheduled collection has been enabled.
 
 ## Local use
+
+Double-click `打开博士工作台.command`, or open `index.html` directly. The generated
+`data/offline-data.js` snapshot avoids `file://` JSON fetch restrictions. After
+editing JSON manually run `python3 scraper/bundle.py`. HTTP mode reads JSON directly.
+`刷新博士岗位.command` collects the configured sources and regenerates the snapshot.
+The source directory distinguishes actual adapters from portal-only links; portal
+links are not vacancies and are not counted as vacancies.
 
 ```bash
 python3 -m pip install -r scraper/requirements.txt
 python3 scraper/clean.py
 python3 scraper/test_eligibility.py -v
+python3 scraper/test_sources.py -v
 python3 scraper/fetch.py
 python3 scraper/stats.py
 python3 -m http.server 8000 --bind 127.0.0.1
@@ -31,6 +38,7 @@ Source adapters use their own environment variables to enable details fetching.
 `JOB_KIND=postdoc` is rejected. If collection yields no usable records, the previous
 snapshot is retained; publication rules still hide expired/stale records in the UI.
 Source observation is not the same as official-page verification.
+Use `python3 scraper/fetch.py --source ethz` to refresh one adapter while keeping other sources' observations. A fresh timestamp does not mean every source succeeded.
 
 Removed historical data remains recoverable from upstream commit `878534c`.
 For example: `git show 878534c:data/jobs.json` or `git show 878534c:data/postdocs.json`.
