@@ -1,21 +1,17 @@
 {
-  "attempted_at": "2026-09-27T12:15:13Z",
+  "attempted_at": "2026-09-27T17:06:21Z",
   "sources": [
     {
       "source": "liu",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 9,
-      "seconds": 2.2,
-      "details": {},
-      "warnings": []
+      "result": "failed",
+      "error": "HTTPSConnectionPool(host='liu.se', port=443): Max retries exceeded with url: /rss/liu-jobs-en.rss (Caused by NewConnectionError(\"HTTPSConnection(host='liu.se', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     {
       "source": "umu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 5,
-      "seconds": 3.3,
+      "seconds": 3.0,
       "details": {},
       "warnings": []
     },
@@ -24,7 +20,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 9,
-      "seconds": 7.8,
+      "seconds": 8.2,
       "details": {},
       "warnings": []
     },
@@ -33,7 +29,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 24,
-      "seconds": 19.5,
+      "seconds": 18.4,
       "details": {},
       "warnings": []
     },
@@ -42,7 +38,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 19.9,
+      "seconds": 20.1,
       "details": {
         "attempted": 6,
         "with_description": 6,
@@ -57,7 +53,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 11,
-      "seconds": 6.6,
+      "seconds": 6.1,
       "details": {
         "attempted": 9,
         "with_description": 9,
@@ -70,7 +66,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 70,
-      "seconds": 52.9,
+      "seconds": 50.6,
       "details": {},
       "warnings": []
     },
@@ -79,7 +75,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 4.2,
+      "seconds": 3.3,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -92,7 +88,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 119,
-      "seconds": 62.9,
+      "seconds": 55.0,
       "details": {},
       "warnings": []
     },
@@ -101,7 +97,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 65.8,
+      "seconds": 59.1,
       "details": {},
       "warnings": []
     },
@@ -110,7 +106,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 39,
-      "seconds": 25.8,
+      "seconds": 25.1,
       "details": {},
       "warnings": []
     },
@@ -119,7 +115,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 151,
-      "seconds": 186.7,
+      "seconds": 171.1,
       "details": {
         "attempted": 150,
         "with_description": 150,
