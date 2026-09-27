@@ -1,0 +1,55 @@
+name: Publish PhD website
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - data/**
+      - robots.txt
+      - sitemap.xml
+      - .github/workflows/pages.yml
+  workflow_dispatch:
+  workflow_run:
+    workflows: [Refresh PhD opportunities]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/configure-pages@v5
+      - name: Stage public website only
+        run: |
+          mkdir -p _site/data
+          cp index.html robots.txt sitemap.xml _site/
+          cp data/jobs.json data/stats.json data/rankings.json data/sources.json data/collection-report.json data/offline-data.js _site/data/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy public website
+        id: deployment
+        uses: actions/deploy-pages@v4
