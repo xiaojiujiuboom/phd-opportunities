@@ -215,7 +215,7 @@ footer a.legal-link{color:var(--accent);text-decoration:underline;cursor:pointer
 .hero-left p{font-family:var(--serif);font-size:clamp(.95rem,1.3vw,1.1rem);line-height:1.55;color:var(--ink);margin:0 0 1.2rem;max-width:52ch;opacity:.78}
 .hero-badge{display:inline-block;font-family:var(--sans);font-size:.7rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--urgent);border:1px solid var(--urgent);padding:.35rem .7rem;border-radius:2px}
 .hero-right{border-left:1px solid var(--rule-strong);padding-left:clamp(1rem,3vw,2.5rem);position:relative}
-.hero-right::before{content:"Live";position:absolute;left:-1px;top:-.5rem;background:var(--bg);color:var(--urgent);padding:0 .5rem 0 0;font-size:.66rem;text-transform:uppercase;letter-spacing:.2em;font-weight:700}
+.hero-right::before{content:"Snapshot";position:absolute;left:-1px;top:-.5rem;background:var(--bg);color:var(--urgent);padding:0 .5rem 0 0;font-size:.66rem;text-transform:uppercase;letter-spacing:.2em;font-weight:700}
 .gate-stat-block{margin-bottom:1.4rem}
 .gate-stat-block .num{font-family:var(--serif);font-size:clamp(2.5rem,4.5vw,4rem);font-weight:800;line-height:1;letter-spacing:-0.03em;font-variation-settings:"opsz" 144}
 .gate-stat-block .lbl{font-size:.72rem;text-transform:uppercase;letter-spacing:.15em;color:var(--muted);font-weight:600;margin-top:.3rem}
@@ -599,7 +599,7 @@ const L = {
     staleData:"数据快照已超过 7 天，保留项也需在原网站核验；本次清理不代表重新抓取。",
     updatedPrefix:"更新于 ", neverUpdated:"暂无数据", failedLoad:"加载数据失败",
     positionsUnit:"个岗位", positionsUpdated:"个岗位 · 更新于 ",
-    mapTitle:"欧洲岗位地图", mapHint:"点击任一国家查看开放岗位",
+    mapTitle:"欧洲岗位地图", mapHint:"点击任一国家查看保留机会",
     mapLegendLow:"少", mapLegendHigh:"多",
     mapPanelEmpty:"点击国家查看岗位", mapPanelNone:"暂无开放岗位",
     mapMore:"还有 {n} 个岗位 — 在下方列表查看全部",
@@ -673,7 +673,7 @@ const L = {
     staleData:"The data snapshot is over 7 days old. Verify retained opportunities on the original posting; cleaning is not a new collection.",
     updatedPrefix:"Updated ", neverUpdated:"never", failedLoad:"Failed to load data",
     positionsUnit:"positions", positionsUpdated:"positions · updated ",
-    mapTitle:"Europe Position Map", mapHint:"Click any country to see open positions",
+    mapTitle:"Europe Position Map", mapHint:"Click any country to see retained opportunities",
     mapLegendLow:"few", mapLegendHigh:"many",
     mapPanelEmpty:"Click a country to see positions", mapPanelNone:"No open positions",
     mapMore:"{n} more positions — see the full list below",
