@@ -1,70 +1,63 @@
 {
-  "attempted_at": "2026-09-27T04:07:13Z",
+  "attempted_at": "2026-09-27T12:15:13Z",
   "sources": [
     {
       "source": "liu",
+      "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 9,
-      "seconds": 6.1
-    },
-    {
-      "source": "umu",
-      "result": "records_returned",
-      "raw_count": 5,
-      "seconds": 6.8
-    },
-    {
-      "source": "aalto",
-      "result": "records_returned",
-      "raw_count": 9,
-      "seconds": 12.4
-    },
-    {
-      "source": "ku",
-      "result": "records_returned",
-      "raw_count": 24,
-      "seconds": 25.3
-    },
-    {
-      "source": "jobbnorge",
-      "result": "records_returned",
-      "raw_count": 119,
-      "seconds": 80.7
-    },
-    {
-      "source": "varbi",
-      "result": "records_returned",
-      "raw_count": 70,
-      "seconds": 84.5
-    },
-    {
-      "source": "phdgermany",
-      "result": "failed",
-      "error": "HTTP 403 on all attempted pages",
-      "warnings": [
-        "DAAD blocked automatic requests; no records collected"
-      ],
-      "raw_count": 0,
-      "seconds": 12.1
-    },
-    {
-      "source": "academictransfer",
-      "result": "records_returned",
-      "raw_count": 120,
-      "seconds": 101.5
-    },
-    {
-      "source": "ethz",
-      "result": "records_returned",
-      "raw_count": 39,
-      "seconds": 37.4,
+      "seconds": 2.2,
+      "details": {},
       "warnings": []
     },
     {
+      "source": "umu",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 5,
+      "seconds": 3.3,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "aalto",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 9,
+      "seconds": 7.8,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "ku",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 24,
+      "seconds": 19.5,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "euraxess",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 10,
+      "seconds": 19.9,
+      "details": {
+        "attempted": 6,
+        "with_description": 6,
+        "unavailable": 0
+      },
+      "warnings": [
+        "global: HTTP 429; remaining country requests skipped"
+      ]
+    },
+    {
       "source": "academics",
+      "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 11,
-      "seconds": 11.2,
+      "seconds": 6.6,
       "details": {
         "attempted": 9,
         "with_description": 9,
@@ -73,28 +66,64 @@
       "warnings": []
     },
     {
-      "source": "jobsac_uk",
+      "source": "varbi",
+      "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 151,
-      "seconds": 221.4,
+      "raw_count": 70,
+      "seconds": 52.9,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "phdgermany",
+      "mode": "list_and_details",
+      "result": "empty_or_adapter_error",
+      "raw_count": 0,
+      "seconds": 4.2,
       "details": {
-        "attempted": 150,
-        "with_description": 150,
+        "attempted": 0,
+        "with_description": 0,
         "unavailable": 0
       },
       "warnings": []
     },
     {
-      "source": "euraxess",
-      "mode": "cached_details",
+      "source": "jobbnorge",
+      "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 98,
-      "seconds": 25.0,
+      "raw_count": 119,
+      "seconds": 62.9,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "academictransfer",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 120,
+      "seconds": 65.8,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "ethz",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 39,
+      "seconds": 25.8,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "jobsac_uk",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 151,
+      "seconds": 186.7,
       "details": {
-        "attempted": 27,
-        "with_description": 24,
-        "unavailable": 3,
-        "stopped_on_access_denial_or_rate_limit": true
+        "attempted": 150,
+        "with_description": 150,
+        "unavailable": 0
       },
       "warnings": []
     }
