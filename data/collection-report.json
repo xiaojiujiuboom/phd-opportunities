@@ -1,81 +1,91 @@
 {
-  "attempted_at": "2026-09-27T03:11:06Z",
+  "attempted_at": "2026-09-27T03:54:41Z",
   "sources": [
     {
       "source": "liu",
       "result": "records_returned",
       "raw_count": 9,
-      "seconds": 6.1
+      "seconds": 1.5,
+      "warnings": []
     },
     {
       "source": "umu",
       "result": "records_returned",
       "raw_count": 5,
-      "seconds": 6.8
+      "seconds": 3.1,
+      "warnings": []
     },
     {
       "source": "aalto",
       "result": "records_returned",
       "raw_count": 9,
-      "seconds": 12.4
+      "seconds": 7.7,
+      "warnings": []
     },
     {
       "source": "ku",
       "result": "records_returned",
       "raw_count": 24,
-      "seconds": 25.3
-    },
-    {
-      "source": "jobbnorge",
-      "result": "records_returned",
-      "raw_count": 119,
-      "seconds": 80.7
-    },
-    {
-      "source": "academics",
-      "result": "records_returned",
-      "raw_count": 11,
-      "seconds": 2.8
+      "seconds": 19.4,
+      "warnings": []
     },
     {
       "source": "varbi",
       "result": "records_returned",
       "raw_count": 70,
-      "seconds": 84.5
+      "seconds": 50.3,
+      "warnings": []
+    },
+    {
+      "source": "academics",
+      "result": "records_returned",
+      "raw_count": 11,
+      "seconds": 1.0,
+      "warnings": []
+    },
+    {
+      "source": "jobbnorge",
+      "result": "records_returned",
+      "raw_count": 119,
+      "seconds": 57.9,
+      "warnings": []
     },
     {
       "source": "phdgermany",
-      "result": "failed",
-      "error": "HTTP 403 on all attempted pages",
-      "warnings": ["DAAD blocked automatic requests; no records collected"],
+      "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 12.1
+      "seconds": 3.1,
+      "warnings": []
     },
     {
       "source": "jobsac_uk",
       "result": "records_returned",
       "raw_count": 151,
-      "seconds": 14.6
+      "seconds": 9.8,
+      "warnings": []
     },
     {
       "source": "academictransfer",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 101.5
-    },
-    {
-      "source": "euraxess",
-      "result": "records_returned",
-      "warnings": ["Partial collection: HTTP 429 interrupted supplemental country queries after FI and DE"],
-      "raw_count": 486,
-      "seconds": 223.0
+      "seconds": 57.6,
+      "warnings": []
     },
     {
       "source": "ethz",
       "result": "records_returned",
       "raw_count": 39,
-      "seconds": 37.4,
+      "seconds": 25.1,
       "warnings": []
+    },
+    {
+      "source": "euraxess",
+      "result": "records_returned",
+      "raw_count": 476,
+      "seconds": 115.9,
+      "warnings": [
+        "AT: HTTP 429; remaining country requests skipped"
+      ]
     }
   ]
 }

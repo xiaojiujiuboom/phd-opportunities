@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-27T03:11:49Z",
-  "data_updated_at": "2026-09-27T03:11:06Z",
+  "updated_at": "2026-09-27T03:54:41Z",
+  "data_updated_at": "2026-09-27T03:54:41Z",
   "operation": "collection",
-  "total": 652,
+  "total": 647,
   "by_source": {
     "jobsac_uk": 150,
     "academictransfer": 120,
     "jobbnorge": 119,
-    "euraxess": 98,
+    "euraxess": 93,
     "ethz": 39,
     "varbi-su": 27,
     "ku": 24,
@@ -26,9 +26,9 @@
     "NL": 120,
     "SE": 86,
     "CH": 42,
-    "DE": 41,
     "FI": 41,
-    "DK": 27,
+    "DE": 37,
+    "DK": 26,
     "AT": 7,
     "FR": 4,
     "BE": 3,
@@ -309,10 +309,44 @@
         "IT": 1,
         "SI": 1
       }
+    },
+    {
+      "ts": "2026-09-27T03:54:41Z",
+      "total": 647,
+      "by_source": {
+        "jobsac_uk": 150,
+        "academictransfer": 120,
+        "jobbnorge": 119,
+        "euraxess": 93,
+        "ethz": 39,
+        "varbi-su": 27,
+        "ku": 24,
+        "varbi-kth": 15,
+        "varbi-uu": 14,
+        "varbi-lu": 13,
+        "aalto": 9,
+        "academics": 9,
+        "liu": 9,
+        "umu": 5,
+        "varbi-miun": 1
+      },
+      "by_country": {
+        "GB": 150,
+        "NO": 126,
+        "NL": 120,
+        "SE": 86,
+        "CH": 42,
+        "FI": 41,
+        "DE": 37,
+        "DK": 26,
+        "AT": 7,
+        "FR": 4,
+        "BE": 3,
+        "ES": 3,
+        "IT": 1,
+        "SI": 1
+      }
     }
   ],
-  "alerts": [
-    "source 'phdgermany' returned 0 jobs (was 5 last run)",
-    "source 'phdgermany' missing entirely from this run"
-  ]
+  "alerts": []
 }
