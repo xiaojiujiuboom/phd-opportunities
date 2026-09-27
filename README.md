@@ -1,8 +1,11 @@
-# PhD Opportunities — private workspace
+# PhD Opportunities — 博士机会工作台
 
-Private derivative of [Zeshengliu213/phd-europe-app](https://github.com/Zeshengliu213/phd-europe-app).
+Derivative of [Zeshengliu213/phd-europe-app](https://github.com/Zeshengliu213/phd-europe-app).
 The original author and Git history are retained. This repository is an independent
-private copy, not a public GitHub fork. No new redistribution license is asserted.
+copy, originally private and made public with the owner's approval on 2026-09-27,
+not a GitHub fork. No new redistribution license is asserted.
+
+Public website: https://xiaojiujiuboom.github.io/phd-opportunities/
 
 ## Current scope
 
@@ -12,7 +15,7 @@ private copy, not a public GitHub fork. No new redistribution license is asserte
   never means confirmed open. R1 alone is not enough to establish PhD eligibility.
 - Data was freshly collected on 2026-09-27: 652 retained records, with partial source coverage and possible cross-board duplication. See `docs/refresh-2026-09-27.md`.
 - Twelve automatic adapters are configured (including new ETH Zurich), plus fifteen clearly marked portal-only entries. AU/NZ/CA/US currently have portals, not automated vacancy feeds.
-- No public site is enabled. `.github/workflows/scrape.yml` configures collection every six hours and manual runs on GitHub Actions.
+- `.github/workflows/scrape.yml` configures collection every six hours and manual runs on GitHub Actions. `.github/workflows/pages.yml` publishes the website after successful collection, frontend/data pushes or manual dispatch.
 
 ## Scheduled collection
 
@@ -20,10 +23,13 @@ The workflow runs on `main` at UTC 00:23, 06:23, 12:23 and 18:23
 (Shanghai 08:23, 14:23, 20:23 and 02:23). GitHub may delay scheduled runs.
 It runs the eligibility tests, collects PhDs only, regenerates statistics and the
 offline snapshot, and commits only the four generated data files. No personal token
-or public deployment is required. Source failures remain visible in collection reports;
+is required. Source failures remain visible in collection reports;
 if no usable records are collected, the previous job snapshot is retained and the run fails.
 
-GitHub Actions must be allowed and its private-repository runner quota available.
+GitHub Actions must be allowed. Pages Source is configured as GitHub Actions.
+The Pages workflow checks out `main` and stages only the website and data files,
+not the scraper, docs or Git history. A successful collection triggers publishing
+via `workflow_run` so bot commits do not need to trigger a second push workflow.
 The workflow updates the **GitHub repository**, not the files on your Mac: the current
 `http://127.0.0.1:8000/` preview and `file://` page use your local checkout. Sync/download
 the latest repository data to update those local views. Opening a page does not trigger a scrape.

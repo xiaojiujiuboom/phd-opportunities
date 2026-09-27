@@ -3,28 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PhD Opportunities — Private Workspace</title>
+<title>PhD Opportunities — 博士机会工作台</title>
 <meta name="description" content="Personal PhD opportunity tracker. Only doctoral opportunities are retained; expired and stale undated records are excluded.">
 <meta name="keywords" content="PhD Europe, funded PhD, European PhD positions, 欧洲博士, 博士申请, fully funded doctorate, EURAXESS, DAAD, MSCA, Max Planck, jobs.ac.uk, AcademicTransfer, 北欧博士, 德国博士, 英国博士, 欧洲带薪博士">
 <meta name="author" content="PhD Europe">
-<meta name="robots" content="noindex, nofollow">
-<meta name="msvalidate.01" content="B353C98AE51197F5573BFE554778F598" />
-<link rel="canonical" href="https://zeshengliu213.github.io/phd-europe-app/">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://xiaojiujiuboom.github.io/phd-opportunities/">
 <!-- Open Graph for rich social previews (Xiaohongshu, WeChat, Twitter, FB) -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://zeshengliu213.github.io/phd-europe-app/">
-<meta property="og:title" content="PhD Opportunities — Private Workspace">
+<meta property="og:url" content="https://xiaojiujiuboom.github.io/phd-opportunities/">
+<meta property="og:title" content="PhD Opportunities — 博士机会工作台">
 <meta property="og:description" content="PhD-only personal workspace with expiry filtering.">
-<meta property="og:image" content="https://zeshengliu213.github.io/phd-europe-app/og.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:locale:alternate" content="en_US">
 <meta property="og:site_name" content="PhD Europe">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="PhD Opportunities — Private Workspace">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="PhD Opportunities — 博士机会工作台">
 <meta name="twitter:description" content="PhD-only personal workspace with expiry filtering.">
-<meta name="twitter:image" content="https://zeshengliu213.github.io/phd-europe-app/og.png">
 <!-- JSON-LD structured data so Google can render a rich result -->
 <script type="application/ld+json">
 {
@@ -32,12 +27,12 @@
   "@type":"WebSite",
   "name":"PhD Europe",
   "alternateName":"欧洲博士岗位聚合",
-  "url":"https://zeshengliu213.github.io/phd-europe-app/",
+  "url":"https://xiaojiujiuboom.github.io/phd-opportunities/",
   "description":"Personal PhD opportunity workspace. Original listings require verification.",
   "inLanguage":["zh-CN","en"],
   "potentialAction":{
     "@type":"SearchAction",
-    "target":"https://zeshengliu213.github.io/phd-europe-app/?q={search_term_string}",
+    "target":"https://xiaojiujiuboom.github.io/phd-opportunities/?q={search_term_string}",
     "query-input":"required name=search_term_string"
   }
 }
@@ -322,7 +317,7 @@ footer a.legal-link{color:var(--accent);text-decoration:underline;cursor:pointer
     <div class="hero-left">
       <h1 data-i18n="gateTitle">博士<em>申请机会</em>,<br>个人工作台。</h1>
       <p data-i18n="gateDesc">覆盖全欧 20+ 国家的开放博士岗位 — 数据直接抓取自各大学官方招聘板与 EURAXESS、DAAD 等欧盟科研平台。</p>
-      <div class="hero-badge" data-i18n="betaBadge">私有工作台 · 仅博士</div>
+      <div class="hero-badge" data-i18n="betaBadge">定时更新 · 仅博士</div>
     </div>
     <aside class="hero-right">
       <div class="gate-stat-block"><div class="num" id="gs-total">—</div><div class="lbl" data-i18n="openPositions">开放岗位</div></div>
@@ -604,7 +599,7 @@ const L = {
     tagline:"博士机会 · 资助和在招状态需核验",
     gateTitle:'博士<em>申请机会</em>,<br>个人工作台。',
     gateDesc:"只保留博士机会；淘汰过期、非博士及长期未核验的无截止日期记录。资助、合同与在招状态以原发布页为准。",
-    betaBadge:"私有工作台 · 仅博士",
+    betaBadge:"定时更新 · 仅博士",
     openPositions:"保留机会", universities:"大学", countries:"国家", deadlineThisWeek:"本周截止",
     staleData:"数据快照已超过 7 天，保留项也需在原网站核验；本次清理不代表重新抓取。",
     updatedPrefix:"更新于 ", neverUpdated:"暂无数据", failedLoad:"加载数据失败",
@@ -678,7 +673,7 @@ const L = {
     tagline:"PhD opportunities · Verify funding and availability",
     gateTitle:'Your <em>PhD opportunities</em>,<br>in one workspace.',
     gateDesc:"PhD opportunities only. Expired, non-doctoral and stale undated records are removed. Verify funding, contracts and availability on the original posting.",
-    betaBadge:"Private workspace · PhD only",
+    betaBadge:"Scheduled updates · PhD only",
     openPositions:"Retained opportunities", universities:"Universities", countries:"Countries", deadlineThisWeek:"Deadline this week",
     staleData:"The data snapshot is over 7 days old. Verify retained opportunities on the original posting; cleaning is not a new collection.",
     updatedPrefix:"Updated ", neverUpdated:"never", failedLoad:"Failed to load data",
@@ -741,6 +736,11 @@ const L = {
 <p>Bugs, feature requests, new sources: open an issue on <a href="https://github.com/Zeshengliu213/phd-europe-app/issues" target="_blank" rel="noopener">GitHub</a>.</p>`,
   },
 };
+// Describe this derivative's actual behavior, not the upstream account service.
+L.zh.privacyBody = `<p>本站无需注册。收藏保存在当前浏览器的本地存储中，不会上传为账号记录。</p><p>页面从 GitHub Pages 读取公开岗位数据，并请求外部字体、校徽和地图资源；这些第三方会收到正常网络请求信息。本站未配置登录、邮件提醒或广告追踪。</p><p>数据每 6 小时尝试抓取一次，并非实时或全覆盖。申请前请核验原发布页。</p>`;
+L.en.privacyBody = `<p>No registration is required. Favorites are stored in this browser's local storage, not uploaded to an account.</p><p>The page loads public listings from GitHub Pages and external fonts, logos and map resources. Those providers receive normal network request information. No sign-in, email reminders or advertising tracking are configured.</p><p>Collection is attempted every six hours, not in real time or with exhaustive coverage. Verify original postings before applying.</p>`;
+L.zh.aboutBody = `<p>本网站基于 <a href="https://github.com/Zeshengliu213/phd-europe-app" target="_blank" rel="noopener">Zeshengliu213/phd-europe-app</a> 扩展，保留原作者与项目历史。</p><p>原有 11 个抓取模块，新增 ETH Zurich 后共 12 个；另有 15 个明确标记为未自动接入的检索入口，包括澳新加美。部分网站有限流与分页上限。岗位是否在招、资助、合同和签证需逐项核验。</p><p>每 6 小时尝试抓取，成功后自动发布。反馈请前往 <a href="https://github.com/xiaojiujiuboom/phd-opportunities/issues" target="_blank" rel="noopener">本项目 Issues</a>。</p>`;
+L.en.aboutBody = `<p>Extended from <a href="https://github.com/Zeshengliu213/phd-europe-app" target="_blank" rel="noopener">Zeshengliu213/phd-europe-app</a>, with attribution and history retained.</p><p>The original 11 adapters plus ETH Zurich make 12 automatic adapters. Another 15 entries are portal-only links, including AU/NZ/CA/US. Rate limits and pagination restrict coverage. Availability, funding, contracts and visa routes require individual verification.</p><p>Collection is attempted every six hours; successful runs publish automatically. Feedback: <a href="https://github.com/xiaojiujiuboom/phd-opportunities/issues" target="_blank" rel="noopener">project Issues</a>.</p>`;
 function t(k){ return (L[state.lang] && L[state.lang][k]) || L.en[k] || k; }
 function countryName(cc){ return state.lang==="zh" ? (COUNTRY_NAMES_ZH[cc]||COUNTRY_NAMES[cc]||cc) : (COUNTRY_NAMES[cc]||cc); }
 function applyStatic(){
