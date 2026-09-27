@@ -1,4 +1,47 @@
-# PhD Europe
+# PhD Opportunities — private workspace
+
+Private derivative of [Zeshengliu213/phd-europe-app](https://github.com/Zeshengliu213/phd-europe-app).
+The original author and Git history are retained. This repository is an independent
+private copy, not a public GitHub fork. No new redistribution license is asserted.
+
+## Current scope
+
+- PhD opportunities only; the postdoc dataset and UI switch are removed.
+- Reject closed/expired records, non-PhD titles and mixed PhD/postdoc advertisements.
+- Undated records require an observation within the last seven days; unknown deadline
+  never means confirmed open. R1 alone is not enough to establish PhD eligibility.
+- Existing data is a historical snapshot. Cleaning keeps its original `updated_at`.
+- AU/NZ/CA/US expansion is planned in `docs/current-state-and-expansion.md`;
+  new-country sources have not been implemented yet.
+- No public site or automatic scheduled collection has been enabled.
+
+## Local use
+
+```bash
+python3 -m pip install -r scraper/requirements.txt
+python3 scraper/clean.py
+python3 scraper/test_eligibility.py -v
+python3 scraper/fetch.py
+python3 scraper/stats.py
+python3 -m http.server 8000 --bind 127.0.0.1
+```
+
+`clean.py --as-of 2026-09-27` reproduces the cutoff used for the initial cleanup.
+Source adapters use their own environment variables to enable details fetching.
+`JOB_KIND=postdoc` is rejected. If collection yields no usable records, the previous
+snapshot is retained; publication rules still hide expired/stale records in the UI.
+Source observation is not the same as official-page verification.
+
+Removed historical data remains recoverable from upstream commit `878534c`.
+For example: `git show 878534c:data/jobs.json` or `git show 878534c:data/postdocs.json`.
+
+The following is the original upstream README, preserved for attribution and history.
+Its scheduling/deployment statements describe the upstream project and do not apply
+to this private workspace.
+
+---
+
+# Original upstream: PhD Europe
 
 Funded PhD positions (R1) in NL, DE, SE, DK, NO, FI — aggregated from EURAXESS,
 viewable in a single editorial-style page with in-site detail view.

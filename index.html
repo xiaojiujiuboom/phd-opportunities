@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>PhD Europe — 1100+ Funded PhD Positions Across 24 European Countries</title>
-<meta name="description" content="One place to discover fully-funded PhD positions across Europe. Aggregates 1100+ live positions from 15 official university and research portals (EURAXESS, DAAD, Varbi, Jobbnorge, AcademicTransfer, jobs.ac.uk and more). Updated daily. Free, no signup. 欧洲带薪博士岗位聚合，每日更新。">
+<title>PhD Opportunities — Private Workspace</title>
+<meta name="description" content="Personal PhD opportunity tracker. Only doctoral opportunities are retained; expired and stale undated records are excluded.">
 <meta name="keywords" content="PhD Europe, funded PhD, European PhD positions, 欧洲博士, 博士申请, fully funded doctorate, EURAXESS, DAAD, MSCA, Max Planck, jobs.ac.uk, AcademicTransfer, 北欧博士, 德国博士, 英国博士, 欧洲带薪博士">
 <meta name="author" content="PhD Europe">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <meta name="msvalidate.01" content="B353C98AE51197F5573BFE554778F598" />
 <link rel="canonical" href="https://zeshengliu213.github.io/phd-europe-app/">
 <!-- Open Graph for rich social previews (Xiaohongshu, WeChat, Twitter, FB) -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://zeshengliu213.github.io/phd-europe-app/">
-<meta property="og:title" content="PhD Europe — 1100+ Funded PhD Positions Across 24 Countries">
-<meta property="og:description" content="One place to discover fully-funded PhD positions across Europe. 15 official sources · daily updates · free · no signup.">
+<meta property="og:title" content="PhD Opportunities — Private Workspace">
+<meta property="og:description" content="PhD-only personal workspace with expiry filtering.">
 <meta property="og:image" content="https://zeshengliu213.github.io/phd-europe-app/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -22,8 +22,8 @@
 <meta property="og:locale:alternate" content="en_US">
 <meta property="og:site_name" content="PhD Europe">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="PhD Europe — 1100+ Funded PhD Positions">
-<meta name="twitter:description" content="Funded PhD positions across 24 European countries. Free, daily-updated, no signup.">
+<meta name="twitter:title" content="PhD Opportunities — Private Workspace">
+<meta name="twitter:description" content="PhD-only personal workspace with expiry filtering.">
 <meta name="twitter:image" content="https://zeshengliu213.github.io/phd-europe-app/og.png">
 <!-- JSON-LD structured data so Google can render a rich result -->
 <script type="application/ld+json">
@@ -33,7 +33,7 @@
   "name":"PhD Europe",
   "alternateName":"欧洲博士岗位聚合",
   "url":"https://zeshengliu213.github.io/phd-europe-app/",
-  "description":"Aggregator of 1100+ fully-funded PhD positions across 24 European countries from 15 official university and research portals.",
+  "description":"Personal PhD opportunity workspace. Original listings require verification.",
   "inLanguage":["zh-CN","en"],
   "potentialAction":{
     "@type":"SearchAction",
@@ -311,8 +311,7 @@ footer a.legal-link{color:var(--accent);text-decoration:underline;cursor:pointer
     <div class="meta" data-i18n="tagline">资助博士职位 · 直连大学官方</div>
     <div id="auth-btn" class="auth-btn">
       <div class="job-tabs" role="tablist">
-        <a id="tab-phd" class="job-tab" role="tab" href="./" data-i18n="phdTab">博士岗位</a>
-        <a id="tab-postdoc" class="job-tab" role="tab" href="?type=postdoc" data-i18n="postdocTab">博士后岗位</a>
+        <a id="tab-phd" class="job-tab active" role="tab" aria-selected="true" href="./" data-i18n="phdTab">博士岗位</a>
       </div>
       <button class="lang-toggle" id="lang-toggle">EN</button>
     </div>
@@ -321,9 +320,9 @@ footer a.legal-link{color:var(--accent);text-decoration:underline;cursor:pointer
 <section id="hero">
   <div class="hero-wrap">
     <div class="hero-left">
-      <h1 data-i18n="gateTitle">欧洲<em>全额资助</em>博士,<br>一站式聚合。</h1>
+      <h1 data-i18n="gateTitle">博士<em>申请机会</em>,<br>个人工作台。</h1>
       <p data-i18n="gateDesc">覆盖全欧 20+ 国家的开放博士岗位 — 数据直接抓取自各大学官方招聘板与 EURAXESS、DAAD 等欧盟科研平台。</p>
-      <div class="hero-badge" data-i18n="betaBadge">公开内测中 · Beta</div>
+      <div class="hero-badge" data-i18n="betaBadge">私有工作台 · 仅博士</div>
     </div>
     <aside class="hero-right">
       <div class="gate-stat-block"><div class="num" id="gs-total">—</div><div class="lbl" data-i18n="openPositions">开放岗位</div></div>
@@ -333,6 +332,7 @@ footer a.legal-link{color:var(--accent);text-decoration:underline;cursor:pointer
       </div>
       <div class="gate-stat-block"><div class="num" style="color:var(--urgent)" id="gs-urgent">—</div><div class="lbl" data-i18n="deadlineThisWeek">本周截止</div></div>
       <div style="font-size:.72rem;color:var(--muted);margin-top:1rem;font-style:italic" id="gs-updated">—</div>
+      <div id="data-freshness" role="status" style="font-size:.8rem;color:var(--urgent);margin-top:.8rem"></div>
       <div id="src-health" title="" style="font-size:.72rem;margin-top:.4rem;cursor:help;display:none"></div>
     </aside>
   </div>
@@ -365,7 +365,7 @@ footer a.legal-link{color:var(--accent);text-decoration:underline;cursor:pointer
   <div class="search-wrap" id="search-wrap">
     <input class="search" id="q" data-i18n-ph="searchPh" placeholder="搜索岗位:标题 / 学校 / 城市 / 研究方向 / 国家…" autocomplete="off" spellcheck="false">
     <button class="search-clear" id="search-clear" aria-label="Clear search" type="button">×</button>
-    <div class="search-hint" data-i18n="searchHint" id="search-hint">全局搜索所有 1100+ 岗位 · 试试 "machine learning"、"biology"、"Max Planck"、"Amsterdam"</div>
+    <div class="search-hint" data-i18n="searchHint" id="search-hint">搜索保留的博士机会</div>
   </div>
   <div class="filter-bar" id="filter-bar"></div>
   <div id="view"></div>
@@ -514,7 +514,7 @@ function normInst(name){
   if(m) return m[1];
   return name;
 }
-const state = {jobs:[], mode:"country", level:"top", country:null, institution:null, subject:null, q:"", sort:"deadline", urgentOnly:false, recentOnly:false, favOnly:false, favorites:new Set(), rankings:{}, lang:(localStorage.getItem("phdLang")||"zh"), jobType:(new URLSearchParams(location.search).get("type")==="postdoc"?"postdoc":"phd"), filters:{countries:new Set(), fields:new Set(), deadlineMax:null}};
+const state = {jobs:[], mode:"country", level:"top", country:null, institution:null, subject:null, q:"", sort:"deadline", urgentOnly:false, recentOnly:false, favOnly:false, favorites:new Set(), rankings:{}, lang:(localStorage.getItem("phdLang")||"zh"), filters:{countries:new Set(), fields:new Set(), deadlineMax:null}};
 
 // ---- localStorage favorites (open beta, no server) ----
 // Stable id per job = source_url (always unique, scrape-stable). Stored as
@@ -539,7 +539,6 @@ let _urlSyncing = false;
 function syncURL(){
   if(_urlSyncing) return;
   const p = new URLSearchParams();
-  if(state.jobType === "postdoc") p.set("type", "postdoc");
   if(state.mode !== "country") p.set("mode", state.mode);
   if(state.level !== "top") p.set("level", state.level);
   if(state.country) p.set("country", state.country);
@@ -585,7 +584,7 @@ const COUNTRY_NAMES_ZH = {
 const L = {
   zh:{
     signIn:"登录", signOut:"退出", createAccount:"创建账号",
-    phdTab:"博士岗位", postdocTab:"博士后岗位",
+    phdTab:"博士岗位",
     filterCountry:"国家", filterField:"研究方向", filterDeadline:"截止",
     filterAny:"不限", filterClearAll:"清空筛选",
     filterPopSearch:"搜索...", filterPopReset:"重置", filterPopApply:"应用",
@@ -593,10 +592,11 @@ const L = {
     countryAggTitle:"个开放岗位", expandAll:"全部展开", collapseAll:"全部收起",
     urgentSuffix:"个本周截止",
     tagline:"资助博士职位 · 直连大学官方",
-    gateTitle:'欧洲<em>全额资助</em>博士,<br>一站式聚合。',
-    gateDesc:"覆盖全欧 20+ 国家的开放博士岗位 — 数据直接抓取自各大学官方招聘板与 EURAXESS、DAAD 等欧盟科研平台。",
-    betaBadge:"公开内测中 · Beta",
-    openPositions:"开放岗位", universities:"大学", countries:"国家", deadlineThisWeek:"本周截止",
+    gateTitle:'博士<em>申请机会</em>,<br>个人工作台。',
+    gateDesc:"只保留博士机会；淘汰过期、非博士及长期未核验的无截止日期记录。资助、合同与在招状态以原发布页为准。",
+    betaBadge:"私有工作台 · 仅博士",
+    openPositions:"保留机会", universities:"大学", countries:"国家", deadlineThisWeek:"本周截止",
+    staleData:"数据快照已超过 7 天，保留项也需在原网站核验；本次清理不代表重新抓取。",
     updatedPrefix:"更新于 ", neverUpdated:"暂无数据", failedLoad:"加载数据失败",
     positionsUnit:"个岗位", positionsUpdated:"个岗位 · 更新于 ",
     mapTitle:"欧洲岗位地图", mapHint:"点击任一国家查看开放岗位",
@@ -658,7 +658,7 @@ const L = {
   },
   en:{
     signIn:"Sign in", signOut:"Sign out", createAccount:"Create account",
-    phdTab:"PhD jobs", postdocTab:"Postdoc jobs",
+    phdTab:"PhD jobs",
     filterCountry:"Country", filterField:"Field", filterDeadline:"Deadline",
     filterAny:"Any", filterClearAll:"Clear filters",
     filterPopSearch:"Search...", filterPopReset:"Reset", filterPopApply:"Apply",
@@ -666,10 +666,11 @@ const L = {
     countryAggTitle:"open positions", expandAll:"Expand all", collapseAll:"Collapse all",
     urgentSuffix:"closing this week",
     tagline:"Funded PhD positions · Direct from universities",
-    gateTitle:'Funded PhDs across <em>Europe</em>,<br>in one place.',
-    gateDesc:"Open PhD positions across 20+ European countries — scraped directly from university job boards and EU research portals like EURAXESS and DAAD.",
-    betaBadge:"Open Beta",
-    openPositions:"Open positions", universities:"Universities", countries:"Countries", deadlineThisWeek:"Deadline this week",
+    gateTitle:'Your <em>PhD opportunities</em>,<br>in one workspace.',
+    gateDesc:"PhD opportunities only. Expired, non-doctoral and stale undated records are removed. Verify funding, contracts and availability on the original posting.",
+    betaBadge:"Private workspace · PhD only",
+    openPositions:"Retained opportunities", universities:"Universities", countries:"Countries", deadlineThisWeek:"Deadline this week",
+    staleData:"The data snapshot is over 7 days old. Verify retained opportunities on the original posting; cleaning is not a new collection.",
     updatedPrefix:"Updated ", neverUpdated:"never", failedLoad:"Failed to load data",
     positionsUnit:"positions", positionsUpdated:"positions · updated ",
     mapTitle:"Europe Position Map", mapHint:"Click any country to see open positions",
@@ -678,7 +679,7 @@ const L = {
     mapMore:"{n} more positions — see the full list below",
     byCountry:"By country", bySubject:"By subject",
     searchPh:"Search positions: title / university / city / field / country…", emailPh:"Email", passwordPh:"Password (min 6 chars)",
-    searchHint:'Try "machine learning", "biology", "Max Planck", "Amsterdam" — searches across all 1100+ positions',
+    searchHint:'Search retained PhD opportunities by topic, institution or country.',
     searchResultsTitle:"Search results",
     searchMatchCount:"{n} positions match",
     searchNoResults:"No positions match. Try different keywords or check your spelling.",
@@ -738,11 +739,6 @@ function applyStatic(){
   document.querySelectorAll("[data-i18n-ph]").forEach(el=>{ el.placeholder = t(el.dataset.i18nPh); });
   const lt = document.getElementById("lang-toggle");
   if(lt) lt.textContent = state.lang==="zh" ? "EN" : "中";
-  // Highlight active job-type tab and preserve language across switches.
-  const tp = document.getElementById("tab-phd");
-  const td = document.getElementById("tab-postdoc");
-  if(tp) tp.classList.toggle("active", state.jobType!=="postdoc");
-  if(td) td.classList.toggle("active", state.jobType==="postdoc");
 }
 function setLang(l){ state.lang=l; localStorage.setItem("phdLang",l); applyStatic(); render(); load(); }
 
@@ -764,13 +760,20 @@ async function load(){
     if(rr.ok) state.rankings = await rr.json();
   }catch(_){}
   try{
-    const r = await fetch(state.jobType==="postdoc" ? "./data/postdocs.json" : "./data/jobs.json",{cache:"no-store"});
+    const r = await fetch("./data/jobs.json",{cache:"no-store"});
+    if(!r.ok) throw new Error("PhD data could not be loaded");
     const data = await r.json();
-    // Drop jobs whose deadline has already passed. Keep jobs with no deadline
-    // (some sources publish rolling/open calls without a hard date).
+    // The scraper confirms PhD eligibility. Unknown dates expire after 7 days.
     const allJobs = data.jobs || [];
     state.jobs = allJobs
-      .filter(j=>{ const d=daysTo(j.deadline); return d===null || d>=0; })
+      .filter(j=>{
+        if(j.opportunity_type!=="phd") return false;
+        if(["closed","expired","withdrawn","filled","cancelled","canceled"].includes(j.status)) return false;
+        if(j.deadline){ const d=daysTo(j.deadline); return Number.isFinite(d)&&d>=0; }
+        const seen=(j.last_verified||j.last_seen||data.updated_at||"").slice(0,10);
+        const age=-daysTo(seen);
+        return seen&&Number.isFinite(age)&&age>=0&&age<=7;
+      })
       .map(j=>({ ...j, institution: normInst(j.institution) }));
     parseURL();
     const locale = state.lang==="zh" ? "zh-CN" : "en-US";
@@ -786,8 +789,10 @@ async function load(){
     if(gs("gs-countries")) gs("gs-countries").textContent = nCountries;
     if(gs("gs-urgent")) gs("gs-urgent").textContent = nUrgent;
     if(gs("gs-updated")) gs("gs-updated").textContent = t("updatedPrefix")+u;
+    const snapshotAge=-daysTo((data.updated_at||"").slice(0,10));
+    if(gs("data-freshness")) gs("data-freshness").textContent = !data.updated_at||!Number.isFinite(snapshotAge)||snapshotAge>7 ? t("staleData") : "";
     renderTicker();
-    loadStats();
+    // Source counts after deliberate pruning are not scraper health signals.
     initEuropeMap();
   }catch(e){ document.getElementById("hdr-meta").textContent = t("failedLoad"); }
   render();
