@@ -1,0 +1,81 @@
+{
+  "attempted_at": "2026-09-27T03:11:06Z",
+  "sources": [
+    {
+      "source": "liu",
+      "result": "records_returned",
+      "raw_count": 9,
+      "seconds": 6.1
+    },
+    {
+      "source": "umu",
+      "result": "records_returned",
+      "raw_count": 5,
+      "seconds": 6.8
+    },
+    {
+      "source": "aalto",
+      "result": "records_returned",
+      "raw_count": 9,
+      "seconds": 12.4
+    },
+    {
+      "source": "ku",
+      "result": "records_returned",
+      "raw_count": 24,
+      "seconds": 25.3
+    },
+    {
+      "source": "jobbnorge",
+      "result": "records_returned",
+      "raw_count": 119,
+      "seconds": 80.7
+    },
+    {
+      "source": "academics",
+      "result": "records_returned",
+      "raw_count": 11,
+      "seconds": 2.8
+    },
+    {
+      "source": "varbi",
+      "result": "records_returned",
+      "raw_count": 70,
+      "seconds": 84.5
+    },
+    {
+      "source": "phdgermany",
+      "result": "failed",
+      "error": "HTTP 403 on all attempted pages",
+      "warnings": ["DAAD blocked automatic requests; no records collected"],
+      "raw_count": 0,
+      "seconds": 12.1
+    },
+    {
+      "source": "jobsac_uk",
+      "result": "records_returned",
+      "raw_count": 151,
+      "seconds": 14.6
+    },
+    {
+      "source": "academictransfer",
+      "result": "records_returned",
+      "raw_count": 120,
+      "seconds": 101.5
+    },
+    {
+      "source": "euraxess",
+      "result": "records_returned",
+      "warnings": ["Partial collection: HTTP 429 interrupted supplemental country queries after FI and DE"],
+      "raw_count": 486,
+      "seconds": 223.0
+    },
+    {
+      "source": "ethz",
+      "result": "records_returned",
+      "raw_count": 39,
+      "seconds": 37.4,
+      "warnings": []
+    }
+  ]
+}

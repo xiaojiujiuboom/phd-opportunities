@@ -1,0 +1,32 @@
+{
+  "checked_on": "2026-09-27",
+  "sources": [
+    {"id":"academictransfer","name":"AcademicTransfer","region":"欧洲","country":"NL","mode":"adapter","url":"https://www.academictransfer.com/","note":"荷兰；枚举公开职位，当前每轮上限120条。"},
+    {"id":"jobbnorge","name":"Jobbnorge","region":"欧洲","country":"NO","mode":"adapter","url":"https://www.jobbnorge.no/","note":"挪威公共招聘接口；博士职位。"},
+    {"id":"varbi","name":"Varbi · 7所瑞典大学","region":"欧洲","country":"SE","mode":"adapter","url":"https://www.varbi.com/","note":"Lund、KTH、Uppsala、Stockholm、Karolinska、Karlstad、Mid Sweden；不是全Varbi。"},
+    {"id":"liu","name":"Linköping University","region":"欧洲","country":"SE","mode":"adapter","url":"https://liu.se/en/work-at-liu/vacancies","note":"官方招聘RSS。"},
+    {"id":"umu","name":"Umeå University","region":"欧洲","country":"SE","mode":"adapter","url":"https://www.umu.se/en/work-with-us/open-positions/","note":"官方招聘网页。"},
+    {"id":"ku","name":"University of Copenhagen","region":"欧洲","country":"DK","mode":"adapter","url":"https://employment.ku.dk/","note":"官方博士招聘。"},
+    {"id":"aalto","name":"Aalto University","region":"欧洲","country":"FI","mode":"adapter","url":"https://www.aalto.fi/en/open-positions","note":"官方Workday招聘。"},
+    {"id":"euraxess","name":"EURAXESS","region":"欧洲","country":"EU","mode":"adapter","url":"https://euraxess.ec.europa.eu/jobs/search","note":"欧洲聚合；有分页上限，不代表完整覆盖；不保证合同或国际生资格。"},
+    {"id":"jobsac_uk","name":"jobs.ac.uk","region":"欧洲","country":"GB","mode":"adapter","url":"https://www.jobs.ac.uk/","note":"英国studentships；默认8页，详情截止日期需要单独抓取。"},
+    {"id":"academics","name":"academics.com","region":"欧洲","country":"DE","mode":"adapter","url":"https://www.academics.com/","note":"德国相关；按你的偏好放后面，不作为重点。"},
+    {"id":"phdgermany","name":"DAAD PhDGermany","region":"欧洲","country":"DE","mode":"adapter","url":"https://www.daad.de/en/studying-in-germany/phd-studies-research/phdgermany-database/","note":"德国相关；不是你的优先国家。"},
+    {"id":"ethz","name":"ETH Zurich","region":"欧洲","country":"CH","mode":"adapter","url":"https://www.jobs.ethz.ch/site/index","note":"新增官方博士列表；排除Singapore；无截止日期不等于确认开放。"},
+    {"id":"epfl","name":"EPFL · PhD openings","region":"欧洲","country":"CH","mode":"portal","url":"https://www.epfl.ch/about/working/working-at-epfl/job-openings/phd-student/","note":"官方博士岗位入口；尚未自动采集。"},
+    {"id":"campusfrance","name":"Campus France · Research in France","region":"欧洲","country":"FR","mode":"portal","url":"https://doctorat.campusfrance.org/en/phd/offers/offer.php?action=list","note":"需选择PhD类别，平台还含硕士和博士后；尚未自动采集。"},
+    {"id":"academicpositions","name":"Academic Positions · PhD","region":"跨地区","country":"MULTI","mode":"portal","url":"https://academicpositions.com/jobs/position/phd","note":"自动访问遇到反爬；仅检索入口，不绕过验证。"},
+    {"id":"findaphd","name":"FindAPhD · 按国家检索","region":"跨地区","country":"MULTI","mode":"portal","url":"https://www.findaphd.com/phds/country/","note":"含澳大利亚、新西兰、加拿大、美国；逐项核对资助和国际生限制。"},
+    {"id":"sydney","name":"University of Sydney · Research & supervision","region":"澳大利亚","country":"AU","mode":"portal","url":"https://www.sydney.edu.au/study/applying/how-to-apply/postgraduate-research.html","note":"官方导师/研究项目申请入口，不是已在招岗位数据。"},
+    {"id":"monash","name":"Monash · Engineering PhD","region":"澳大利亚","country":"AU","mode":"portal","url":"https://www.monash.edu/engineering/future-students/graduate-research/phd","note":"工程博士与项目/导师入口；资助需逐项核验。"},
+    {"id":"monash-it","name":"Monash · Supervisor Connect IT","region":"澳大利亚","country":"AU","mode":"portal","url":"https://www.supervisorconnect.it.monash.edu/","note":"可迁移至科学计算、优化、AI的导师项目入口。"},
+    {"id":"adelaide","name":"Adelaide University · Research projects","region":"澳大利亚","country":"AU","mode":"portal","url":"https://adelaide.edu.au/study/research-degrees/research-projects/","note":"官方项目和奖学金；自动访问403，尚未采集。"},
+    {"id":"auckland","name":"University of Auckland · Find a supervisor","region":"新西兰","country":"NZ","mode":"portal","url":"https://www.auckland.ac.nz/en/research/postgraduate-research-and-study/find-a-supervisor.html","note":"官方博士导师检索；不是职位广告。"},
+    {"id":"auckland-abi","name":"Auckland Bioengineering Institute · PhD projects","region":"新西兰","country":"NZ","mode":"portal","url":"https://www.auckland.ac.nz/en/abi/study-with-us/study-options/find-a-project/phd-projects.html","note":"可迁移的建模与计算方向项目；项目资助逐项确认。"},
+    {"id":"otago","name":"University of Otago · Research opportunities","region":"新西兰","country":"NZ","mode":"portal","url":"https://www.otago.ac.nz/postgraduate-study/research-opportunities","note":"含非PhD项目，需按博士筛选；自动访问403，尚未采集。"},
+    {"id":"ubc","name":"UBC · Research projects","region":"加拿大","country":"CA","mode":"portal","url":"https://www.grad.ubc.ca/prospective-students/research-projects","note":"导师与研究机会目录，不保证每个项目有经费或空位。"},
+    {"id":"waterloo","name":"Waterloo · Research-based graduate funding","region":"加拿大","country":"CA","mode":"portal","url":"https://uwaterloo.ca/future-graduate-students/funding/funding-research-based-graduate-programs","note":"资助官方入口；需继续定位系所/导师，不是招聘列表。"},
+    {"id":"princeton","name":"Princeton · PhD science & engineering funding","region":"美国","country":"US","mode":"portal","url":"https://gradschool.princeton.edu/financial-support/financial-support-model/phd-funding-natural-sciences-engineering","note":"博士资助入口；不是岗位制签证承诺，也不是空位列表。"},
+    {"id":"mit","name":"MIT · Graduate funding application","region":"美国","country":"US","mode":"portal","url":"https://oge.mit.edu/gpp/funding-compensation/awards/applying/","note":"资助/院系联系入口；不是已在招职位。"}
+  ]
+}
