@@ -2,6 +2,7 @@ name: Refresh PhD opportunities
 
 on:
   schedule:
+    # UTC 00:23, 06:23, 12:23, 18:23 (Shanghai 08:23, 14:23, 20:23, 02:23).
     - cron: '23 */6 * * *'
   workflow_dispatch:
 
@@ -47,6 +48,7 @@ jobs:
             echo "No generated data changes."
           else
             git commit -m "chore: refresh PhD data"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi
       - name: Report failed collection
