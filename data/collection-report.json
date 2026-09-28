@@ -1,21 +1,21 @@
 {
-  "attempted_at": "2026-09-28T05:36:55Z",
+  "attempted_at": "2026-09-28T14:11:49Z",
   "sources": [
     {
       "source": "liu",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 9,
-      "seconds": 2.4,
+      "raw_count": 11,
+      "seconds": 2.1,
       "details": {},
       "warnings": []
     },
     {
-      "source": "umu",
+      "source": "ku",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 5,
-      "seconds": 3.6,
+      "raw_count": 25,
+      "seconds": 18.4,
       "details": {},
       "warnings": []
     },
@@ -24,28 +24,24 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 9,
-      "seconds": 8.7,
+      "seconds": 7.6,
       "details": {},
       "warnings": []
     },
     {
-      "source": "ku",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 23,
-      "seconds": 19.5,
-      "details": {},
-      "warnings": []
+      "source": "umu",
+      "result": "failed",
+      "error": "HTTPSConnectionPool(host='www.umu.se', port=443): Max retries exceeded with url: /en/work-with-us/open-positions/ (Caused by NewConnectionError(\"HTTPSConnection(host='www.umu.se', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     {
       "source": "euraxess",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 19.9,
+      "seconds": 20.3,
       "details": {
-        "attempted": 3,
-        "with_description": 3,
+        "attempted": 2,
+        "with_description": 2,
         "unavailable": 0
       },
       "warnings": [
@@ -53,11 +49,20 @@
       ]
     },
     {
+      "source": "varbi",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 72,
+      "seconds": 51.9,
+      "details": {},
+      "warnings": []
+    },
+    {
       "source": "academics",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 11,
-      "seconds": 7.1,
+      "seconds": 6.9,
       "details": {
         "attempted": 9,
         "with_description": 9,
@@ -66,11 +71,11 @@
       "warnings": []
     },
     {
-      "source": "varbi",
+      "source": "jobbnorge",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 71,
-      "seconds": 55.7,
+      "raw_count": 121,
+      "seconds": 58.4,
       "details": {},
       "warnings": []
     },
@@ -79,7 +84,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 4.4,
+      "seconds": 2.7,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -88,11 +93,11 @@
       "warnings": []
     },
     {
-      "source": "jobbnorge",
+      "source": "ethz",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 120,
-      "seconds": 62.0,
+      "raw_count": 38,
+      "seconds": 24.4,
       "details": {},
       "warnings": []
     },
@@ -100,17 +105,8 @@
       "source": "academictransfer",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 119,
-      "seconds": 69.2,
-      "details": {},
-      "warnings": []
-    },
-    {
-      "source": "ethz",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 39,
-      "seconds": 27.1,
+      "raw_count": 120,
+      "seconds": 67.2,
       "details": {},
       "warnings": []
     },
@@ -118,11 +114,11 @@
       "source": "jobsac_uk",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 151,
-      "seconds": 207.1,
+      "raw_count": 154,
+      "seconds": 193.4,
       "details": {
-        "attempted": 150,
-        "with_description": 150,
+        "attempted": 153,
+        "with_description": 153,
         "unavailable": 0
       },
       "warnings": []
