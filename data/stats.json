@@ -1,34 +1,36 @@
 {
-  "updated_at": "2026-09-30T12:49:05Z",
-  "data_updated_at": "2026-09-30T12:49:05Z",
+  "updated_at": "2026-09-30T22:25:35Z",
+  "data_updated_at": "2026-09-30T22:25:35Z",
   "operation": "collection",
-  "total": 556,
+  "total": 549,
   "by_source": {
     "jobsac_uk": 153,
     "academictransfer": 120,
-    "jobbnorge": 116,
-    "ethz": 36,
-    "ku": 24,
+    "jobbnorge": 108,
+    "ethz": 37,
+    "ku": 23,
     "varbi-su": 23,
-    "varbi-uu": 17,
-    "varbi-kth": 14,
-    "varbi-lu": 14,
-    "academics": 12,
-    "liu": 11,
-    "aalto": 10,
+    "varbi-kth": 21,
+    "varbi-uu": 15,
+    "varbi-lu": 12,
+    "academics": 10,
+    "liu": 10,
+    "aalto": 9,
     "umu": 5,
+    "euraxess": 2,
     "varbi-miun": 1
   },
   "by_country": {
     "GB": 153,
     "NL": 120,
-    "NO": 116,
-    "SE": 85,
-    "CH": 37,
-    "DK": 24,
-    "FI": 10,
-    "DE": 6,
-    "AT": 5
+    "NO": 108,
+    "SE": 87,
+    "CH": 38,
+    "DK": 23,
+    "FI": 9,
+    "AT": 5,
+    "DE": 5,
+    "ES": 1
   },
   "history": [
     {
@@ -694,10 +696,40 @@
         "DE": 6,
         "AT": 5
       }
+    },
+    {
+      "ts": "2026-09-30T22:25:35Z",
+      "total": 549,
+      "by_source": {
+        "jobsac_uk": 153,
+        "academictransfer": 120,
+        "jobbnorge": 108,
+        "ethz": 37,
+        "ku": 23,
+        "varbi-su": 23,
+        "varbi-kth": 21,
+        "varbi-uu": 15,
+        "varbi-lu": 12,
+        "academics": 10,
+        "liu": 10,
+        "aalto": 9,
+        "umu": 5,
+        "euraxess": 2,
+        "varbi-miun": 1
+      },
+      "by_country": {
+        "GB": 153,
+        "NL": 120,
+        "NO": 108,
+        "SE": 87,
+        "CH": 38,
+        "DK": 23,
+        "FI": 9,
+        "AT": 5,
+        "DE": 5,
+        "ES": 1
+      }
     }
   ],
-  "alerts": [
-    "source 'euraxess' returned 0 jobs (was 4 last run)",
-    "source 'euraxess' missing entirely from this run"
-  ]
+  "alerts": []
 }
