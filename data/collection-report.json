@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-10-06T18:31:14Z",
+  "attempted_at": "2026-10-07T06:13:10Z",
   "sources": [
     {
       "source": "liu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 7,
-      "seconds": 1.5,
+      "seconds": 2.6,
       "details": {},
       "warnings": []
     },
@@ -15,7 +15,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 6,
-      "seconds": 3.6,
+      "seconds": 4.8,
       "details": {},
       "warnings": []
     },
@@ -24,7 +24,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 9.3,
+      "seconds": 10.2,
       "details": {},
       "warnings": []
     },
@@ -33,7 +33,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 18,
-      "seconds": 14.4,
+      "seconds": 17.4,
       "details": {},
       "warnings": []
     },
@@ -42,10 +42,10 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 18.0,
+      "seconds": 17.9,
       "details": {
-        "attempted": 2,
-        "with_description": 2,
+        "attempted": 0,
+        "with_description": 0,
         "unavailable": 0
       },
       "warnings": [
@@ -57,7 +57,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 12,
-      "seconds": 6.7,
+      "seconds": 8.5,
       "details": {
         "attempted": 10,
         "with_description": 10,
@@ -66,20 +66,20 @@
       "warnings": []
     },
     {
-      "source": "jobbnorge",
+      "source": "varbi",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 105,
-      "seconds": 48.5,
+      "raw_count": 66,
+      "seconds": 54.7,
       "details": {},
       "warnings": []
     },
     {
-      "source": "varbi",
+      "source": "jobbnorge",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 68,
-      "seconds": 48.8,
+      "raw_count": 105,
+      "seconds": 58.3,
       "details": {},
       "warnings": []
     },
@@ -88,7 +88,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 3.2,
+      "seconds": 4.7,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -97,20 +97,20 @@
       "warnings": []
     },
     {
-      "source": "academictransfer",
+      "source": "ethz",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 120,
-      "seconds": 55.7,
+      "raw_count": 33,
+      "seconds": 23.4,
       "details": {},
       "warnings": []
     },
     {
-      "source": "ethz",
+      "source": "academictransfer",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 34,
-      "seconds": 22.0,
+      "raw_count": 118,
+      "seconds": 73.0,
       "details": {},
       "warnings": []
     },
@@ -119,7 +119,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 155,
-      "seconds": 172.5,
+      "seconds": 204.2,
       "details": {
         "attempted": 152,
         "with_description": 152,
