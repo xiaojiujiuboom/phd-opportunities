@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-10-09T22:48:16Z",
+  "attempted_at": "2026-10-10T06:04:18Z",
   "sources": [
     {
       "source": "liu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 7,
-      "seconds": 2.9,
+      "seconds": 2.1,
       "details": {},
       "warnings": []
     },
@@ -15,7 +15,16 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 5,
-      "seconds": 3.8,
+      "seconds": 3.6,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "varbi",
+      "mode": "list_and_details",
+      "result": "empty_or_adapter_error",
+      "raw_count": 0,
+      "seconds": 5.9,
       "details": {},
       "warnings": []
     },
@@ -24,7 +33,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 8.6,
+      "seconds": 8.8,
       "details": {},
       "warnings": []
     },
@@ -33,31 +42,16 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 21,
-      "seconds": 18.2,
+      "seconds": 17.8,
       "details": {},
       "warnings": []
-    },
-    {
-      "source": "euraxess",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 10,
-      "seconds": 17.8,
-      "details": {
-        "attempted": 0,
-        "with_description": 0,
-        "unavailable": 0
-      },
-      "warnings": [
-        "global: HTTP 429; remaining country requests skipped"
-      ]
     },
     {
       "source": "academics",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 13,
-      "seconds": 9.2,
+      "seconds": 7.7,
       "details": {
         "attempted": 11,
         "with_description": 11,
@@ -66,20 +60,26 @@
       "warnings": []
     },
     {
-      "source": "varbi",
+      "source": "euraxess",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 63,
-      "seconds": 52.5,
-      "details": {},
-      "warnings": []
+      "raw_count": 10,
+      "seconds": 20.5,
+      "details": {
+        "attempted": 7,
+        "with_description": 7,
+        "unavailable": 0
+      },
+      "warnings": [
+        "global: HTTP 429; remaining country requests skipped"
+      ]
     },
     {
       "source": "phdgermany",
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 4.4,
+      "seconds": 3.5,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -92,7 +92,16 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 111,
-      "seconds": 57.9,
+      "seconds": 54.4,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "ethz",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 35,
+      "seconds": 22.9,
       "details": {},
       "warnings": []
     },
@@ -101,16 +110,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 66.0,
-      "details": {},
-      "warnings": []
-    },
-    {
-      "source": "ethz",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 36,
-      "seconds": 25.5,
+      "seconds": 64.8,
       "details": {},
       "warnings": []
     },
@@ -119,7 +119,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 177,
-      "seconds": 216.3,
+      "seconds": 190.7,
       "details": {
         "attempted": 167,
         "with_description": 166,
