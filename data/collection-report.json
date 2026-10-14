@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-10-14T12:07:32Z",
+  "attempted_at": "2026-10-14T17:23:29Z",
   "sources": [
     {
       "source": "umu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 4,
-      "seconds": 2.9,
+      "seconds": 2.8,
       "details": {},
       "warnings": []
     },
@@ -15,7 +15,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 7,
-      "seconds": 3.9,
+      "seconds": 2.8,
       "details": {},
       "warnings": []
     },
@@ -24,7 +24,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 11,
-      "seconds": 9.2,
+      "seconds": 9.8,
       "details": {},
       "warnings": []
     },
@@ -33,7 +33,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 18,
-      "seconds": 15.7,
+      "seconds": 13.7,
       "details": {},
       "warnings": []
     },
@@ -42,11 +42,11 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 17.4,
+      "seconds": 19.6,
       "details": {
-        "attempted": 1,
-        "with_description": 1,
-        "unavailable": 0
+        "attempted": 5,
+        "with_description": 2,
+        "unavailable": 3
       },
       "warnings": [
         "global: HTTP 429; remaining country requests skipped"
@@ -57,7 +57,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 14,
-      "seconds": 8.0,
+      "seconds": 8.4,
       "details": {
         "attempted": 11,
         "with_description": 11,
@@ -69,17 +69,8 @@
       "source": "jobbnorge",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 104,
-      "seconds": 59.4,
-      "details": {},
-      "warnings": []
-    },
-    {
-      "source": "varbi",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 76,
-      "seconds": 60.7,
+      "raw_count": 105,
+      "seconds": 51.3,
       "details": {},
       "warnings": []
     },
@@ -88,7 +79,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 3.9,
+      "seconds": 3.6,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -97,11 +88,20 @@
       "warnings": []
     },
     {
+      "source": "varbi",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 76,
+      "seconds": 59.1,
+      "details": {},
+      "warnings": []
+    },
+    {
       "source": "academictransfer",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 119,
-      "seconds": 71.4,
+      "raw_count": 120,
+      "seconds": 64.3,
       "details": {},
       "warnings": []
     },
@@ -109,8 +109,8 @@
       "source": "ethz",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 36,
-      "seconds": 24.2,
+      "raw_count": 37,
+      "seconds": 24.7,
       "details": {},
       "warnings": []
     },
@@ -118,11 +118,11 @@
       "source": "jobsac_uk",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 192,
-      "seconds": 216.5,
+      "raw_count": 197,
+      "seconds": 218.3,
       "details": {
-        "attempted": 180,
-        "with_description": 178,
+        "attempted": 184,
+        "with_description": 182,
         "unavailable": 2
       },
       "warnings": []
