@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14T17:23:29Z",
-  "data_updated_at": "2026-10-14T17:23:29Z",
+  "updated_at": "2026-10-14T21:51:54Z",
+  "data_updated_at": "2026-10-14T21:51:54Z",
   "operation": "collection",
   "total": 576,
   "by_source": {
@@ -34,48 +34,6 @@
     "PT": 3
   },
   "history": [
-    {
-      "ts": "2026-04-20T12:41:19Z",
-      "total": 651,
-      "by_source": {
-        "euraxess": 250,
-        "jobbnorge": 138,
-        "academictransfer": 120,
-        "varbi-su": 31,
-        "varbi-lu": 27,
-        "varbi-kth": 25,
-        "ku": 18,
-        "varbi-uu": 17,
-        "liu": 12,
-        "umu": 8,
-        "aalto": 4,
-        "varbi-kau": 1
-      },
-      "by_country": {
-        "NO": 144,
-        "SE": 138,
-        "NL": 132,
-        "IT": 84,
-        "FI": 54,
-        "FR": 35,
-        "DK": 20,
-        "PL": 15,
-        "PT": 5,
-        "DE": 4,
-        "HR": 4,
-        "?": 3,
-        "CH": 2,
-        "ES": 2,
-        "GB": 2,
-        "BE": 1,
-        "BG": 1,
-        "CY": 1,
-        "CZ": 1,
-        "GR": 1,
-        "HU": 1,
-        "LU": 1
-      }
-    },
     {
       "ts": "2026-04-20T13:05:32Z",
       "total": 972,
@@ -1978,6 +1936,40 @@
     },
     {
       "ts": "2026-10-14T17:23:29Z",
+      "total": 576,
+      "by_source": {
+        "jobsac_uk": 183,
+        "academictransfer": 120,
+        "jobbnorge": 104,
+        "ethz": 37,
+        "varbi-su": 37,
+        "ku": 18,
+        "varbi-uu": 17,
+        "aalto": 11,
+        "academics": 11,
+        "varbi-kth": 10,
+        "varbi-lu": 10,
+        "liu": 7,
+        "euraxess": 5,
+        "umu": 4,
+        "varbi-kau": 1,
+        "varbi-miun": 1
+      },
+      "by_country": {
+        "GB": 184,
+        "NL": 120,
+        "NO": 105,
+        "SE": 87,
+        "CH": 37,
+        "DK": 18,
+        "FI": 11,
+        "DE": 6,
+        "AT": 5,
+        "PT": 3
+      }
+    },
+    {
+      "ts": "2026-10-14T21:51:54Z",
       "total": 576,
       "by_source": {
         "jobsac_uk": 183,
