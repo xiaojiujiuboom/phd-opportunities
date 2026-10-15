@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-10-14T21:51:54Z",
+  "attempted_at": "2026-10-15T04:55:08Z",
   "sources": [
     {
       "source": "liu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 7,
-      "seconds": 2.7,
+      "seconds": 2.5,
       "details": {},
       "warnings": []
     },
@@ -15,7 +15,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 4,
-      "seconds": 3.1,
+      "seconds": 3.5,
       "details": {},
       "warnings": []
     },
@@ -24,7 +24,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 11,
-      "seconds": 10.3,
+      "seconds": 10.5,
       "details": {},
       "warnings": []
     },
@@ -32,8 +32,8 @@
       "source": "ku",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 18,
-      "seconds": 14.9,
+      "raw_count": 17,
+      "seconds": 15.5,
       "details": {},
       "warnings": []
     },
@@ -42,7 +42,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 21.0,
+      "seconds": 20.3,
       "details": {
         "attempted": 5,
         "with_description": 2,
@@ -57,7 +57,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 14,
-      "seconds": 11.1,
+      "seconds": 11.0,
       "details": {
         "attempted": 11,
         "with_description": 11,
@@ -69,8 +69,8 @@
       "source": "jobbnorge",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 105,
-      "seconds": 55.8,
+      "raw_count": 100,
+      "seconds": 50.5,
       "details": {},
       "warnings": []
     },
@@ -79,7 +79,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 4.2,
+      "seconds": 4.4,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -91,8 +91,8 @@
       "source": "varbi",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 76,
-      "seconds": 60.9,
+      "raw_count": 75,
+      "seconds": 59.8,
       "details": {},
       "warnings": []
     },
@@ -101,7 +101,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 67.2,
+      "seconds": 66.8,
       "details": {},
       "warnings": []
     },
@@ -110,7 +110,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 37,
-      "seconds": 25.7,
+      "seconds": 26.3,
       "details": {},
       "warnings": []
     },
@@ -118,11 +118,11 @@
       "source": "jobsac_uk",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 197,
-      "seconds": 244.2,
+      "raw_count": 194,
+      "seconds": 237.5,
       "details": {
-        "attempted": 184,
-        "with_description": 182,
+        "attempted": 181,
+        "with_description": 179,
         "unavailable": 2
       },
       "warnings": []
