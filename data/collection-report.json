@@ -1,15 +1,6 @@
 {
-  "attempted_at": "2026-10-18T04:47:17Z",
+  "attempted_at": "2026-10-18T11:23:41Z",
   "sources": [
-    {
-      "source": "liu",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 7,
-      "seconds": 2.0,
-      "details": {},
-      "warnings": []
-    },
     {
       "source": "umu",
       "mode": "list_and_details",
@@ -20,11 +11,20 @@
       "warnings": []
     },
     {
+      "source": "liu",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 7,
+      "seconds": 2.7,
+      "details": {},
+      "warnings": []
+    },
+    {
       "source": "aalto",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 12,
-      "seconds": 9.1,
+      "seconds": 9.9,
       "details": {},
       "warnings": []
     },
@@ -33,7 +33,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 17,
-      "seconds": 13.9,
+      "seconds": 14.0,
       "details": {},
       "warnings": []
     },
@@ -42,11 +42,11 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 17.8,
+      "seconds": 20.0,
       "details": {
-        "attempted": 0,
+        "attempted": 4,
         "with_description": 0,
-        "unavailable": 0
+        "unavailable": 4
       },
       "warnings": [
         "global: HTTP 429; remaining country requests skipped"
@@ -57,7 +57,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 51,
-      "seconds": 41.5,
+      "seconds": 40.8,
       "details": {},
       "warnings": []
     },
@@ -66,21 +66,8 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 86,
-      "seconds": 42.4,
+      "seconds": 43.2,
       "details": {},
-      "warnings": []
-    },
-    {
-      "source": "academics",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 16,
-      "seconds": 9.5,
-      "details": {
-        "attempted": 12,
-        "with_description": 12,
-        "unavailable": 0
-      },
       "warnings": []
     },
     {
@@ -88,10 +75,23 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 3.9,
+      "seconds": 4.0,
       "details": {
         "attempted": 0,
         "with_description": 0,
+        "unavailable": 0
+      },
+      "warnings": []
+    },
+    {
+      "source": "academics",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 16,
+      "seconds": 10.8,
+      "details": {
+        "attempted": 12,
+        "with_description": 12,
         "unavailable": 0
       },
       "warnings": []
@@ -101,7 +101,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 37,
-      "seconds": 24.8,
+      "seconds": 24.6,
       "details": {},
       "warnings": []
     },
@@ -110,7 +110,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 59.4,
+      "seconds": 63.0,
       "details": {},
       "warnings": []
     },
@@ -119,7 +119,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 210.9,
+      "seconds": 209.3,
       "details": {
         "attempted": 185,
         "with_description": 183,

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T04:47:17Z",
-  "data_updated_at": "2026-10-18T04:47:17Z",
+  "updated_at": "2026-10-18T11:23:41Z",
+  "data_updated_at": "2026-10-18T11:23:41Z",
   "operation": "collection",
-  "total": 526,
+  "total": 530,
   "by_source": {
     "jobsac_uk": 184,
     "academictransfer": 120,
@@ -16,6 +16,7 @@
     "varbi-lu": 9,
     "liu": 7,
     "varbi-kth": 6,
+    "euraxess": 4,
     "umu": 3,
     "varbi-kau": 1,
     "varbi-miun": 1
@@ -26,45 +27,12 @@
     "NO": 85,
     "SE": 60,
     "CH": 37,
-    "DK": 17,
+    "DK": 19,
     "DE": 12,
-    "FI": 11
+    "FI": 11,
+    "BE": 2
   },
   "history": [
-    {
-      "ts": "2026-09-29T13:06:36Z",
-      "total": 552,
-      "by_source": {
-        "jobsac_uk": 154,
-        "academictransfer": 120,
-        "jobbnorge": 117,
-        "ethz": 37,
-        "varbi-su": 22,
-        "ku": 21,
-        "varbi-kth": 15,
-        "varbi-uu": 15,
-        "varbi-lu": 14,
-        "liu": 11,
-        "aalto": 9,
-        "academics": 9,
-        "umu": 5,
-        "euraxess": 2,
-        "varbi-miun": 1
-      },
-      "by_country": {
-        "GB": 154,
-        "NL": 120,
-        "NO": 117,
-        "SE": 83,
-        "CH": 38,
-        "DK": 21,
-        "FI": 9,
-        "AT": 5,
-        "DE": 3,
-        "IT": 1,
-        "PT": 1
-      }
-    },
     {
       "ts": "2026-09-29T22:25:56Z",
       "total": 549,
@@ -2000,6 +1968,39 @@
         "DK": 17,
         "DE": 12,
         "FI": 11
+      }
+    },
+    {
+      "ts": "2026-10-18T11:23:41Z",
+      "total": 530,
+      "by_source": {
+        "jobsac_uk": 184,
+        "academictransfer": 120,
+        "jobbnorge": 85,
+        "ethz": 37,
+        "varbi-su": 19,
+        "ku": 17,
+        "varbi-uu": 14,
+        "academics": 12,
+        "aalto": 11,
+        "varbi-lu": 9,
+        "liu": 7,
+        "varbi-kth": 6,
+        "euraxess": 4,
+        "umu": 3,
+        "varbi-kau": 1,
+        "varbi-miun": 1
+      },
+      "by_country": {
+        "GB": 184,
+        "NL": 120,
+        "NO": 85,
+        "SE": 60,
+        "CH": 37,
+        "DK": 19,
+        "DE": 12,
+        "FI": 11,
+        "BE": 2
       }
     }
   ],
