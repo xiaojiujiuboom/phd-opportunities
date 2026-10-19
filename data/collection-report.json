@@ -1,21 +1,21 @@
 {
-  "attempted_at": "2026-10-19T13:36:51Z",
+  "attempted_at": "2026-10-19T22:31:06Z",
   "sources": [
-    {
-      "source": "liu",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 7,
-      "seconds": 2.3,
-      "details": {},
-      "warnings": []
-    },
     {
       "source": "umu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 3,
-      "seconds": 2.8,
+      "seconds": 2.5,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "liu",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 6,
+      "seconds": 2.7,
       "details": {},
       "warnings": []
     },
@@ -24,7 +24,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 9.1,
+      "seconds": 9.4,
       "details": {},
       "warnings": []
     },
@@ -33,7 +33,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 18,
-      "seconds": 14.2,
+      "seconds": 14.3,
       "details": {},
       "warnings": []
     },
@@ -42,7 +42,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 18.1,
+      "seconds": 18.2,
       "details": {
         "attempted": 2,
         "with_description": 0,
@@ -53,11 +53,29 @@
       ]
     },
     {
+      "source": "jobbnorge",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 86,
+      "seconds": 43.0,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "varbi",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 52,
+      "seconds": 43.7,
+      "details": {},
+      "warnings": []
+    },
+    {
       "source": "academics",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 18,
-      "seconds": 9.6,
+      "seconds": 12.1,
       "details": {
         "attempted": 13,
         "with_description": 13,
@@ -66,29 +84,11 @@
       "warnings": []
     },
     {
-      "source": "jobbnorge",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 87,
-      "seconds": 44.5,
-      "details": {},
-      "warnings": []
-    },
-    {
-      "source": "varbi",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 53,
-      "seconds": 44.9,
-      "details": {},
-      "warnings": []
-    },
-    {
       "source": "phdgermany",
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 3.9,
+      "seconds": 3.8,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -101,7 +101,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 37,
-      "seconds": 24.2,
+      "seconds": 24.4,
       "details": {},
       "warnings": []
     },
@@ -110,7 +110,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 81.7,
+      "seconds": 63.2,
       "details": {},
       "warnings": []
     },
@@ -119,10 +119,10 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 217.7,
+      "seconds": 212.1,
       "details": {
-        "attempted": 186,
-        "with_description": 184,
+        "attempted": 185,
+        "with_description": 183,
         "unavailable": 2
       },
       "warnings": []
