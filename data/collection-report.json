@@ -1,21 +1,21 @@
 {
-  "attempted_at": "2026-10-19T22:31:06Z",
+  "attempted_at": "2026-10-20T05:03:45Z",
   "sources": [
-    {
-      "source": "umu",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 3,
-      "seconds": 2.5,
-      "details": {},
-      "warnings": []
-    },
     {
       "source": "liu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 6,
-      "seconds": 2.7,
+      "seconds": 2.1,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "umu",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 3,
+      "seconds": 2.3,
       "details": {},
       "warnings": []
     },
@@ -24,7 +24,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 9.4,
+      "seconds": 8.3,
       "details": {},
       "warnings": []
     },
@@ -33,7 +33,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 18,
-      "seconds": 14.3,
+      "seconds": 15.1,
       "details": {},
       "warnings": []
     },
@@ -42,7 +42,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 18.2,
+      "seconds": 18.0,
       "details": {
         "attempted": 2,
         "with_description": 0,
@@ -57,7 +57,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 86,
-      "seconds": 43.0,
+      "seconds": 38.9,
       "details": {},
       "warnings": []
     },
@@ -66,7 +66,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 52,
-      "seconds": 43.7,
+      "seconds": 41.5,
       "details": {},
       "warnings": []
     },
@@ -75,23 +75,10 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 18,
-      "seconds": 12.1,
+      "seconds": 8.7,
       "details": {
         "attempted": 13,
         "with_description": 13,
-        "unavailable": 0
-      },
-      "warnings": []
-    },
-    {
-      "source": "phdgermany",
-      "mode": "list_and_details",
-      "result": "empty_or_adapter_error",
-      "raw_count": 0,
-      "seconds": 3.8,
-      "details": {
-        "attempted": 0,
-        "with_description": 0,
         "unavailable": 0
       },
       "warnings": []
@@ -101,7 +88,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 37,
-      "seconds": 24.4,
+      "seconds": 23.7,
       "details": {},
       "warnings": []
     },
@@ -110,7 +97,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 63.2,
+      "seconds": 58.5,
       "details": {},
       "warnings": []
     },
@@ -119,11 +106,24 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 212.1,
+      "seconds": 206.2,
       "details": {
         "attempted": 185,
         "with_description": 183,
         "unavailable": 2
+      },
+      "warnings": []
+    },
+    {
+      "source": "phdgermany",
+      "mode": "list_and_details",
+      "result": "empty_or_adapter_error",
+      "raw_count": 0,
+      "seconds": 240.8,
+      "details": {
+        "attempted": 0,
+        "with_description": 0,
+        "unavailable": 0
       },
       "warnings": []
     }
