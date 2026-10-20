@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-10-20T05:03:45Z",
+  "attempted_at": "2026-10-20T11:52:34Z",
   "sources": [
     {
       "source": "liu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 6,
-      "seconds": 2.1,
+      "seconds": 2.2,
       "details": {},
       "warnings": []
     },
@@ -24,7 +24,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 8.3,
+      "seconds": 8.1,
       "details": {},
       "warnings": []
     },
@@ -32,8 +32,8 @@
       "source": "ku",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 18,
-      "seconds": 15.1,
+      "raw_count": 19,
+      "seconds": 17.0,
       "details": {},
       "warnings": []
     },
@@ -42,31 +42,31 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 18.0,
+      "seconds": 18.7,
       "details": {
-        "attempted": 2,
+        "attempted": 3,
         "with_description": 0,
-        "unavailable": 2
+        "unavailable": 3
       },
       "warnings": [
         "global: HTTP 429; remaining country requests skipped"
       ]
     },
     {
-      "source": "jobbnorge",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 86,
-      "seconds": 38.9,
-      "details": {},
-      "warnings": []
-    },
-    {
       "source": "varbi",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 52,
-      "seconds": 41.5,
+      "seconds": 45.2,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "jobbnorge",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 93,
+      "seconds": 47.6,
       "details": {},
       "warnings": []
     },
@@ -75,10 +75,23 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 18,
-      "seconds": 8.7,
+      "seconds": 10.8,
       "details": {
         "attempted": 13,
         "with_description": 13,
+        "unavailable": 0
+      },
+      "warnings": []
+    },
+    {
+      "source": "phdgermany",
+      "mode": "list_and_details",
+      "result": "empty_or_adapter_error",
+      "raw_count": 0,
+      "seconds": 4.1,
+      "details": {
+        "attempted": 0,
+        "with_description": 0,
         "unavailable": 0
       },
       "warnings": []
@@ -88,7 +101,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 37,
-      "seconds": 23.7,
+      "seconds": 24.8,
       "details": {},
       "warnings": []
     },
@@ -97,7 +110,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 58.5,
+      "seconds": 69.2,
       "details": {},
       "warnings": []
     },
@@ -106,24 +119,11 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 206.2,
+      "seconds": 212.4,
       "details": {
-        "attempted": 185,
-        "with_description": 183,
+        "attempted": 184,
+        "with_description": 182,
         "unavailable": 2
-      },
-      "warnings": []
-    },
-    {
-      "source": "phdgermany",
-      "mode": "list_and_details",
-      "result": "empty_or_adapter_error",
-      "raw_count": 0,
-      "seconds": 240.8,
-      "details": {
-        "attempted": 0,
-        "with_description": 0,
-        "unavailable": 0
       },
       "warnings": []
     }
