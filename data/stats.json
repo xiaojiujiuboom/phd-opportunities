@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-20T17:22:02Z",
-  "data_updated_at": "2026-10-20T17:22:02Z",
+  "updated_at": "2026-10-20T21:47:25Z",
+  "data_updated_at": "2026-10-20T21:47:25Z",
   "operation": "collection",
-  "total": 536,
+  "total": 533,
   "by_source": {
     "jobsac_uk": 182,
     "academictransfer": 120,
@@ -11,9 +11,9 @@
     "ku": 19,
     "varbi-su": 19,
     "varbi-uu": 15,
-    "academics": 13,
-    "aalto": 9,
+    "academics": 11,
     "varbi-lu": 9,
+    "aalto": 8,
     "liu": 6,
     "varbi-kth": 6,
     "umu": 3,
@@ -28,46 +28,12 @@
     "SE": 60,
     "CH": 38,
     "DK": 19,
-    "DE": 12,
-    "FI": 9,
+    "DE": 10,
+    "FI": 8,
     "AT": 1,
     "PT": 1
   },
   "history": [
-    {
-      "ts": "2026-10-02T12:51:35Z",
-      "total": 532,
-      "by_source": {
-        "jobsac_uk": 150,
-        "academictransfer": 120,
-        "jobbnorge": 106,
-        "ethz": 31,
-        "varbi-su": 22,
-        "ku": 19,
-        "varbi-kth": 18,
-        "varbi-uu": 14,
-        "academics": 12,
-        "varbi-lu": 12,
-        "liu": 10,
-        "aalto": 8,
-        "umu": 5,
-        "euraxess": 3,
-        "varbi-kau": 1,
-        "varbi-miun": 1
-      },
-      "by_country": {
-        "GB": 150,
-        "NL": 120,
-        "NO": 106,
-        "SE": 83,
-        "CH": 32,
-        "DK": 19,
-        "FI": 8,
-        "DE": 6,
-        "AT": 5,
-        "IE": 3
-      }
-    },
     {
       "ts": "2026-10-02T22:23:41Z",
       "total": 539,
@@ -2009,6 +1975,40 @@
         "DK": 19,
         "DE": 12,
         "FI": 9,
+        "AT": 1,
+        "PT": 1
+      }
+    },
+    {
+      "ts": "2026-10-20T21:47:25Z",
+      "total": 533,
+      "by_source": {
+        "jobsac_uk": 182,
+        "academictransfer": 120,
+        "jobbnorge": 93,
+        "ethz": 38,
+        "ku": 19,
+        "varbi-su": 19,
+        "varbi-uu": 15,
+        "academics": 11,
+        "varbi-lu": 9,
+        "aalto": 8,
+        "liu": 6,
+        "varbi-kth": 6,
+        "umu": 3,
+        "euraxess": 2,
+        "varbi-kau": 1,
+        "varbi-miun": 1
+      },
+      "by_country": {
+        "GB": 182,
+        "NL": 120,
+        "NO": 94,
+        "SE": 60,
+        "CH": 38,
+        "DK": 19,
+        "DE": 10,
+        "FI": 8,
         "AT": 1,
         "PT": 1
       }
