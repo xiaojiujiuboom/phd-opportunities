@@ -1,6 +1,15 @@
 {
-  "attempted_at": "2026-10-21T17:24:30Z",
+  "attempted_at": "2026-10-21T21:52:31Z",
   "sources": [
+    {
+      "source": "liu",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 7,
+      "seconds": 2.2,
+      "details": {},
+      "warnings": []
+    },
     {
       "source": "umu",
       "mode": "list_and_details",
@@ -11,20 +20,11 @@
       "warnings": []
     },
     {
-      "source": "liu",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 7,
-      "seconds": 3.7,
-      "details": {},
-      "warnings": []
-    },
-    {
       "source": "aalto",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 9,
-      "seconds": 8.8,
+      "raw_count": 8,
+      "seconds": 7.7,
       "details": {},
       "warnings": []
     },
@@ -33,7 +33,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 19,
-      "seconds": 16.1,
+      "seconds": 14.9,
       "details": {},
       "warnings": []
     },
@@ -42,7 +42,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 53,
-      "seconds": 46.4,
+      "seconds": 43.3,
       "details": {},
       "warnings": []
     },
@@ -51,7 +51,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 94,
-      "seconds": 46.5,
+      "seconds": 46.2,
       "details": {},
       "warnings": []
     },
@@ -60,7 +60,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 20,
-      "seconds": 13.5,
+      "seconds": 11.0,
       "details": {
         "attempted": 15,
         "with_description": 15,
@@ -73,7 +73,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 3.5,
+      "seconds": 3.9,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -86,7 +86,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 47.9,
+      "seconds": 47.5,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -95,20 +95,20 @@
       "warnings": []
     },
     {
-      "source": "ethz",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 40,
-      "seconds": 26.7,
-      "details": {},
-      "warnings": []
-    },
-    {
       "source": "academictransfer",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 83.9,
+      "seconds": 62.7,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "ethz",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 40,
+      "seconds": 26.3,
       "details": {},
       "warnings": []
     },
@@ -117,7 +117,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 220.0,
+      "seconds": 208.9,
       "details": {
         "attempted": 183,
         "with_description": 181,
