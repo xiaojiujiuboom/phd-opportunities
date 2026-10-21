@@ -1,15 +1,6 @@
 {
-  "attempted_at": "2026-10-21T12:04:15Z",
+  "attempted_at": "2026-10-21T17:24:30Z",
   "sources": [
-    {
-      "source": "liu",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 7,
-      "seconds": 2.4,
-      "details": {},
-      "warnings": []
-    },
     {
       "source": "umu",
       "mode": "list_and_details",
@@ -20,11 +11,20 @@
       "warnings": []
     },
     {
+      "source": "liu",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 7,
+      "seconds": 3.7,
+      "details": {},
+      "warnings": []
+    },
+    {
       "source": "aalto",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 9,
-      "seconds": 7.9,
+      "seconds": 8.8,
       "details": {},
       "warnings": []
     },
@@ -33,31 +33,16 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 19,
-      "seconds": 19.2,
+      "seconds": 16.1,
       "details": {},
       "warnings": []
-    },
-    {
-      "source": "euraxess",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 10,
-      "seconds": 18.2,
-      "details": {
-        "attempted": 2,
-        "with_description": 0,
-        "unavailable": 2
-      },
-      "warnings": [
-        "global: HTTP 429; remaining country requests skipped"
-      ]
     },
     {
       "source": "varbi",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 51,
-      "seconds": 45.6,
+      "raw_count": 53,
+      "seconds": 46.4,
       "details": {},
       "warnings": []
     },
@@ -65,8 +50,8 @@
       "source": "jobbnorge",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 93,
-      "seconds": 46.7,
+      "raw_count": 94,
+      "seconds": 46.5,
       "details": {},
       "warnings": []
     },
@@ -74,11 +59,11 @@
       "source": "academics",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 19,
-      "seconds": 10.4,
+      "raw_count": 20,
+      "seconds": 13.5,
       "details": {
-        "attempted": 14,
-        "with_description": 14,
+        "attempted": 15,
+        "with_description": 15,
         "unavailable": 0
       },
       "warnings": []
@@ -88,7 +73,20 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 3.7,
+      "seconds": 3.5,
+      "details": {
+        "attempted": 0,
+        "with_description": 0,
+        "unavailable": 0
+      },
+      "warnings": []
+    },
+    {
+      "source": "euraxess",
+      "mode": "list_and_details",
+      "result": "empty_or_adapter_error",
+      "raw_count": 0,
+      "seconds": 47.9,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -100,8 +98,8 @@
       "source": "ethz",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 39,
-      "seconds": 25.6,
+      "raw_count": 40,
+      "seconds": 26.7,
       "details": {},
       "warnings": []
     },
@@ -110,7 +108,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 65.7,
+      "seconds": 83.9,
       "details": {},
       "warnings": []
     },
@@ -119,7 +117,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 215.2,
+      "seconds": 220.0,
       "details": {
         "attempted": 183,
         "with_description": 181,
