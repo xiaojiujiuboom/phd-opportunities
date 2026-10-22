@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-22T12:07:16Z",
-  "data_updated_at": "2026-10-22T12:07:16Z",
+  "updated_at": "2026-10-22T17:21:48Z",
+  "data_updated_at": "2026-10-22T17:21:48Z",
   "operation": "collection",
-  "total": 540,
+  "total": 546,
   "by_source": {
-    "jobsac_uk": 183,
-    "academictransfer": 120,
-    "jobbnorge": 93,
-    "ethz": 39,
+    "jobsac_uk": 186,
+    "academictransfer": 119,
+    "jobbnorge": 95,
+    "ethz": 41,
     "ku": 20,
     "varbi-su": 19,
     "academics": 15,
@@ -21,49 +21,17 @@
     "varbi-miun": 1
   },
   "by_country": {
-    "GB": 183,
-    "NL": 120,
-    "NO": 93,
+    "GB": 186,
+    "NL": 119,
+    "NO": 95,
     "SE": 63,
-    "CH": 39,
+    "CH": 41,
     "DK": 20,
     "DE": 14,
     "FI": 7,
     "AT": 1
   },
   "history": [
-    {
-      "ts": "2026-10-04T12:34:26Z",
-      "total": 531,
-      "by_source": {
-        "jobsac_uk": 154,
-        "academictransfer": 120,
-        "jobbnorge": 105,
-        "ethz": 31,
-        "varbi-su": 22,
-        "ku": 19,
-        "varbi-kth": 18,
-        "varbi-uu": 15,
-        "varbi-lu": 12,
-        "academics": 11,
-        "liu": 9,
-        "aalto": 8,
-        "umu": 5,
-        "varbi-kau": 1,
-        "varbi-miun": 1
-      },
-      "by_country": {
-        "GB": 154,
-        "NL": 120,
-        "NO": 105,
-        "SE": 83,
-        "CH": 32,
-        "DK": 19,
-        "FI": 8,
-        "AT": 5,
-        "DE": 5
-      }
-    },
     {
       "ts": "2026-10-04T21:40:17Z",
       "total": 533,
@@ -1995,6 +1963,38 @@
         "NO": 93,
         "SE": 63,
         "CH": 39,
+        "DK": 20,
+        "DE": 14,
+        "FI": 7,
+        "AT": 1
+      }
+    },
+    {
+      "ts": "2026-10-22T17:21:48Z",
+      "total": 546,
+      "by_source": {
+        "jobsac_uk": 186,
+        "academictransfer": 119,
+        "jobbnorge": 95,
+        "ethz": 41,
+        "ku": 20,
+        "varbi-su": 19,
+        "academics": 15,
+        "varbi-uu": 15,
+        "varbi-lu": 10,
+        "liu": 8,
+        "aalto": 7,
+        "varbi-kth": 6,
+        "umu": 3,
+        "varbi-kau": 1,
+        "varbi-miun": 1
+      },
+      "by_country": {
+        "GB": 186,
+        "NL": 119,
+        "NO": 95,
+        "SE": 63,
+        "CH": 41,
         "DK": 20,
         "DE": 14,
         "FI": 7,
