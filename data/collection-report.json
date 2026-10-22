@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-10-22T17:21:48Z",
+  "attempted_at": "2026-10-22T21:47:48Z",
   "sources": [
     {
       "source": "umu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 3,
-      "seconds": 2.7,
+      "seconds": 2.5,
       "details": {},
       "warnings": []
     },
@@ -15,7 +15,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 8,
-      "seconds": 3.3,
+      "seconds": 3.6,
       "details": {},
       "warnings": []
     },
@@ -24,7 +24,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 8,
-      "seconds": 7.2,
+      "seconds": 8.1,
       "details": {},
       "warnings": []
     },
@@ -33,7 +33,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 20,
-      "seconds": 15.7,
+      "seconds": 16.2,
       "details": {},
       "warnings": []
     },
@@ -42,7 +42,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 53,
-      "seconds": 41.8,
+      "seconds": 44.1,
       "details": {},
       "warnings": []
     },
@@ -51,7 +51,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 96,
-      "seconds": 46.7,
+      "seconds": 47.9,
       "details": {},
       "warnings": []
     },
@@ -60,7 +60,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 21,
-      "seconds": 13.1,
+      "seconds": 15.6,
       "details": {
         "attempted": 15,
         "with_description": 15,
@@ -73,7 +73,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 3.7,
+      "seconds": 4.3,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -86,7 +86,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 47.5,
+      "seconds": 49.2,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -98,8 +98,8 @@
       "source": "academictransfer",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 119,
-      "seconds": 66.6,
+      "raw_count": 120,
+      "seconds": 69.4,
       "details": {},
       "warnings": []
     },
@@ -108,7 +108,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 41,
-      "seconds": 27.6,
+      "seconds": 28.1,
       "details": {},
       "warnings": []
     },
@@ -117,7 +117,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 212.6,
+      "seconds": 218.9,
       "details": {
         "attempted": 186,
         "with_description": 185,
