@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-10-23T21:33:49Z",
+  "attempted_at": "2026-10-24T04:50:00Z",
   "sources": [
     {
       "source": "umu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 3,
-      "seconds": 2.3,
+      "seconds": 2.8,
       "details": {},
       "warnings": []
     },
@@ -15,7 +15,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 2.4,
+      "seconds": 3.2,
       "details": {},
       "warnings": []
     },
@@ -24,7 +24,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 8,
-      "seconds": 6.6,
+      "seconds": 6.7,
       "details": {},
       "warnings": []
     },
@@ -32,8 +32,8 @@
       "source": "ku",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 21,
-      "seconds": 16.0,
+      "raw_count": 20,
+      "seconds": 16.2,
       "details": {},
       "warnings": []
     },
@@ -41,8 +41,8 @@
       "source": "varbi",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 53,
-      "seconds": 39.8,
+      "raw_count": 49,
+      "seconds": 38.1,
       "details": {},
       "warnings": []
     },
@@ -50,8 +50,8 @@
       "source": "jobbnorge",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 98,
-      "seconds": 46.3,
+      "raw_count": 95,
+      "seconds": 45.5,
       "details": {},
       "warnings": []
     },
@@ -60,7 +60,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 21,
-      "seconds": 10.8,
+      "seconds": 10.3,
       "details": {
         "attempted": 15,
         "with_description": 15,
@@ -86,7 +86,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 46.7,
+      "seconds": 47.4,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -95,20 +95,20 @@
       "warnings": []
     },
     {
-      "source": "ethz",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 41,
-      "seconds": 26.0,
-      "details": {},
-      "warnings": []
-    },
-    {
       "source": "academictransfer",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 94.3,
+      "seconds": 56.9,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "ethz",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 41,
+      "seconds": 26.4,
       "details": {},
       "warnings": []
     },
@@ -117,7 +117,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 205.6,
+      "seconds": 204.9,
       "details": {
         "attempted": 188,
         "with_description": 188,
