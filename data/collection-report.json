@@ -1,21 +1,17 @@
 {
-  "attempted_at": "2026-10-26T05:01:09Z",
+  "attempted_at": "2026-10-26T13:19:36Z",
   "sources": [
     {
       "source": "liu",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 10,
-      "seconds": 2.1,
-      "details": {},
-      "warnings": []
+      "result": "failed",
+      "error": "500 Server Error: Internal Server Error for url: https://site106.reachmee.com/Public/rssfeed/external.ashx?id=7&InstallationID=I011&CustomerName=liu&lang=UK"
     },
     {
       "source": "umu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 3,
-      "seconds": 3.0,
+      "seconds": 2.3,
       "details": {},
       "warnings": []
     },
@@ -24,25 +20,21 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 8,
-      "seconds": 6.2,
+      "seconds": 6.9,
       "details": {},
       "warnings": []
     },
     {
       "source": "ku",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 20,
-      "seconds": 15.4,
-      "details": {},
-      "warnings": []
+      "result": "failed",
+      "error": "HTTPSConnectionPool(host='employment.ku.dk', port=443): Max retries exceeded with url: /phd/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='employment.ku.dk', port=443) at 0x7ff800aaca40>, 'Connection to employment.ku.dk timed out. (connect timeout=30)'))"
     },
     {
       "source": "varbi",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 49,
-      "seconds": 36.6,
+      "seconds": 41.1,
       "details": {},
       "warnings": []
     },
@@ -50,8 +42,8 @@
       "source": "jobbnorge",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 88,
-      "seconds": 42.0,
+      "raw_count": 92,
+      "seconds": 43.1,
       "details": {},
       "warnings": []
     },
@@ -99,7 +91,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 58.6,
+      "seconds": 70.9,
       "details": {},
       "warnings": []
     },
@@ -107,8 +99,8 @@
       "source": "ethz",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 41,
-      "seconds": 26.6,
+      "raw_count": 42,
+      "seconds": 26.9,
       "details": {},
       "warnings": []
     },
@@ -117,10 +109,10 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 213.8,
+      "seconds": 210.2,
       "details": {
-        "attempted": 188,
-        "with_description": 188,
+        "attempted": 189,
+        "with_description": 189,
         "unavailable": 0
       },
       "warnings": []
