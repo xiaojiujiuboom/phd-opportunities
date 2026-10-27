@@ -1,5 +1,5 @@
 {
-  "attempted_at": "2026-10-27T18:11:22Z",
+  "attempted_at": "2026-10-27T22:26:35Z",
   "sources": [
     {
       "source": "liu",
@@ -15,7 +15,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 3,
-      "seconds": 2.4,
+      "seconds": 2.7,
       "details": {},
       "warnings": []
     },
@@ -24,21 +24,21 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 9,
-      "seconds": 10.1,
+      "seconds": 8.7,
       "details": {},
       "warnings": []
     },
     {
       "source": "ku",
       "result": "failed",
-      "error": "HTTPSConnectionPool(host='employment.ku.dk', port=443): Max retries exceeded with url: /phd/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='employment.ku.dk', port=443) at 0x7f737dca84a0>, 'Connection to employment.ku.dk timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='employment.ku.dk', port=443): Max retries exceeded with url: /phd/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='employment.ku.dk', port=443) at 0x7fd5bc6cef60>, 'Connection to employment.ku.dk timed out. (connect timeout=30)'))"
     },
     {
       "source": "varbi",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 48,
-      "seconds": 39.8,
+      "seconds": 38.0,
       "details": {},
       "warnings": []
     },
@@ -47,7 +47,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 94,
-      "seconds": 49.2,
+      "seconds": 44.0,
       "details": {},
       "warnings": []
     },
@@ -56,7 +56,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 22,
-      "seconds": 11.2,
+      "seconds": 10.5,
       "details": {
         "attempted": 16,
         "with_description": 16,
@@ -69,7 +69,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 3.9,
+      "seconds": 2.8,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -82,7 +82,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 63.3,
+      "seconds": 56.8,
       "details": {},
       "warnings": []
     },
@@ -91,7 +91,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 47.6,
+      "seconds": 46.5,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -104,7 +104,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 46,
-      "seconds": 30.3,
+      "seconds": 29.0,
       "details": {},
       "warnings": []
     },
@@ -113,7 +113,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 218.6,
+      "seconds": 205.5,
       "details": {
         "attempted": 190,
         "with_description": 190,
