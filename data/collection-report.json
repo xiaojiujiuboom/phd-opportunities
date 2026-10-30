@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-10-30T06:03:29Z",
+  "attempted_at": "2026-10-30T13:12:42Z",
   "sources": [
     {
       "source": "liu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 9,
-      "seconds": 2.3,
+      "seconds": 3.7,
       "details": {},
       "warnings": []
     },
@@ -15,7 +15,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 5,
-      "seconds": 4.2,
+      "seconds": 4.7,
       "details": {},
       "warnings": []
     },
@@ -24,30 +24,54 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 9.5,
+      "seconds": 9.9,
       "details": {},
       "warnings": []
     },
     {
       "source": "ku",
       "result": "failed",
-      "error": "HTTPSConnectionPool(host='employment.ku.dk', port=443): Max retries exceeded with url: /phd/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='employment.ku.dk', port=443) at 0x7fa1885427e0>, 'Connection to employment.ku.dk timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='employment.ku.dk', port=443): Max retries exceeded with url: /phd/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='employment.ku.dk', port=443) at 0x7f1a37ba9340>, 'Connection to employment.ku.dk timed out. (connect timeout=30)'))"
     },
     {
       "source": "varbi",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 45,
-      "seconds": 34.4,
+      "seconds": 42.6,
       "details": {},
       "warnings": []
+    },
+    {
+      "source": "jobbnorge",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 103,
+      "seconds": 54.6,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "euraxess",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 10,
+      "seconds": 23.0,
+      "details": {
+        "attempted": 2,
+        "with_description": 0,
+        "unavailable": 2
+      },
+      "warnings": [
+        "global: HTTP 429; remaining country requests skipped"
+      ]
     },
     {
       "source": "academics",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 24,
-      "seconds": 12.7,
+      "seconds": 19.1,
       "details": {
         "attempted": 19,
         "with_description": 19,
@@ -56,20 +80,11 @@
       "warnings": []
     },
     {
-      "source": "jobbnorge",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 99,
-      "seconds": 49.8,
-      "details": {},
-      "warnings": []
-    },
-    {
       "source": "phdgermany",
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 2.9,
+      "seconds": 4.6,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -78,26 +93,11 @@
       "warnings": []
     },
     {
-      "source": "euraxess",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 10,
-      "seconds": 20.5,
-      "details": {
-        "attempted": 3,
-        "with_description": 0,
-        "unavailable": 3
-      },
-      "warnings": [
-        "global: HTTP 429; remaining country requests skipped"
-      ]
-    },
-    {
       "source": "academictransfer",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 54.9,
+      "seconds": 68.7,
       "details": {},
       "warnings": []
     },
@@ -105,8 +105,8 @@
       "source": "ethz",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 46,
-      "seconds": 29.5,
+      "raw_count": 45,
+      "seconds": 31.5,
       "details": {},
       "warnings": []
     },
@@ -115,11 +115,11 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 258.2,
+      "seconds": 265.4,
       "details": {
         "attempted": 194,
-        "with_description": 193,
-        "unavailable": 1
+        "with_description": 194,
+        "unavailable": 0
       },
       "warnings": []
     }
