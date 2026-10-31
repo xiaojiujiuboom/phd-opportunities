@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-10-31T05:59:34Z",
+  "attempted_at": "2026-10-31T12:48:45Z",
   "sources": [
     {
       "source": "liu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 8,
-      "seconds": 2.7,
+      "seconds": 2.3,
       "details": {},
       "warnings": []
     },
@@ -15,7 +15,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 5,
-      "seconds": 4.6,
+      "seconds": 4.9,
       "details": {},
       "warnings": []
     },
@@ -24,22 +24,35 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 8,
-      "seconds": 7.7,
+      "seconds": 7.0,
       "details": {},
       "warnings": []
     },
     {
       "source": "ku",
       "result": "failed",
-      "error": "HTTPSConnectionPool(host='employment.ku.dk', port=443): Max retries exceeded with url: /phd/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='employment.ku.dk', port=443) at 0x7fa8b6452db0>, 'Connection to employment.ku.dk timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='employment.ku.dk', port=443): Max retries exceeded with url: /phd/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='employment.ku.dk', port=443) at 0x7f2a22cb7140>, 'Connection to employment.ku.dk timed out. (connect timeout=30)'))"
     },
     {
       "source": "varbi",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 42,
-      "seconds": 38.2,
+      "seconds": 35.9,
       "details": {},
+      "warnings": []
+    },
+    {
+      "source": "academics",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 24,
+      "seconds": 14.2,
+      "details": {
+        "attempted": 19,
+        "with_description": 19,
+        "unavailable": 0
+      },
       "warnings": []
     },
     {
@@ -47,7 +60,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 19.2,
+      "seconds": 17.9,
       "details": {
         "attempted": 2,
         "with_description": 0,
@@ -62,21 +75,8 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 105,
-      "seconds": 53.3,
+      "seconds": 51.5,
       "details": {},
-      "warnings": []
-    },
-    {
-      "source": "academics",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 24,
-      "seconds": 17.2,
-      "details": {
-        "attempted": 19,
-        "with_description": 19,
-        "unavailable": 0
-      },
       "warnings": []
     },
     {
@@ -84,7 +84,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 3.9,
+      "seconds": 4.0,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -97,7 +97,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 68.5,
+      "seconds": 60.1,
       "details": {},
       "warnings": []
     },
@@ -106,7 +106,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 45,
-      "seconds": 31.0,
+      "seconds": 29.6,
       "details": {},
       "warnings": []
     },
@@ -115,7 +115,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 253.9,
+      "seconds": 226.1,
       "details": {
         "attempted": 194,
         "with_description": 194,
