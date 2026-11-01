@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-11-01T13:41:42Z",
+  "attempted_at": "2026-11-01T22:14:01Z",
   "sources": [
     {
       "source": "liu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 8,
-      "seconds": 2.4,
+      "seconds": 2.2,
       "details": {},
       "warnings": []
     },
@@ -15,7 +15,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 5,
-      "seconds": 5.1,
+      "seconds": 4.3,
       "details": {},
       "warnings": []
     },
@@ -24,21 +24,21 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 6,
-      "seconds": 5.3,
+      "seconds": 5.8,
       "details": {},
       "warnings": []
     },
     {
       "source": "ku",
       "result": "failed",
-      "error": "HTTPSConnectionPool(host='employment.ku.dk', port=443): Max retries exceeded with url: /phd/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='employment.ku.dk', port=443) at 0x7f0cc14a81d0>, 'Connection to employment.ku.dk timed out. (connect timeout=30)'))"
+      "error": "HTTPSConnectionPool(host='employment.ku.dk', port=443): Max retries exceeded with url: /phd/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='employment.ku.dk', port=443) at 0x7f6ea027caa0>, 'Connection to employment.ku.dk timed out. (connect timeout=30)'))"
     },
     {
       "source": "varbi",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 40,
-      "seconds": 33.3,
+      "seconds": 34.9,
       "details": {},
       "warnings": []
     },
@@ -47,7 +47,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 23,
-      "seconds": 13.8,
+      "seconds": 14.1,
       "details": {
         "attempted": 18,
         "with_description": 18,
@@ -60,31 +60,16 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 107,
-      "seconds": 50.5,
+      "seconds": 53.2,
       "details": {},
       "warnings": []
-    },
-    {
-      "source": "euraxess",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 10,
-      "seconds": 18.6,
-      "details": {
-        "attempted": 2,
-        "with_description": 0,
-        "unavailable": 2
-      },
-      "warnings": [
-        "global: HTTP 429; remaining country requests skipped"
-      ]
     },
     {
       "source": "phdgermany",
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 3.6,
+      "seconds": 3.9,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -97,16 +82,31 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 66.0,
+      "seconds": 62.0,
       "details": {},
       "warnings": []
+    },
+    {
+      "source": "euraxess",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 80,
+      "seconds": 52.4,
+      "details": {
+        "attempted": 11,
+        "with_description": 4,
+        "unavailable": 7
+      },
+      "warnings": [
+        "global: HTTP 429; remaining country requests skipped"
+      ]
     },
     {
       "source": "ethz",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 44,
-      "seconds": 29.3,
+      "seconds": 29.1,
       "details": {},
       "warnings": []
     },
@@ -115,7 +115,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 229.4,
+      "seconds": 230.2,
       "details": {
         "attempted": 194,
         "with_description": 194,
