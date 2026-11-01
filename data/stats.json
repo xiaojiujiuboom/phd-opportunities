@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-11-01T06:25:08Z",
-  "data_updated_at": "2026-11-01T06:25:08Z",
+  "updated_at": "2026-11-01T13:41:43Z",
+  "data_updated_at": "2026-11-01T13:41:42Z",
   "operation": "collection",
-  "total": 542,
+  "total": 541,
   "by_source": {
     "jobsac_uk": 194,
     "academictransfer": 120,
     "jobbnorge": 106,
-    "ethz": 45,
+    "ethz": 44,
     "academics": 18,
     "varbi-su": 17,
     "varbi-uu": 10,
@@ -25,43 +25,12 @@
     "NL": 121,
     "NO": 106,
     "SE": 53,
-    "CH": 45,
+    "CH": 44,
     "DE": 17,
     "FI": 5,
     "AT": 1
   },
   "history": [
-    {
-      "ts": "2026-10-15T21:34:28Z",
-      "total": 570,
-      "by_source": {
-        "jobsac_uk": 187,
-        "academictransfer": 120,
-        "jobbnorge": 101,
-        "ethz": 37,
-        "varbi-su": 37,
-        "ku": 18,
-        "varbi-uu": 17,
-        "aalto": 10,
-        "academics": 10,
-        "varbi-lu": 10,
-        "varbi-kth": 9,
-        "liu": 8,
-        "umu": 4,
-        "varbi-kau": 1,
-        "varbi-miun": 1
-      },
-      "by_country": {
-        "GB": 187,
-        "NL": 120,
-        "NO": 101,
-        "SE": 87,
-        "CH": 37,
-        "DK": 18,
-        "DE": 10,
-        "FI": 10
-      }
-    },
     {
       "ts": "2026-10-16T04:44:32Z",
       "total": 533,
@@ -1947,6 +1916,37 @@
         "NO": 106,
         "SE": 53,
         "CH": 45,
+        "DE": 17,
+        "FI": 5,
+        "AT": 1
+      }
+    },
+    {
+      "ts": "2026-11-01T13:41:43Z",
+      "total": 541,
+      "by_source": {
+        "jobsac_uk": 194,
+        "academictransfer": 120,
+        "jobbnorge": 106,
+        "ethz": 44,
+        "academics": 18,
+        "varbi-su": 17,
+        "varbi-uu": 10,
+        "varbi-lu": 9,
+        "liu": 8,
+        "aalto": 5,
+        "umu": 5,
+        "euraxess": 2,
+        "varbi-kau": 1,
+        "varbi-kth": 1,
+        "varbi-miun": 1
+      },
+      "by_country": {
+        "GB": 194,
+        "NL": 121,
+        "NO": 106,
+        "SE": 53,
+        "CH": 44,
         "DE": 17,
         "FI": 5,
         "AT": 1
