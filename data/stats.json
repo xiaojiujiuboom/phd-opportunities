@@ -1,69 +1,33 @@
 {
-  "updated_at": "2026-11-01T22:14:02Z",
-  "data_updated_at": "2026-11-01T22:14:01Z",
+  "updated_at": "2026-11-02T06:27:09Z",
+  "data_updated_at": "2026-11-02T06:27:09Z",
   "operation": "collection",
-  "total": 550,
+  "total": 526,
   "by_source": {
     "jobsac_uk": 194,
-    "academictransfer": 120,
-    "jobbnorge": 106,
-    "ethz": 44,
-    "academics": 18,
+    "academictransfer": 119,
+    "jobbnorge": 97,
+    "ethz": 43,
     "varbi-su": 17,
-    "euraxess": 11,
+    "academics": 16,
     "varbi-uu": 10,
     "varbi-lu": 9,
     "liu": 8,
     "aalto": 5,
     "umu": 5,
-    "varbi-kau": 1,
-    "varbi-kth": 1,
+    "euraxess": 2,
     "varbi-miun": 1
   },
   "by_country": {
     "GB": 194,
-    "NL": 122,
-    "NO": 106,
-    "SE": 53,
-    "CH": 47,
-    "DE": 18,
-    "FI": 5,
-    "FR": 4,
-    "AT": 1
+    "NL": 120,
+    "NO": 97,
+    "SE": 51,
+    "CH": 43,
+    "DE": 16,
+    "FI": 5
   },
   "history": [
-    {
-      "ts": "2026-10-16T11:38:50Z",
-      "total": 538,
-      "by_source": {
-        "jobsac_uk": 187,
-        "academictransfer": 120,
-        "jobbnorge": 87,
-        "ethz": 37,
-        "varbi-su": 20,
-        "ku": 17,
-        "varbi-uu": 17,
-        "academics": 12,
-        "aalto": 11,
-        "varbi-lu": 10,
-        "liu": 7,
-        "varbi-kth": 7,
-        "umu": 3,
-        "euraxess": 1,
-        "varbi-kau": 1,
-        "varbi-miun": 1
-      },
-      "by_country": {
-        "GB": 187,
-        "NL": 120,
-        "NO": 88,
-        "SE": 66,
-        "CH": 37,
-        "DK": 17,
-        "DE": 12,
-        "FI": 11
-      }
-    },
     {
       "ts": "2026-10-16T16:50:20Z",
       "total": 537,
@@ -1953,7 +1917,41 @@
         "FR": 4,
         "AT": 1
       }
+    },
+    {
+      "ts": "2026-11-02T06:27:09Z",
+      "total": 526,
+      "by_source": {
+        "jobsac_uk": 194,
+        "academictransfer": 119,
+        "jobbnorge": 97,
+        "ethz": 43,
+        "varbi-su": 17,
+        "academics": 16,
+        "varbi-uu": 10,
+        "varbi-lu": 9,
+        "liu": 8,
+        "aalto": 5,
+        "umu": 5,
+        "euraxess": 2,
+        "varbi-miun": 1
+      },
+      "by_country": {
+        "GB": 194,
+        "NL": 120,
+        "NO": 97,
+        "SE": 51,
+        "CH": 43,
+        "DE": 16,
+        "FI": 5
+      }
     }
   ],
-  "alerts": []
+  "alerts": [
+    "source 'euraxess' dropped from 11 to 2 (18%)",
+    "source 'varbi-kau' returned 0 jobs (was 1 last run)",
+    "source 'varbi-kth' returned 0 jobs (was 1 last run)",
+    "source 'varbi-kau' missing entirely from this run",
+    "source 'varbi-kth' missing entirely from this run"
+  ]
 }
