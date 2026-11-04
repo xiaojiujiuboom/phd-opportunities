@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-11-04T06:43:01Z",
+  "attempted_at": "2026-11-04T19:56:52Z",
   "sources": [
     {
       "source": "liu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 8,
-      "seconds": 2.6,
+      "seconds": 3.5,
       "details": {},
       "warnings": []
     },
@@ -15,7 +15,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 6,
-      "seconds": 4.5,
+      "seconds": 5.1,
       "details": {},
       "warnings": []
     },
@@ -24,7 +24,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 6,
-      "seconds": 6.9,
+      "seconds": 6.7,
       "details": {},
       "warnings": []
     },
@@ -33,52 +33,24 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 27,
-      "seconds": 25.9,
+      "seconds": 26.9,
       "details": {},
       "warnings": []
     },
     {
       "source": "ku",
       "result": "failed",
-      "error": "HTTPSConnectionPool(host='employment.ku.dk', port=443): Max retries exceeded with url: /phd/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='employment.ku.dk', port=443) at 0x7f94f6cb3b60>, 'Connection to employment.ku.dk timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "euraxess",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 10,
-      "seconds": 17.1,
-      "details": {
-        "attempted": 0,
-        "with_description": 0,
-        "unavailable": 0
-      },
-      "warnings": [
-        "global: HTTP 429; remaining country requests skipped"
-      ]
+      "error": "HTTPSConnectionPool(host='employment.ku.dk', port=443): Max retries exceeded with url: /phd/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='employment.ku.dk', port=443) at 0x7f8cb892ecc0>, 'Connection to employment.ku.dk timed out. (connect timeout=30)'))"
     },
     {
       "source": "academics",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 23,
-      "seconds": 14.5,
+      "raw_count": 24,
+      "seconds": 16.6,
       "details": {
-        "attempted": 18,
-        "with_description": 18,
-        "unavailable": 0
-      },
-      "warnings": []
-    },
-    {
-      "source": "phdgermany",
-      "mode": "list_and_details",
-      "result": "empty_or_adapter_error",
-      "raw_count": 0,
-      "seconds": 3.8,
-      "details": {
-        "attempted": 0,
-        "with_description": 0,
+        "attempted": 19,
+        "with_description": 19,
         "unavailable": 0
       },
       "warnings": []
@@ -87,8 +59,30 @@
       "source": "jobbnorge",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 108,
-      "seconds": 51.5,
+      "raw_count": 109,
+      "seconds": 59.2,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "phdgermany",
+      "mode": "list_and_details",
+      "result": "empty_or_adapter_error",
+      "raw_count": 0,
+      "seconds": 4.1,
+      "details": {
+        "attempted": 0,
+        "with_description": 0,
+        "unavailable": 0
+      },
+      "warnings": []
+    },
+    {
+      "source": "ethz",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 45,
+      "seconds": 31.0,
       "details": {},
       "warnings": []
     },
@@ -96,26 +90,33 @@
       "source": "academictransfer",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 120,
-      "seconds": 65.1,
+      "raw_count": 119,
+      "seconds": 115.2,
       "details": {},
       "warnings": []
     },
     {
-      "source": "ethz",
+      "source": "euraxess",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 44,
-      "seconds": 29.1,
-      "details": {},
-      "warnings": []
+      "raw_count": 372,
+      "seconds": 176.5,
+      "details": {
+        "attempted": 40,
+        "with_description": 39,
+        "unavailable": 1,
+        "stopped_http": 429
+      },
+      "warnings": [
+        "CH: HTTP 429; remaining country requests skipped"
+      ]
     },
     {
       "source": "jobsac_uk",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 235.9,
+      "seconds": 236.6,
       "details": {
         "attempted": 193,
         "with_description": 193,
