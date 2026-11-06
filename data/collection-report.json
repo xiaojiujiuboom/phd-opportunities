@@ -1,12 +1,21 @@
 {
-  "attempted_at": "2026-11-06T07:02:38Z",
+  "attempted_at": "2026-11-06T19:35:11Z",
   "sources": [
     {
       "source": "liu",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 8,
-      "seconds": 2.7,
+      "raw_count": 10,
+      "seconds": 3.5,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "ku",
+      "mode": "list_and_details",
+      "result": "empty_or_adapter_error",
+      "raw_count": 0,
+      "seconds": 1.1,
       "details": {},
       "warnings": []
     },
@@ -15,7 +24,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 5,
-      "seconds": 5.4,
+      "seconds": 4.7,
       "details": {},
       "warnings": []
     },
@@ -23,44 +32,8 @@
       "source": "aalto",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 6,
-      "seconds": 6.4,
-      "details": {},
-      "warnings": []
-    },
-    {
-      "source": "ku",
-      "result": "failed",
-      "error": "HTTPSConnectionPool(host='employment.ku.dk', port=443): Max retries exceeded with url: /phd/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='employment.ku.dk', port=443) at 0x7f5410534410>, 'Connection to employment.ku.dk timed out. (connect timeout=30)'))"
-    },
-    {
-      "source": "varbi",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 38,
-      "seconds": 35.1,
-      "details": {},
-      "warnings": []
-    },
-    {
-      "source": "academics",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 25,
-      "seconds": 19.3,
-      "details": {
-        "attempted": 20,
-        "with_description": 20,
-        "unavailable": 0
-      },
-      "warnings": []
-    },
-    {
-      "source": "jobbnorge",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 106,
-      "seconds": 55.3,
+      "raw_count": 7,
+      "seconds": 8.3,
       "details": {},
       "warnings": []
     },
@@ -69,10 +42,10 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 23.0,
+      "seconds": 18.3,
       "details": {
-        "attempted": 6,
-        "with_description": 6,
+        "attempted": 0,
+        "with_description": 0,
         "unavailable": 0
       },
       "warnings": [
@@ -80,11 +53,33 @@
       ]
     },
     {
+      "source": "varbi",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 42,
+      "seconds": 40.6,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "academics",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 25,
+      "seconds": 20.3,
+      "details": {
+        "attempted": 20,
+        "with_description": 20,
+        "unavailable": 0
+      },
+      "warnings": []
+    },
+    {
       "source": "phdgermany",
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 4.1,
+      "seconds": 4.4,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -93,11 +88,20 @@
       "warnings": []
     },
     {
+      "source": "jobbnorge",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 108,
+      "seconds": 56.0,
+      "details": {},
+      "warnings": []
+    },
+    {
       "source": "academictransfer",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 120,
-      "seconds": 66.8,
+      "raw_count": 119,
+      "seconds": 75.1,
       "details": {},
       "warnings": []
     },
@@ -105,8 +109,8 @@
       "source": "ethz",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 45,
-      "seconds": 30.9,
+      "raw_count": 47,
+      "seconds": 32.7,
       "details": {},
       "warnings": []
     },
@@ -115,10 +119,10 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 241.1,
+      "seconds": 274.8,
       "details": {
-        "attempted": 194,
-        "with_description": 194,
+        "attempted": 195,
+        "with_description": 195,
         "unavailable": 0
       },
       "warnings": []
