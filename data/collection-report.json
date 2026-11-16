@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-11-15T19:00:54Z",
+  "attempted_at": "2026-11-16T06:48:28Z",
   "sources": [
     {
       "source": "liu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 9,
-      "seconds": 2.3,
+      "seconds": 2.6,
       "details": {},
       "warnings": []
     },
@@ -15,7 +15,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 0.9,
+      "seconds": 0.8,
       "details": {},
       "warnings": []
     },
@@ -24,7 +24,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 6,
-      "seconds": 5.3,
+      "seconds": 4.6,
       "details": {},
       "warnings": []
     },
@@ -33,7 +33,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 7,
-      "seconds": 6.7,
+      "seconds": 9.8,
       "details": {},
       "warnings": []
     },
@@ -42,7 +42,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 19.9,
+      "seconds": 20.9,
       "details": {
         "attempted": 6,
         "with_description": 6,
@@ -56,8 +56,8 @@
       "source": "varbi",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 41,
-      "seconds": 33.4,
+      "raw_count": 40,
+      "seconds": 36.7,
       "details": {},
       "warnings": []
     },
@@ -66,7 +66,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 20,
-      "seconds": 9.0,
+      "seconds": 11.3,
       "details": {
         "attempted": 13,
         "with_description": 13,
@@ -79,7 +79,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 3.2,
+      "seconds": 3.6,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -91,8 +91,8 @@
       "source": "jobbnorge",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 105,
-      "seconds": 48.6,
+      "raw_count": 102,
+      "seconds": 49.5,
       "details": {},
       "warnings": []
     },
@@ -100,8 +100,8 @@
       "source": "academictransfer",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 120,
-      "seconds": 60.8,
+      "raw_count": 112,
+      "seconds": 63.1,
       "details": {},
       "warnings": []
     },
@@ -110,7 +110,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 44,
-      "seconds": 28.3,
+      "seconds": 28.9,
       "details": {},
       "warnings": []
     },
@@ -119,7 +119,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 221.8,
+      "seconds": 235.2,
       "details": {
         "attempted": 196,
         "with_description": 196,
