@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-11-16T06:48:28Z",
+  "attempted_at": "2026-11-16T22:20:17Z",
   "sources": [
     {
       "source": "liu",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 9,
-      "seconds": 2.6,
+      "raw_count": 10,
+      "seconds": 1.7,
       "details": {},
       "warnings": []
     },
@@ -15,25 +15,21 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 0.8,
+      "seconds": 0.7,
       "details": {},
       "warnings": []
+    },
+    {
+      "source": "aalto",
+      "result": "failed",
+      "error": "429 Client Error: Too Many Requests for url: https://aalto.wd3.myworkdayjobs.com/wday/cxs/aalto/aalto/jobs"
     },
     {
       "source": "umu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 6,
-      "seconds": 4.6,
-      "details": {},
-      "warnings": []
-    },
-    {
-      "source": "aalto",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 7,
-      "seconds": 9.8,
+      "seconds": 4.8,
       "details": {},
       "warnings": []
     },
@@ -42,10 +38,10 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 20.9,
+      "seconds": 18.0,
       "details": {
-        "attempted": 6,
-        "with_description": 6,
+        "attempted": 0,
+        "with_description": 0,
         "unavailable": 0
       },
       "warnings": [
@@ -53,25 +49,25 @@
       ]
     },
     {
+      "source": "academics",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 19,
+      "seconds": 8.2,
+      "details": {
+        "attempted": 12,
+        "with_description": 12,
+        "unavailable": 0
+      },
+      "warnings": []
+    },
+    {
       "source": "varbi",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 40,
-      "seconds": 36.7,
+      "seconds": 32.2,
       "details": {},
-      "warnings": []
-    },
-    {
-      "source": "academics",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 20,
-      "seconds": 11.3,
-      "details": {
-        "attempted": 13,
-        "with_description": 13,
-        "unavailable": 0
-      },
       "warnings": []
     },
     {
@@ -79,7 +75,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 3.6,
+      "seconds": 3.2,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -92,7 +88,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 102,
-      "seconds": 49.5,
+      "seconds": 48.3,
       "details": {},
       "warnings": []
     },
@@ -100,8 +96,8 @@
       "source": "academictransfer",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 112,
-      "seconds": 63.1,
+      "raw_count": 120,
+      "seconds": 57.8,
       "details": {},
       "warnings": []
     },
@@ -109,8 +105,8 @@
       "source": "ethz",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 44,
-      "seconds": 28.9,
+      "raw_count": 42,
+      "seconds": 27.1,
       "details": {},
       "warnings": []
     },
@@ -119,10 +115,10 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 235.2,
+      "seconds": 231.9,
       "details": {
-        "attempted": 196,
-        "with_description": 196,
+        "attempted": 197,
+        "with_description": 197,
         "unavailable": 0
       },
       "warnings": []
