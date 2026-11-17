@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-11-16T22:20:17Z",
+  "attempted_at": "2026-11-17T08:08:13Z",
   "sources": [
     {
       "source": "liu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 1.7,
+      "seconds": 2.0,
       "details": {},
       "warnings": []
     },
@@ -15,7 +15,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 0.7,
+      "seconds": 0.8,
       "details": {},
       "warnings": []
     },
@@ -29,7 +29,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 6,
-      "seconds": 4.8,
+      "seconds": 4.6,
       "details": {},
       "warnings": []
     },
@@ -38,10 +38,10 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 18.0,
+      "seconds": 18.5,
       "details": {
-        "attempted": 0,
-        "with_description": 0,
+        "attempted": 3,
+        "with_description": 3,
         "unavailable": 0
       },
       "warnings": [
@@ -52,8 +52,8 @@
       "source": "academics",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 19,
-      "seconds": 8.2,
+      "raw_count": 18,
+      "seconds": 8.1,
       "details": {
         "attempted": 12,
         "with_description": 12,
@@ -66,7 +66,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 40,
-      "seconds": 32.2,
+      "seconds": 34.6,
       "details": {},
       "warnings": []
     },
@@ -75,7 +75,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 3.2,
+      "seconds": 3.1,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -87,17 +87,8 @@
       "source": "jobbnorge",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 102,
-      "seconds": 48.3,
-      "details": {},
-      "warnings": []
-    },
-    {
-      "source": "academictransfer",
-      "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 120,
-      "seconds": 57.8,
+      "raw_count": 98,
+      "seconds": 50.6,
       "details": {},
       "warnings": []
     },
@@ -106,7 +97,16 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 42,
-      "seconds": 27.1,
+      "seconds": 27.0,
+      "details": {},
+      "warnings": []
+    },
+    {
+      "source": "academictransfer",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 120,
+      "seconds": 68.0,
       "details": {},
       "warnings": []
     },
@@ -115,7 +115,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 231.9,
+      "seconds": 224.8,
       "details": {
         "attempted": 197,
         "with_description": 197,
