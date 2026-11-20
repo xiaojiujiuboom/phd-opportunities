@@ -1,60 +1,32 @@
 {
-  "updated_at": "2026-11-19T20:49:50Z",
-  "data_updated_at": "2026-11-19T20:49:50Z",
+  "updated_at": "2026-11-20T07:31:06Z",
+  "data_updated_at": "2026-11-20T07:31:06Z",
   "operation": "collection",
-  "total": 536,
+  "total": 546,
   "by_source": {
     "jobsac_uk": 197,
-    "academictransfer": 120,
-    "jobbnorge": 107,
+    "academictransfer": 118,
+    "jobbnorge": 102,
     "ethz": 42,
+    "varbi-lu": 27,
     "varbi-uu": 14,
-    "academics": 13,
+    "academics": 12,
     "varbi-kth": 12,
-    "varbi-lu": 12,
     "liu": 11,
-    "umu": 6,
+    "euraxess": 5,
+    "umu": 4,
     "varbi-miun": 2
   },
   "by_country": {
     "GB": 197,
     "NL": 120,
-    "NO": 107,
-    "SE": 57,
+    "NO": 102,
+    "SE": 73,
     "CH": 42,
-    "DE": 11,
+    "DE": 10,
     "AT": 2
   },
   "history": [
-    {
-      "ts": "2026-10-26T22:49:36Z",
-      "total": 517,
-      "by_source": {
-        "jobsac_uk": 190,
-        "academictransfer": 120,
-        "jobbnorge": 92,
-        "ethz": 42,
-        "varbi-su": 18,
-        "academics": 15,
-        "varbi-uu": 14,
-        "varbi-lu": 10,
-        "aalto": 7,
-        "varbi-kth": 4,
-        "umu": 3,
-        "varbi-kau": 1,
-        "varbi-miun": 1
-      },
-      "by_country": {
-        "GB": 190,
-        "NL": 120,
-        "NO": 92,
-        "SE": 51,
-        "CH": 42,
-        "DE": 14,
-        "FI": 7,
-        "AT": 1
-      }
-    },
     {
       "ts": "2026-10-27T05:18:42Z",
       "total": 513,
@@ -1826,10 +1798,34 @@
         "DE": 11,
         "AT": 2
       }
+    },
+    {
+      "ts": "2026-11-20T07:31:06Z",
+      "total": 546,
+      "by_source": {
+        "jobsac_uk": 197,
+        "academictransfer": 118,
+        "jobbnorge": 102,
+        "ethz": 42,
+        "varbi-lu": 27,
+        "varbi-uu": 14,
+        "academics": 12,
+        "varbi-kth": 12,
+        "liu": 11,
+        "euraxess": 5,
+        "umu": 4,
+        "varbi-miun": 2
+      },
+      "by_country": {
+        "GB": 197,
+        "NL": 120,
+        "NO": 102,
+        "SE": 73,
+        "CH": 42,
+        "DE": 10,
+        "AT": 2
+      }
     }
   ],
-  "alerts": [
-    "source 'euraxess' returned 0 jobs (was 1 last run)",
-    "source 'euraxess' missing entirely from this run"
-  ]
+  "alerts": []
 }
