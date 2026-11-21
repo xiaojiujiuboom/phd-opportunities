@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-11-20T20:34:44Z",
+  "attempted_at": "2026-11-21T07:27:05Z",
   "sources": [
     {
       "source": "umu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 5,
-      "seconds": 4.1,
+      "seconds": 4.3,
       "details": {},
       "warnings": []
     },
@@ -15,29 +15,38 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 1.0,
+      "seconds": 2.2,
       "details": {},
       "warnings": []
     },
     {
       "source": "aalto",
       "result": "failed",
-      "error": "429 Client Error: Too Many Requests for url: https://aalto.wd3.myworkdayjobs.com/wday/cxs/aalto/aalto/jobs"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "source": "liu",
       "result": "failed",
-      "error": "HTTPSConnectionPool(host='site106.reachmee.com', port=443): Max retries exceeded with url: /Public/rssfeed/external.ashx?id=7&InstallationID=I011&CustomerName=liu&lang=UK (Caused by ConnectTimeoutError(<HTTPSConnection(host='site106.reachmee.com', port=443) at 0x7856463dd400>, 'Connection to site106"
+      "error": "HTTPSConnectionPool(host='site106.reachmee.com', port=443): Max retries exceeded with url: /Public/rssfeed/external.ashx?id=7&InstallationID=I011&CustomerName=liu&lang=UK (Caused by ConnectTimeoutError(<HTTPSConnection(host='site106.reachmee.com', port=443) at 0x7a5acc3dd7c0>, 'Connection to site106"
+    },
+    {
+      "source": "varbi",
+      "mode": "list_and_details",
+      "result": "records_returned",
+      "raw_count": 55,
+      "seconds": 49.2,
+      "details": {},
+      "warnings": []
     },
     {
       "source": "euraxess",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 17.6,
+      "seconds": 19.3,
       "details": {
-        "attempted": 0,
-        "with_description": 0,
+        "attempted": 3,
+        "with_description": 3,
         "unavailable": 0
       },
       "warnings": [
@@ -45,21 +54,25 @@
       ]
     },
     {
-      "source": "varbi",
+      "source": "jobbnorge",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 57,
-      "seconds": 49.6,
+      "raw_count": 97,
+      "seconds": 53.9,
       "details": {},
       "warnings": []
     },
     {
-      "source": "jobbnorge",
+      "source": "phdgermany",
       "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 109,
-      "seconds": 56.5,
-      "details": {},
+      "result": "empty_or_adapter_error",
+      "raw_count": 0,
+      "seconds": 4.5,
+      "details": {
+        "attempted": 0,
+        "with_description": 0,
+        "unavailable": 0
+      },
       "warnings": []
     },
     {
@@ -67,7 +80,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 16,
-      "seconds": 11.9,
+      "seconds": 9.8,
       "details": {
         "attempted": 12,
         "with_description": 12,
@@ -79,8 +92,8 @@
       "source": "academictransfer",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 120,
-      "seconds": 72.4,
+      "raw_count": 119,
+      "seconds": 73.8,
       "details": {},
       "warnings": []
     },
@@ -89,21 +102,8 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 44,
-      "seconds": 30.1,
+      "seconds": 31.4,
       "details": {},
-      "warnings": []
-    },
-    {
-      "source": "phdgermany",
-      "mode": "list_and_details",
-      "result": "empty_or_adapter_error",
-      "raw_count": 0,
-      "seconds": 240.8,
-      "details": {
-        "attempted": 0,
-        "with_description": 0,
-        "unavailable": 0
-      },
       "warnings": []
     },
     {
@@ -111,7 +111,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 263.8,
+      "seconds": 249.8,
       "details": {
         "attempted": 196,
         "with_description": 196,
