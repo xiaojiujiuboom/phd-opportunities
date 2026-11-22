@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-21T19:30:53Z",
-  "data_updated_at": "2026-11-21T19:30:52Z",
+  "updated_at": "2026-11-22T07:07:13Z",
+  "data_updated_at": "2026-11-22T07:07:13Z",
   "operation": "collection",
-  "total": 529,
+  "total": 528,
   "by_source": {
     "jobsac_uk": 196,
     "academictransfer": 119,
@@ -10,8 +10,8 @@
     "ethz": 44,
     "varbi-lu": 26,
     "varbi-uu": 14,
-    "academics": 12,
     "varbi-kth": 12,
+    "academics": 11,
     "umu": 4,
     "euraxess": 3,
     "varbi-miun": 2
@@ -22,41 +22,11 @@
     "NO": 97,
     "SE": 58,
     "CH": 44,
-    "DE": 10,
+    "DE": 9,
     "AT": 2,
     "FR": 2
   },
   "history": [
-    {
-      "ts": "2026-10-27T22:26:36Z",
-      "total": 532,
-      "by_source": {
-        "jobsac_uk": 190,
-        "academictransfer": 120,
-        "jobbnorge": 93,
-        "ethz": 46,
-        "varbi-su": 18,
-        "academics": 16,
-        "varbi-uu": 14,
-        "varbi-lu": 10,
-        "liu": 9,
-        "aalto": 8,
-        "umu": 3,
-        "varbi-kth": 3,
-        "varbi-kau": 1,
-        "varbi-miun": 1
-      },
-      "by_country": {
-        "GB": 190,
-        "NL": 120,
-        "NO": 93,
-        "SE": 59,
-        "CH": 46,
-        "DE": 15,
-        "FI": 8,
-        "AT": 1
-      }
-    },
     {
       "ts": "2026-10-28T05:57:59Z",
       "total": 528,
@@ -1812,6 +1782,33 @@
         "SE": 58,
         "CH": 44,
         "DE": 10,
+        "AT": 2,
+        "FR": 2
+      }
+    },
+    {
+      "ts": "2026-11-22T07:07:13Z",
+      "total": 528,
+      "by_source": {
+        "jobsac_uk": 196,
+        "academictransfer": 119,
+        "jobbnorge": 97,
+        "ethz": 44,
+        "varbi-lu": 26,
+        "varbi-uu": 14,
+        "varbi-kth": 12,
+        "academics": 11,
+        "umu": 4,
+        "euraxess": 3,
+        "varbi-miun": 2
+      },
+      "by_country": {
+        "GB": 196,
+        "NL": 120,
+        "NO": 97,
+        "SE": 58,
+        "CH": 44,
+        "DE": 9,
         "AT": 2,
         "FR": 2
       }

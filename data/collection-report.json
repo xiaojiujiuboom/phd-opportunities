@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-11-21T19:30:52Z",
+  "attempted_at": "2026-11-22T07:07:13Z",
   "sources": [
     {
       "source": "umu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 5,
-      "seconds": 3.4,
+      "seconds": 4.3,
       "details": {},
       "warnings": []
     },
@@ -15,7 +15,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 0.8,
+      "seconds": 1.0,
       "details": {},
       "warnings": []
     },
@@ -27,14 +27,14 @@
     {
       "source": "liu",
       "result": "failed",
-      "error": "HTTPSConnectionPool(host='site106.reachmee.com', port=443): Max retries exceeded with url: /Public/rssfeed/external.ashx?id=7&InstallationID=I011&CustomerName=liu&lang=UK (Caused by ConnectTimeoutError(<HTTPSConnection(host='site106.reachmee.com', port=443) at 0x7834e09e58b0>, 'Connection to site106"
+      "error": "HTTPSConnectionPool(host='site106.reachmee.com', port=443): Max retries exceeded with url: /Public/rssfeed/external.ashx?id=7&InstallationID=I011&CustomerName=liu&lang=UK (Caused by ConnectTimeoutError(<HTTPSConnection(host='site106.reachmee.com', port=443) at 0x7472e7e5d880>, 'Connection to site106"
     },
     {
       "source": "varbi",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 55,
-      "seconds": 41.6,
+      "seconds": 47.1,
       "details": {},
       "warnings": []
     },
@@ -43,7 +43,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 97,
-      "seconds": 47.7,
+      "seconds": 49.6,
       "details": {},
       "warnings": []
     },
@@ -52,7 +52,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 19.0,
+      "seconds": 19.5,
       "details": {
         "attempted": 3,
         "with_description": 3,
@@ -63,27 +63,27 @@
       ]
     },
     {
-      "source": "academics",
+      "source": "phdgermany",
       "mode": "list_and_details",
-      "result": "records_returned",
-      "raw_count": 16,
-      "seconds": 8.2,
+      "result": "empty_or_adapter_error",
+      "raw_count": 0,
+      "seconds": 4.2,
       "details": {
-        "attempted": 12,
-        "with_description": 12,
+        "attempted": 0,
+        "with_description": 0,
         "unavailable": 0
       },
       "warnings": []
     },
     {
-      "source": "phdgermany",
+      "source": "academics",
       "mode": "list_and_details",
-      "result": "empty_or_adapter_error",
-      "raw_count": 0,
-      "seconds": 2.9,
+      "result": "records_returned",
+      "raw_count": 15,
+      "seconds": 8.6,
       "details": {
-        "attempted": 0,
-        "with_description": 0,
+        "attempted": 11,
+        "with_description": 11,
         "unavailable": 0
       },
       "warnings": []
@@ -93,7 +93,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 119,
-      "seconds": 61.2,
+      "seconds": 68.4,
       "details": {},
       "warnings": []
     },
@@ -102,7 +102,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 44,
-      "seconds": 27.9,
+      "seconds": 30.3,
       "details": {},
       "warnings": []
     },
@@ -111,7 +111,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 200,
-      "seconds": 224.6,
+      "seconds": 267.3,
       "details": {
         "attempted": 196,
         "with_description": 196,
