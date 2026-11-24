@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-24T00:01:19Z",
+  "updated_at": "2026-11-24T10:03:35Z",
   "removed_by_reason": {
-    "mixed_or_non_phd_role": 5,
-    "phd_not_confirmed": 11
+    "mixed_or_non_phd_role": 6,
+    "phd_not_confirmed": 7
   },
-  "total": 336,
+  "total": 337,
   "jobs": [
     {
       "id": "liu-30232",
@@ -44,7 +44,7 @@
       "source_url": "https://web103.reachmee.com/ext/I011/853/main?site=7&validator=d7a66c13be778ef950c393a904293789&lang=UK&rmpage=job&rmjob=30232",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "liu-30313",
@@ -78,7 +78,7 @@
       "source_url": "https://web103.reachmee.com/ext/I011/853/main?site=7&validator=d7a66c13be778ef950c393a904293789&lang=UK&rmpage=job&rmjob=30313",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "liu-30295",
@@ -125,7 +125,7 @@
       "source_url": "https://web103.reachmee.com/ext/I011/853/main?site=7&validator=d7a66c13be778ef950c393a904293789&lang=UK&rmpage=job&rmjob=30295",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "liu-30304",
@@ -171,7 +171,7 @@
       "source_url": "https://web103.reachmee.com/ext/I011/853/main?site=7&validator=d7a66c13be778ef950c393a904293789&lang=UK&rmpage=job&rmjob=30304",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "liu-30296",
@@ -204,7 +204,7 @@
       "source_url": "https://web103.reachmee.com/ext/I011/853/main?site=7&validator=d7a66c13be778ef950c393a904293789&lang=UK&rmpage=job&rmjob=30296",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "liu-30277",
@@ -236,7 +236,7 @@
       "source_url": "https://web103.reachmee.com/ext/I011/853/main?site=7&validator=d7a66c13be778ef950c393a904293789&lang=UK&rmpage=job&rmjob=30277",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "liu-30252",
@@ -275,7 +275,7 @@
       "source_url": "https://web103.reachmee.com/ext/I011/853/main?site=7&validator=d7a66c13be778ef950c393a904293789&lang=UK&rmpage=job&rmjob=30252",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "liu-30260",
@@ -308,7 +308,7 @@
       "source_url": "https://web103.reachmee.com/ext/I011/853/main?site=7&validator=d7a66c13be778ef950c393a904293789&lang=UK&rmpage=job&rmjob=30260",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "liu-30234",
@@ -354,7 +354,7 @@
       "source_url": "https://web103.reachmee.com/ext/I011/853/main?site=7&validator=d7a66c13be778ef950c393a904293789&lang=UK&rmpage=job&rmjob=30234",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "liu-30204",
@@ -386,7 +386,7 @@
       "source_url": "https://web103.reachmee.com/ext/I011/853/main?site=7&validator=d7a66c13be778ef950c393a904293789&lang=UK&rmpage=job&rmjob=30204",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "liu-30209",
@@ -423,7 +423,7 @@
       "source_url": "https://web103.reachmee.com/ext/I011/853/main?site=7&validator=d7a66c13be778ef950c393a904293789&lang=UK&rmpage=job&rmjob=30209",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "liu-30170",
@@ -464,7 +464,7 @@
       "source_url": "https://web103.reachmee.com/ext/I011/853/main?site=7&validator=d7a66c13be778ef950c393a904293789&lang=UK&rmpage=job&rmjob=30170",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "liu-30185",
@@ -494,7 +494,7 @@
       "source_url": "https://web103.reachmee.com/ext/I011/853/main?site=7&validator=d7a66c13be778ef950c393a904293789&lang=UK&rmpage=job&rmjob=30185",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "liu-30141",
@@ -532,7 +532,7 @@
       "source_url": "https://web103.reachmee.com/ext/I011/853/main?site=7&validator=d7a66c13be778ef950c393a904293789&lang=UK&rmpage=job&rmjob=30141",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "umu-968936",
@@ -550,12 +550,12 @@
         "Energy & Environment",
         "Engineering"
       ],
-      "description_html": "<p>by</p>\n<p class=\"sistadatum\">2026-11-30</p>\n<ul>\n<li>\n<svg aria-labelledby=\"i5101\" class=\"icon icon-text-document\" focusable=\"false\" role=\"img\"><desc id=\"i5101\">Type of employment</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-text-document\"></use></svg>\n<span>Temporary position</span>\n</li>\n<li>\n<svg aria-labelledby=\"i5102\" class=\"icon icon-clock-o\" focusable=\"false\" role=\"img\"><desc id=\"i5102\">Extent</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-clock-o\"></use></svg>\n<span>100%</span>\n</li>\n<li>\n<svg aria-labelledby=\"i5103\" class=\"icon icon-location-pin\" focusable=\"false\" role=\"img\"><desc id=\"i5103\">Place</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-location-pin\"></use></svg>\n<span>Umeå</span>\n</li>\n</ul>\n<p>Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the groundbreaking discovery of the CRISPR-Cas9 gene-editing tool, which was awarded the Nobel Prize in Chemistry, was made here. At Umeå University, everything is close. Our cohesive campuses make it easy to meet, work together and exchange knowledge, which promotes a dynamic and open culture.</p>\n<p>The ongoing societal transformation and large green investments in northern Sweden create enormous opportunities and complex challenges. For Umeå University, conducting research about – and in the middle of – a society in transition is key. We also take pride in delivering education to enable regions to expand quickly and sustainably. In fact, the future is made here.</p>\n<p>Are you interested in learning more? <a href=\"/en/work-with-us/working-at-umea-university/\">Read about Umeå university as a workplace</a></p>\n<p><strong>The Department of Physics</strong> at Umeå University (<a href=\"/en/department-of-physics/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.umu.se/en/department-of-physics/</a>) conducts strong research in condensed matter physics, nanotechnology, photonics, ultrafast spectroscopy, and theoretical and computational physics. We announce a PhD position within the Marie Skłodowska-Curie Doctoral Network SPARK for the doctoral project ‘Spatiotemporal Information Processing’. </p>\n<p><strong>Last day to apply is November 30, 2026. <br/></strong>The earliest starting date is February 2027, or by agreement.</p>\n<p><strong>Project description </strong></p>\n<p>The project will develop ultrafast optical logic and memory concepts using spatiotemporal metamaterials. The doctoral candidate will design metamaterial structures coupled to quantum emitters for ultrafast information processing and investigate how structured ultrashort light pulses can control optical and magnetic properties on femtosecond timescales.</p>\n<p>The research will focus on developing sub-10 fs protocols for all-optical logic operations, data processing, and spatiotemporal magnetic memories. The work combines nanophotonics, metamaterials, quantum emitters, ultrafast optics, and light–matter interaction, with the aim of creating new routes for information processing beyond conventional electronic approaches.</p>\n<p>The doctoral candidate position is funded by the Marie Skłodowska-Curie Doctoral Network SPARK. The network offers a structured international training environment with research-specific and transferable-skills courses, workshops, conferences, and network-wide events. The project includes a 3-month industrial secondment at NKT Photonics in Denmark, focusing on vectorial ultrashort pulses, and a 6-month research secondment at Imperial College London in the United Kingdom, focusing on nanofabrication and characterization.</p>\n<p>The doctoral project will be carried out at Umeå University under the supervision of Associate Professor Nicolò Maccaferri. The candidate will also benefit from co-supervision and mentoring by Professor Riccardo Sapienza at Imperial College London and from an industrial mentor at NKT Photonics. The position provides the opportunity to work in a stimulating, multidisciplinary, and international research environment within a prestigious European training network.</p>\n<p><strong>Competence requirements</strong></p>\n<p>To be admitted for studies at third-cycle level, applicants are required to have completed a second-cycle level degree or completed course requirements of at least 240 ECTS credits. The recruitment procedure will follow the Higher Education Ordinance (Högskoleförordningen). Applicants should have a Master’s degree, or equivalent, in physics, applied physics, optics/photonics, nanoscience, materials science, electrical engineering, or a closely related field. Fluency in English is mandatory. A documented background in photonics, nanophotonics, ultrafast optics, condensed matter physics, quantum optics, metamaterials, magnetism, or related experimental or theoretical methods is meritorious.</p>\n<p>Willingness to work in an inter-cultural, international, and diverse group, and the ability to work independently or as part of a team, are fundamental.</p>\n<p>The applicant must meet the MSCA eligibility and mobility requirements: the candidate must not hold a doctoral degree at the time of recruitment and must not have resided or carried out their main activity, such as work or studies, in Sweden for more than 12 months in the 36 months immediately before recruitment.</p>\n<p><strong>Terms of employment</strong></p>\n<p>The employment is expected to result in a doctoral degree, and the main assignment for the doctoral student is to take part in research education, including participation in the described research project and relevant courses. Teaching and other departmental work, up to a maximum of 20%, may be included. </p>\n<p>The salary follows the established salary level for doctoral students at Umeå University. The position is funded for 36 months through the MSCA Doctoral Network SPARK, with a salary corresponding to at least the MSCA level (approximately 33 100 SEK gross per month), with the possibility of additional MSCA allowances for mobility and accompanying family members. Funding for the remainder of the employment period is provided from other sources. Employment conditions and additional benefits for employees according to applicable regulations.</p>\n<p>The employment is limited to four years at full-time or up to five years if teaching and other departmental work is performed. The employment starts in February 2027 or according to agreement.</p>\n<p><strong>The application </strong></p>\n<p>The application should contain:</p>\n<ol><li>A cover letter with summary of research interests and motivation (max. 1 page)</li><li>Curriculum Vitae.</li><li>Certified copies of relevant degree certificate(s) translated to English or Swedish.</li><li>Transcripts with grades, with English or Swedish translation. Note that for international applicants the grading system should be explained in brief.</li><li>Copies of student theses and publications (if any).</li><li>Names and contact information of at least one reference person.</li></ol>\n<p>You apply via our e-recruitment system Varbi. The deadline for applications is November 30, 2026. Log in and submit your application via the button at the bottom of the page. All application documents must be uploaded in PDF format and should be written in English (preferred) or Swedish.</p>\n<p><strong>More information</strong></p>\n<p>For further information, contact the Principal Investigator of the project, Associate Professor Nicolò Maccaferri, <a href=\"mailto:nicolo.maccaferri@umu.se\" rel=\"noopener noreferrer\" target=\"_blank\">nicolo.maccaferri@umu.se.</a></p>\n<p>We look forward to receiving your application!</p>",
+      "description_html": "<p>by</p>\n<p class=\"sistadatum\">2026-11-30</p>\n<ul>\n<li>\n<svg aria-labelledby=\"i8604\" class=\"icon icon-text-document\" focusable=\"false\" role=\"img\"><desc id=\"i8604\">Type of employment</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-text-document\"></use></svg>\n<span>Temporary position</span>\n</li>\n<li>\n<svg aria-labelledby=\"i8605\" class=\"icon icon-clock-o\" focusable=\"false\" role=\"img\"><desc id=\"i8605\">Extent</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-clock-o\"></use></svg>\n<span>100%</span>\n</li>\n<li>\n<svg aria-labelledby=\"i8606\" class=\"icon icon-location-pin\" focusable=\"false\" role=\"img\"><desc id=\"i8606\">Place</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-location-pin\"></use></svg>\n<span>Umeå</span>\n</li>\n</ul>\n<p>Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the groundbreaking discovery of the CRISPR-Cas9 gene-editing tool, which was awarded the Nobel Prize in Chemistry, was made here. At Umeå University, everything is close. Our cohesive campuses make it easy to meet, work together and exchange knowledge, which promotes a dynamic and open culture.</p>\n<p>The ongoing societal transformation and large green investments in northern Sweden create enormous opportunities and complex challenges. For Umeå University, conducting research about – and in the middle of – a society in transition is key. We also take pride in delivering education to enable regions to expand quickly and sustainably. In fact, the future is made here.</p>\n<p>Are you interested in learning more? <a href=\"/en/work-with-us/working-at-umea-university/\">Read about Umeå university as a workplace</a></p>\n<p><strong>The Department of Physics</strong> at Umeå University (<a href=\"/en/department-of-physics/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.umu.se/en/department-of-physics/</a>) conducts strong research in condensed matter physics, nanotechnology, photonics, ultrafast spectroscopy, and theoretical and computational physics. We announce a PhD position within the Marie Skłodowska-Curie Doctoral Network SPARK for the doctoral project ‘Spatiotemporal Information Processing’. </p>\n<p><strong>Last day to apply is November 30, 2026. <br/></strong>The earliest starting date is February 2027, or by agreement.</p>\n<p><strong>Project description </strong></p>\n<p>The project will develop ultrafast optical logic and memory concepts using spatiotemporal metamaterials. The doctoral candidate will design metamaterial structures coupled to quantum emitters for ultrafast information processing and investigate how structured ultrashort light pulses can control optical and magnetic properties on femtosecond timescales.</p>\n<p>The research will focus on developing sub-10 fs protocols for all-optical logic operations, data processing, and spatiotemporal magnetic memories. The work combines nanophotonics, metamaterials, quantum emitters, ultrafast optics, and light–matter interaction, with the aim of creating new routes for information processing beyond conventional electronic approaches.</p>\n<p>The doctoral candidate position is funded by the Marie Skłodowska-Curie Doctoral Network SPARK. The network offers a structured international training environment with research-specific and transferable-skills courses, workshops, conferences, and network-wide events. The project includes a 3-month industrial secondment at NKT Photonics in Denmark, focusing on vectorial ultrashort pulses, and a 6-month research secondment at Imperial College London in the United Kingdom, focusing on nanofabrication and characterization.</p>\n<p>The doctoral project will be carried out at Umeå University under the supervision of Associate Professor Nicolò Maccaferri. The candidate will also benefit from co-supervision and mentoring by Professor Riccardo Sapienza at Imperial College London and from an industrial mentor at NKT Photonics. The position provides the opportunity to work in a stimulating, multidisciplinary, and international research environment within a prestigious European training network.</p>\n<p><strong>Competence requirements</strong></p>\n<p>To be admitted for studies at third-cycle level, applicants are required to have completed a second-cycle level degree or completed course requirements of at least 240 ECTS credits. The recruitment procedure will follow the Higher Education Ordinance (Högskoleförordningen). Applicants should have a Master’s degree, or equivalent, in physics, applied physics, optics/photonics, nanoscience, materials science, electrical engineering, or a closely related field. Fluency in English is mandatory. A documented background in photonics, nanophotonics, ultrafast optics, condensed matter physics, quantum optics, metamaterials, magnetism, or related experimental or theoretical methods is meritorious.</p>\n<p>Willingness to work in an inter-cultural, international, and diverse group, and the ability to work independently or as part of a team, are fundamental.</p>\n<p>The applicant must meet the MSCA eligibility and mobility requirements: the candidate must not hold a doctoral degree at the time of recruitment and must not have resided or carried out their main activity, such as work or studies, in Sweden for more than 12 months in the 36 months immediately before recruitment.</p>\n<p><strong>Terms of employment</strong></p>\n<p>The employment is expected to result in a doctoral degree, and the main assignment for the doctoral student is to take part in research education, including participation in the described research project and relevant courses. Teaching and other departmental work, up to a maximum of 20%, may be included. </p>\n<p>The salary follows the established salary level for doctoral students at Umeå University. The position is funded for 36 months through the MSCA Doctoral Network SPARK, with a salary corresponding to at least the MSCA level (approximately 33 100 SEK gross per month), with the possibility of additional MSCA allowances for mobility and accompanying family members. Funding for the remainder of the employment period is provided from other sources. Employment conditions and additional benefits for employees according to applicable regulations.</p>\n<p>The employment is limited to four years at full-time or up to five years if teaching and other departmental work is performed. The employment starts in February 2027 or according to agreement.</p>\n<p><strong>The application </strong></p>\n<p>The application should contain:</p>\n<ol><li>A cover letter with summary of research interests and motivation (max. 1 page)</li><li>Curriculum Vitae.</li><li>Certified copies of relevant degree certificate(s) translated to English or Swedish.</li><li>Transcripts with grades, with English or Swedish translation. Note that for international applicants the grading system should be explained in brief.</li><li>Copies of student theses and publications (if any).</li><li>Names and contact information of at least one reference person.</li></ol>\n<p>You apply via our e-recruitment system Varbi. The deadline for applications is November 30, 2026. Log in and submit your application via the button at the bottom of the page. All application documents must be uploaded in PDF format and should be written in English (preferred) or Swedish.</p>\n<p><strong>More information</strong></p>\n<p>For further information, contact the Principal Investigator of the project, Associate Professor Nicolò Maccaferri, <a href=\"mailto:nicolo.maccaferri@umu.se\" rel=\"noopener noreferrer\" target=\"_blank\">nicolo.maccaferri@umu.se.</a></p>\n<p>We look forward to receiving your application!</p>",
       "contacts": [],
       "source_url": "https://www.umu.se/en/work-with-us/open-positions/phd-position-in-experimental-physics-with-focus-on-photonics-and-materials-science-applied-aspects_968936/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "umu-985887",
@@ -573,12 +573,12 @@
         "Energy & Environment",
         "Chemistry"
       ],
-      "description_html": "<p>by</p>\n<p class=\"sistadatum\">2026-11-30</p>\n<ul>\n<li>\n<svg aria-labelledby=\"i5105\" class=\"icon icon-text-document\" focusable=\"false\" role=\"img\"><desc id=\"i5105\">Type of employment</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-text-document\"></use></svg>\n<span>Temporary position</span>\n</li>\n<li>\n<svg aria-labelledby=\"i5106\" class=\"icon icon-clock-o\" focusable=\"false\" role=\"img\"><desc id=\"i5106\">Extent</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-clock-o\"></use></svg>\n<span>100%</span>\n</li>\n<li>\n<svg aria-labelledby=\"i5107\" class=\"icon icon-location-pin\" focusable=\"false\" role=\"img\"><desc id=\"i5107\">Place</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-location-pin\"></use></svg>\n<span>Umeå</span>\n</li>\n</ul>\n<p>Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the groundbreaking discovery of the CRISPR-Cas9 gene-editing tool, which was awarded the Nobel Prize in Chemistry, was made here. At Umeå University, everything is close. Our cohesive campuses make it easy to meet, work together and exchange knowledge, which promotes a dynamic and open culture.</p>\n<p>The ongoing societal transformation and large green investments in northern Sweden create enormous opportunities and complex challenges. For Umeå University, conducting research about – and in the middle of – a society in transition is key. We also take pride in delivering education to enable regions to expand quickly and sustainably. In fact, the future is made here.</p>\n<p>Are you interested in learning more? <a href=\"/en/work-with-us/working-at-umea-university/\">Read about Umeå university as a workplace</a></p>\n<p><strong>Umeå University is offering a PhD position in Computing Science with a focus on machine learning for graph transformations. The project investigates a hybrid approach that combines deep learning with grammatical inference to develop models that are interpretable, efficient, and mathematically verifiable while leveraging the flexibility of neural methods. If successful, the work has the potential to advance applications such as automated theorem proving, knowledge-graph inference, and causal analysis.</strong></p>\n<p>The Department of Computing Science has experienced rapid growth in recent years, with a strong emphasis on fostering an inclusive, collaborative, and bottom-up-driven research environment. Our workplace brings together a diverse community of individuals from a wide range of nationalities.</p>\n<p>As a PhD student with us, you benefit from comprehensive career development support, opportunities for networking, and access to robust administrative and technical services—all within a setting that offers attractive employment conditions.</p>\n<p>To learn more about the department, please visit: <a href=\"/en/department-of-computing-science/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.umu.se/en/department-of-computing-science/</a></p>\n<h2><strong>Project description</strong></h2>\n<p>Graphs are a fundamental way of representing structured information from sentences and computer programs to social networks and they are becoming increasingly important as generative AI systems move beyond text. To keep such systems safe and reliable, we need mechanisms that can ensure their outputs follow the right rules, much like guardrails that prevent language models from producing harmful content or incorrect code. This project introduces a new idea: instead of relying on opaque, heavy machine-learning models, it learns transparent, rule-based rewriting systems that can transform graphs, check the correctness of AI-generated structures, and even guide neural networks during inference. By combining techniques from grammatical inference, reinforcement learning, and efficient search algorithms, the method can automatically discover both the rules and probabilities needed to model complex graph behaviors, offering a more interpretable and verifiable alternative for future AI systems.</p>\n<p>The student will collaborate closely with the PI and her research group at Umeå University to investigate the proposed learning approach. The PhD student is expected to produce research outputs relevant to the fields of theoretical computer science and symbolic machine learning.<br/><br/></p>\n<h2><strong>Admission requirements </strong></h2>\n<p>The general admission requirements for doctoral studies are a second- cycle level degree, or completed course requirements of at least 240 ECTS credits, of which at least 60 ECTS credits are at second-cycle level, or have an equivalent education from abroad, or equivalent qualifications.</p>\n<p>To be admitted to doctoral studies in the field of computer science, the applicant must have completed courses totaling at least 90 higher education credits in computer science or in subjects directly relevant to the specific specialization.</p>\n<p><strong>Requirements</strong></p>\n<p>We are looking for candidates who have:</p>\n<p>Solid analytical and mathematical abilities Experience with machine learning Experience with formal language theory or automata theory Strong communication skills and proficiency in English The ability to work independently as well as collaboratively</p>\n<p><strong>Meritorious Qualifications</strong></p>\n<p>It is considered an advantage if you have:</p>\n<p>Experience with academic writing Strong programming skills, particularly in Python Familiarity with knowledge graphs Experience with graph neural network</p>\n<p><strong>Personal Qualities</strong></p>\n<p>We value candidates who are:</p>\n<p>Intellectually curious Self-motivated and well-organized Eager to engage with the scientific community</p>\n<h2><strong>About the position</strong></h2>\n<p>The position provides you with the opportunity to pursue PhD studies in Computing Science for four years, with the goal of achieving the degree of Doctor in Computing Science. While the position is mainly devoted to PhD studies (at least 80% of the time), it may include up to 20% department service (usually teaching). If so, the total time for the position is extended accordingly, resulting in a maximum of five years.</p>\n<p>The procedure for recruitment for the position is in accordance with the Higher Education Ordinance (chapter 12, 2§) and the decision regarding the position cannot be appealed.</p>\n<p>The expected starting date is January 12, 2027 or as otherwise agreed.</p>\n<h2><strong>Application</strong></h2>\n<p><strong>A complete application should contain the following documents:</strong></p>\n<p>A cover letter including a description of your research interests, your reasons to apply for the position, and your contact information A curriculum vitae Reprints / copies of completed BSc and/or MSc theses and other relevant publications, if any Copies of degree certificates, including documentation of completed academic courses and obtained grades Documentation and description of other relevant experiences or competences.</p>\n<p>The application must be written in English or Swedish. Attached documents must be in pdf format. Applications must be submitted electronically using the e-recruitment system of Umeå University, and be received no later than November 30, 2026.</p>\n<p>The Department of Computing Science values gender diversity, and therefore particularly encourages women and those outside the gender binary to apply for the position.</p>\n<p>For additional information, please contact Professor Johanna Björklund (email: <a href=\"mailto:johanna@cs.umu.se\" rel=\"noopener noreferrer\" target=\"_blank\">johanna@cs.umu.se</a>).</p>",
+      "description_html": "<p>by</p>\n<p class=\"sistadatum\">2026-11-30</p>\n<ul>\n<li>\n<svg aria-labelledby=\"i8608\" class=\"icon icon-text-document\" focusable=\"false\" role=\"img\"><desc id=\"i8608\">Type of employment</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-text-document\"></use></svg>\n<span>Temporary position</span>\n</li>\n<li>\n<svg aria-labelledby=\"i8609\" class=\"icon icon-clock-o\" focusable=\"false\" role=\"img\"><desc id=\"i8609\">Extent</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-clock-o\"></use></svg>\n<span>100%</span>\n</li>\n<li>\n<svg aria-labelledby=\"i8610\" class=\"icon icon-location-pin\" focusable=\"false\" role=\"img\"><desc id=\"i8610\">Place</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-location-pin\"></use></svg>\n<span>Umeå</span>\n</li>\n</ul>\n<p>Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the groundbreaking discovery of the CRISPR-Cas9 gene-editing tool, which was awarded the Nobel Prize in Chemistry, was made here. At Umeå University, everything is close. Our cohesive campuses make it easy to meet, work together and exchange knowledge, which promotes a dynamic and open culture.</p>\n<p>The ongoing societal transformation and large green investments in northern Sweden create enormous opportunities and complex challenges. For Umeå University, conducting research about – and in the middle of – a society in transition is key. We also take pride in delivering education to enable regions to expand quickly and sustainably. In fact, the future is made here.</p>\n<p>Are you interested in learning more? <a href=\"/en/work-with-us/working-at-umea-university/\">Read about Umeå university as a workplace</a></p>\n<p><strong>Umeå University is offering a PhD position in Computing Science with a focus on machine learning for graph transformations. The project investigates a hybrid approach that combines deep learning with grammatical inference to develop models that are interpretable, efficient, and mathematically verifiable while leveraging the flexibility of neural methods. If successful, the work has the potential to advance applications such as automated theorem proving, knowledge-graph inference, and causal analysis.</strong></p>\n<p>The Department of Computing Science has experienced rapid growth in recent years, with a strong emphasis on fostering an inclusive, collaborative, and bottom-up-driven research environment. Our workplace brings together a diverse community of individuals from a wide range of nationalities.</p>\n<p>As a PhD student with us, you benefit from comprehensive career development support, opportunities for networking, and access to robust administrative and technical services—all within a setting that offers attractive employment conditions.</p>\n<p>To learn more about the department, please visit: <a href=\"/en/department-of-computing-science/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.umu.se/en/department-of-computing-science/</a></p>\n<h2><strong>Project description</strong></h2>\n<p>Graphs are a fundamental way of representing structured information from sentences and computer programs to social networks and they are becoming increasingly important as generative AI systems move beyond text. To keep such systems safe and reliable, we need mechanisms that can ensure their outputs follow the right rules, much like guardrails that prevent language models from producing harmful content or incorrect code. This project introduces a new idea: instead of relying on opaque, heavy machine-learning models, it learns transparent, rule-based rewriting systems that can transform graphs, check the correctness of AI-generated structures, and even guide neural networks during inference. By combining techniques from grammatical inference, reinforcement learning, and efficient search algorithms, the method can automatically discover both the rules and probabilities needed to model complex graph behaviors, offering a more interpretable and verifiable alternative for future AI systems.</p>\n<p>The student will collaborate closely with the PI and her research group at Umeå University to investigate the proposed learning approach. The PhD student is expected to produce research outputs relevant to the fields of theoretical computer science and symbolic machine learning.<br/><br/></p>\n<h2><strong>Admission requirements </strong></h2>\n<p>The general admission requirements for doctoral studies are a second- cycle level degree, or completed course requirements of at least 240 ECTS credits, of which at least 60 ECTS credits are at second-cycle level, or have an equivalent education from abroad, or equivalent qualifications.</p>\n<p>To be admitted to doctoral studies in the field of computer science, the applicant must have completed courses totaling at least 90 higher education credits in computer science or in subjects directly relevant to the specific specialization.</p>\n<p><strong>Requirements</strong></p>\n<p>We are looking for candidates who have:</p>\n<p>Solid analytical and mathematical abilities Experience with machine learning Experience with formal language theory or automata theory Strong communication skills and proficiency in English The ability to work independently as well as collaboratively</p>\n<p><strong>Meritorious Qualifications</strong></p>\n<p>It is considered an advantage if you have:</p>\n<p>Experience with academic writing Strong programming skills, particularly in Python Familiarity with knowledge graphs Experience with graph neural network</p>\n<p><strong>Personal Qualities</strong></p>\n<p>We value candidates who are:</p>\n<p>Intellectually curious Self-motivated and well-organized Eager to engage with the scientific community</p>\n<h2><strong>About the position</strong></h2>\n<p>The position provides you with the opportunity to pursue PhD studies in Computing Science for four years, with the goal of achieving the degree of Doctor in Computing Science. While the position is mainly devoted to PhD studies (at least 80% of the time), it may include up to 20% department service (usually teaching). If so, the total time for the position is extended accordingly, resulting in a maximum of five years.</p>\n<p>The procedure for recruitment for the position is in accordance with the Higher Education Ordinance (chapter 12, 2§) and the decision regarding the position cannot be appealed.</p>\n<p>The expected starting date is January 12, 2027 or as otherwise agreed.</p>\n<h2><strong>Application</strong></h2>\n<p><strong>A complete application should contain the following documents:</strong></p>\n<p>A cover letter including a description of your research interests, your reasons to apply for the position, and your contact information A curriculum vitae Reprints / copies of completed BSc and/or MSc theses and other relevant publications, if any Copies of degree certificates, including documentation of completed academic courses and obtained grades Documentation and description of other relevant experiences or competences.</p>\n<p>The application must be written in English or Swedish. Attached documents must be in pdf format. Applications must be submitted electronically using the e-recruitment system of Umeå University, and be received no later than November 30, 2026.</p>\n<p>The Department of Computing Science values gender diversity, and therefore particularly encourages women and those outside the gender binary to apply for the position.</p>\n<p>For additional information, please contact Professor Johanna Björklund (email: <a href=\"mailto:johanna@cs.umu.se\" rel=\"noopener noreferrer\" target=\"_blank\">johanna@cs.umu.se</a>).</p>",
       "contacts": [],
       "source_url": "https://www.umu.se/en/work-with-us/open-positions/phd-student-in-computing-science-with-focus-on-machine-learning-for-graph-transformations_985887/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "umu-968923",
@@ -596,12 +596,12 @@
         "Energy & Environment",
         "Chemistry"
       ],
-      "description_html": "<p>by</p>\n<p class=\"sistadatum\">2026-11-30</p>\n<ul>\n<li>\n<svg aria-labelledby=\"i5109\" class=\"icon icon-text-document\" focusable=\"false\" role=\"img\"><desc id=\"i5109\">Type of employment</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-text-document\"></use></svg>\n<span>Temporary position</span>\n</li>\n<li>\n<svg aria-labelledby=\"i5110\" class=\"icon icon-clock-o\" focusable=\"false\" role=\"img\"><desc id=\"i5110\">Extent</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-clock-o\"></use></svg>\n<span>100%</span>\n</li>\n<li>\n<svg aria-labelledby=\"i5111\" class=\"icon icon-location-pin\" focusable=\"false\" role=\"img\"><desc id=\"i5111\">Place</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-location-pin\"></use></svg>\n<span>Umeå</span>\n</li>\n</ul>\n<p>Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the groundbreaking discovery of the CRISPR-Cas9 gene-editing tool, which was awarded the Nobel Prize in Chemistry, was made here. At Umeå University, everything is close. Our cohesive campuses make it easy to meet, work together and exchange knowledge, which promotes a dynamic and open culture.</p>\n<p>The ongoing societal transformation and large green investments in northern Sweden create enormous opportunities and complex challenges. For Umeå University, conducting research about – and in the middle of – a society in transition is key. We also take pride in delivering education to enable regions to expand quickly and sustainably. In fact, the future is made here.</p>\n<p>Are you interested in learning more? <a href=\"/en/work-with-us/working-at-umea-university/\">Read about Umeå university as a workplace</a></p>\n<p><strong>The Department of Physics</strong> at Umeå University (<a href=\"/en/department-of-physics/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.umu.se/en/department-of-physics/</a>) conducts strong research in condensed matter physics, nanotechnology, photonics, ultrafast spectroscopy, and theoretical and computational physics. We announce a PhD position within the Marie Skłodowska-Curie Doctoral Network SPARK for the doctoral project ‘Spatiotemporal Hybrid Light–Matter States’. </p>\n<p><strong>Last day to apply is November 30, 2026. </strong><br/>The earliest starting date is February 2027, or by agreement.</p>\n<p><strong>Project description</strong></p>\n<p>The project will create spatiotemporal polaritons through ultrafast light–matter interactions in engineered metamaterial systems. The doctoral candidate will explore wide-bandgap semiconductors and high-quality excitonic or molecular emitters coupled to time-modulated gratings, with the goal of realizing hybrid light–matter states whose properties can be controlled on femtosecond timescales.</p>\n<p>The research will combine ultrafast pump–push–probe experiments with sub-10 fs resolution, finite-element simulations, and quantum models extending the Tavis–Cummings Hamiltonian. The aim is to demonstrate coherent control of spatiotemporal polaritons and to design spatiotemporal metamaterial platforms supporting new forms of hybrid light–matter dynamics. The work combines nanophotonics, metamaterials, ultrafast optics, condensed matter physics, and quantum optics.</p>\n<p>The doctoral candidate position is funded by the Marie Skłodowska-Curie Doctoral Network SPARK. The network offers a structured international training environment with research-specific and transferable-skills courses, workshops, conferences, and network-wide events. The project includes a 6-month research secondment at Universidad Autónoma de Madrid in Spain, where theoretical skills will be developed, and a 3-month industrial secondment at Ultrafast Innovations GmbH in Germany.</p>\n<p>The doctoral project will be carried out at Umeå University under the supervision of Associate Professor Nicolò Maccaferri. The candidate will also benefit from co-supervision and mentoring by Associate Professor Paloma Arroyo Huidobro at Universidad Autónoma de Madrid and from an industrial mentor at Ultrafast Innovations GmbH. The position provides the opportunity to work in a stimulating, multidisciplinary, and international research environment within a prestigious European training network.</p>\n<p><strong>Competence requirements</strong></p>\n<p>To fulfil the general entry requirements, the applicant must have qualifications equivalent to a completed degree at advanced level (second-cycle), or completed course requirements of at least 240 ECTS credits including at least 60 ECTS credits at advanced level. To fulfil the specific entry requirements to be admitted to doctoral studies in experimental physics, the applicant is required to have completed courses within the field of physics comprising at least 120 credits. </p>\n<p>Applicants should have a Master’s degree, or equivalent, in physics, applied physics, optics/photonics, materials science, nanoscience, electrical engineering, or a closely related field. </p>\n<p>English fluency, both written and spoken, is mandatory. A documented background in photonics, nanophotonics, ultrafast optics, condensed matter physics, quantum optics, exciton–polaritons, light–matter interaction, numerical simulations, or quantum modelling is meritorious.</p>\n<p>Willingness to work in an inter-cultural, international, and diverse group, and the ability to work independently or as part of a team, are fundamental.</p>\n<p>The applicant must meet the MSCA eligibility and mobility requirements: the candidate must not hold a doctoral degree at the time of recruitment and must not have resided or carried out their main activity, such as work or studies, in Sweden for more than 12 months in the 36 months immediately before recruitment.</p>\n<p><strong>Terms of employment</strong></p>\n<p>The employment is expected to result in a doctoral degree, and the main assignment for the doctoral student is to take part in research education, including participation in the described research project and relevant courses. Teaching and other departmental work, up to a maximum of 20%, may be included. </p>\n<p>The salary follows the established salary level for doctoral students at Umeå University. The position is funded for 36 months through the MSCA Doctoral Network SPARK, with a salary corresponding to at least the MSCA level (approximately 33 100 SEK gross per month), with the possibility of additional MSCA allowances for mobility and accompanying family members. Funding for the remainder of the employment period is provided from other sources. Employment conditions and additional benefits for employees according to applicable regulations. </p>\n<p>The employment is limited to four years at full-time or up to five years if teaching and other departmental work is performed. The employment starts in February 2027 or according to agreement.</p>\n<p><strong>The application </strong></p>\n<p>The application should contain:</p>\n<ol><li>A cover letter with a summary of research interests and motivation (max. 1 page)</li><li>Curriculum Vitae.</li><li>Certified copies of relevant degree certificate(s) translated to English or Swedish.</li><li>Transcripts with grades, with English or Swedish translation. Note that for international applicants the grading system should be explained in brief.</li><li>Copies of student theses and publications (if any).</li><li>Names and contact information of at least one reference person.</li></ol>\n<p>You apply via our e-recruitment system Varbi. <br/><strong>The deadline for applications is November 30, 2026. </strong></p>\n<p>Log in and submit your application via the button at the bottom of the page. All application documents must be uploaded in PDF format and should be written in English (preferred) or Swedish.</p>\n<p><strong>More information</strong></p>\n<p>For further information, contact the Principal Investigator of the project, Associate Professor Nicolò Maccaferri, <a href=\"mailto:nicolo.maccaferri@umu.se\" rel=\"noopener noreferrer\" target=\"_blank\">nicolo.maccaferri@umu.se</a>.</p>\n<p>We look forward to receiving your application!</p>",
+      "description_html": "<p>by</p>\n<p class=\"sistadatum\">2026-11-30</p>\n<ul>\n<li>\n<svg aria-labelledby=\"i8612\" class=\"icon icon-text-document\" focusable=\"false\" role=\"img\"><desc id=\"i8612\">Type of employment</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-text-document\"></use></svg>\n<span>Temporary position</span>\n</li>\n<li>\n<svg aria-labelledby=\"i8613\" class=\"icon icon-clock-o\" focusable=\"false\" role=\"img\"><desc id=\"i8613\">Extent</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-clock-o\"></use></svg>\n<span>100%</span>\n</li>\n<li>\n<svg aria-labelledby=\"i8614\" class=\"icon icon-location-pin\" focusable=\"false\" role=\"img\"><desc id=\"i8614\">Place</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-location-pin\"></use></svg>\n<span>Umeå</span>\n</li>\n</ul>\n<p>Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the groundbreaking discovery of the CRISPR-Cas9 gene-editing tool, which was awarded the Nobel Prize in Chemistry, was made here. At Umeå University, everything is close. Our cohesive campuses make it easy to meet, work together and exchange knowledge, which promotes a dynamic and open culture.</p>\n<p>The ongoing societal transformation and large green investments in northern Sweden create enormous opportunities and complex challenges. For Umeå University, conducting research about – and in the middle of – a society in transition is key. We also take pride in delivering education to enable regions to expand quickly and sustainably. In fact, the future is made here.</p>\n<p>Are you interested in learning more? <a href=\"/en/work-with-us/working-at-umea-university/\">Read about Umeå university as a workplace</a></p>\n<p><strong>The Department of Physics</strong> at Umeå University (<a href=\"/en/department-of-physics/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.umu.se/en/department-of-physics/</a>) conducts strong research in condensed matter physics, nanotechnology, photonics, ultrafast spectroscopy, and theoretical and computational physics. We announce a PhD position within the Marie Skłodowska-Curie Doctoral Network SPARK for the doctoral project ‘Spatiotemporal Hybrid Light–Matter States’. </p>\n<p><strong>Last day to apply is November 30, 2026. </strong><br/>The earliest starting date is February 2027, or by agreement.</p>\n<p><strong>Project description</strong></p>\n<p>The project will create spatiotemporal polaritons through ultrafast light–matter interactions in engineered metamaterial systems. The doctoral candidate will explore wide-bandgap semiconductors and high-quality excitonic or molecular emitters coupled to time-modulated gratings, with the goal of realizing hybrid light–matter states whose properties can be controlled on femtosecond timescales.</p>\n<p>The research will combine ultrafast pump–push–probe experiments with sub-10 fs resolution, finite-element simulations, and quantum models extending the Tavis–Cummings Hamiltonian. The aim is to demonstrate coherent control of spatiotemporal polaritons and to design spatiotemporal metamaterial platforms supporting new forms of hybrid light–matter dynamics. The work combines nanophotonics, metamaterials, ultrafast optics, condensed matter physics, and quantum optics.</p>\n<p>The doctoral candidate position is funded by the Marie Skłodowska-Curie Doctoral Network SPARK. The network offers a structured international training environment with research-specific and transferable-skills courses, workshops, conferences, and network-wide events. The project includes a 6-month research secondment at Universidad Autónoma de Madrid in Spain, where theoretical skills will be developed, and a 3-month industrial secondment at Ultrafast Innovations GmbH in Germany.</p>\n<p>The doctoral project will be carried out at Umeå University under the supervision of Associate Professor Nicolò Maccaferri. The candidate will also benefit from co-supervision and mentoring by Associate Professor Paloma Arroyo Huidobro at Universidad Autónoma de Madrid and from an industrial mentor at Ultrafast Innovations GmbH. The position provides the opportunity to work in a stimulating, multidisciplinary, and international research environment within a prestigious European training network.</p>\n<p><strong>Competence requirements</strong></p>\n<p>To fulfil the general entry requirements, the applicant must have qualifications equivalent to a completed degree at advanced level (second-cycle), or completed course requirements of at least 240 ECTS credits including at least 60 ECTS credits at advanced level. To fulfil the specific entry requirements to be admitted to doctoral studies in experimental physics, the applicant is required to have completed courses within the field of physics comprising at least 120 credits. </p>\n<p>Applicants should have a Master’s degree, or equivalent, in physics, applied physics, optics/photonics, materials science, nanoscience, electrical engineering, or a closely related field. </p>\n<p>English fluency, both written and spoken, is mandatory. A documented background in photonics, nanophotonics, ultrafast optics, condensed matter physics, quantum optics, exciton–polaritons, light–matter interaction, numerical simulations, or quantum modelling is meritorious.</p>\n<p>Willingness to work in an inter-cultural, international, and diverse group, and the ability to work independently or as part of a team, are fundamental.</p>\n<p>The applicant must meet the MSCA eligibility and mobility requirements: the candidate must not hold a doctoral degree at the time of recruitment and must not have resided or carried out their main activity, such as work or studies, in Sweden for more than 12 months in the 36 months immediately before recruitment.</p>\n<p><strong>Terms of employment</strong></p>\n<p>The employment is expected to result in a doctoral degree, and the main assignment for the doctoral student is to take part in research education, including participation in the described research project and relevant courses. Teaching and other departmental work, up to a maximum of 20%, may be included. </p>\n<p>The salary follows the established salary level for doctoral students at Umeå University. The position is funded for 36 months through the MSCA Doctoral Network SPARK, with a salary corresponding to at least the MSCA level (approximately 33 100 SEK gross per month), with the possibility of additional MSCA allowances for mobility and accompanying family members. Funding for the remainder of the employment period is provided from other sources. Employment conditions and additional benefits for employees according to applicable regulations. </p>\n<p>The employment is limited to four years at full-time or up to five years if teaching and other departmental work is performed. The employment starts in February 2027 or according to agreement.</p>\n<p><strong>The application </strong></p>\n<p>The application should contain:</p>\n<ol><li>A cover letter with a summary of research interests and motivation (max. 1 page)</li><li>Curriculum Vitae.</li><li>Certified copies of relevant degree certificate(s) translated to English or Swedish.</li><li>Transcripts with grades, with English or Swedish translation. Note that for international applicants the grading system should be explained in brief.</li><li>Copies of student theses and publications (if any).</li><li>Names and contact information of at least one reference person.</li></ol>\n<p>You apply via our e-recruitment system Varbi. <br/><strong>The deadline for applications is November 30, 2026. </strong></p>\n<p>Log in and submit your application via the button at the bottom of the page. All application documents must be uploaded in PDF format and should be written in English (preferred) or Swedish.</p>\n<p><strong>More information</strong></p>\n<p>For further information, contact the Principal Investigator of the project, Associate Professor Nicolò Maccaferri, <a href=\"mailto:nicolo.maccaferri@umu.se\" rel=\"noopener noreferrer\" target=\"_blank\">nicolo.maccaferri@umu.se</a>.</p>\n<p>We look forward to receiving your application!</p>",
       "contacts": [],
       "source_url": "https://www.umu.se/en/work-with-us/open-positions/phd-position-in-experimental-physics-with-a-focus-on-photonics-and-materials-science-fundamental-aspects_968923/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "umu-988629",
@@ -618,12 +618,60 @@
         "Energy & Environment",
         "Chemistry"
       ],
-      "description_html": "<p>by</p>\n<p class=\"sistadatum\">2026-12-03</p>\n<ul>\n<li>\n<svg aria-labelledby=\"i5113\" class=\"icon icon-text-document\" focusable=\"false\" role=\"img\"><desc id=\"i5113\">Type of employment</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-text-document\"></use></svg>\n<span>Temporary position</span>\n</li>\n<li>\n<svg aria-labelledby=\"i5114\" class=\"icon icon-clock-o\" focusable=\"false\" role=\"img\"><desc id=\"i5114\">Extent</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-clock-o\"></use></svg>\n<span>100%</span>\n</li>\n<li>\n<svg aria-labelledby=\"i5115\" class=\"icon icon-location-pin\" focusable=\"false\" role=\"img\"><desc id=\"i5115\">Place</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-location-pin\"></use></svg>\n<span>Umeå</span>\n</li>\n</ul>\n<p>Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the groundbreaking discovery of the CRISPR-Cas9 gene-editing tool, which was awarded the Nobel Prize in Chemistry, was made here. At Umeå University, everything is close. Our cohesive campuses make it easy to meet, work together and exchange knowledge, which promotes a dynamic and open culture.</p>\n<p>The ongoing societal transformation and large green investments in northern Sweden create enormous opportunities and complex challenges. For Umeå University, conducting research about – and in the middle of – a society in transition is key. We also take pride in delivering education to enable regions to expand quickly and sustainably. In fact, the future is made here.</p>\n<p>Are you interested in learning more? <a href=\"/en/work-with-us/working-at-umea-university/\">Read about Umeå university as a workplace</a></p>\n<h3>Description of work</h3>\n<h3>About the position</h3>\n<h3>Eligibility requirements</h3>\n<h3>Other qualifications</h3>\n<h3>Application</h3>\n<p>A complete application must include:</p>\n<p>1. A cover letter summarizing your qualifications, scientific interests and motives for applying (max two pages)</p>\n<p>2. CV</p>\n<p>3. Diplomas of bachelor and Master level degrees</p>\n<p>4. Bachelor/Master theses work/other relevant publications</p>\n<p>5. Other merits of relevance for the position</p>\n<p>6. Contact information to two reference persons</p>",
+      "description_html": "<p>by</p>\n<p class=\"sistadatum\">2026-12-03</p>\n<ul>\n<li>\n<svg aria-labelledby=\"i8618\" class=\"icon icon-text-document\" focusable=\"false\" role=\"img\"><desc id=\"i8618\">Type of employment</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-text-document\"></use></svg>\n<span>Temporary position</span>\n</li>\n<li>\n<svg aria-labelledby=\"i8619\" class=\"icon icon-clock-o\" focusable=\"false\" role=\"img\"><desc id=\"i8619\">Extent</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-clock-o\"></use></svg>\n<span>100%</span>\n</li>\n<li>\n<svg aria-labelledby=\"i8620\" class=\"icon icon-location-pin\" focusable=\"false\" role=\"img\"><desc id=\"i8620\">Place</desc><use xlink:href=\"/Static/svg/umuiconsprite-56cec56f.svg#icon-location-pin\"></use></svg>\n<span>Umeå</span>\n</li>\n</ul>\n<p>Umeå University is one of Sweden’s largest higher education institutions with over 41,500 students and about 4,600 employees. The University offers a diversity of high-quality education and world-leading research in several fields. Notably, the groundbreaking discovery of the CRISPR-Cas9 gene-editing tool, which was awarded the Nobel Prize in Chemistry, was made here. At Umeå University, everything is close. Our cohesive campuses make it easy to meet, work together and exchange knowledge, which promotes a dynamic and open culture.</p>\n<p>The ongoing societal transformation and large green investments in northern Sweden create enormous opportunities and complex challenges. For Umeå University, conducting research about – and in the middle of – a society in transition is key. We also take pride in delivering education to enable regions to expand quickly and sustainably. In fact, the future is made here.</p>\n<p>Are you interested in learning more? <a href=\"/en/work-with-us/working-at-umea-university/\">Read about Umeå university as a workplace</a></p>\n<h3>Description of work</h3>\n<h3>About the position</h3>\n<h3>Eligibility requirements</h3>\n<h3>Other qualifications</h3>\n<h3>Application</h3>\n<p>A complete application must include:</p>\n<p>1. A cover letter summarizing your qualifications, scientific interests and motives for applying (max two pages)</p>\n<p>2. CV</p>\n<p>3. Diplomas of bachelor and Master level degrees</p>\n<p>4. Bachelor/Master theses work/other relevant publications</p>\n<p>5. Other merits of relevance for the position</p>\n<p>6. Contact information to two reference persons</p>",
       "contacts": [],
       "source_url": "https://www.umu.se/en/work-with-us/open-positions/phd-student-_988629/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
+    },
+    {
+      "id": "euraxess-482419",
+      "source": "euraxess",
+      "source_url": "https://euraxess.ec.europa.eu/jobs/482419",
+      "title": "PhD Student in Automatic Control with focus on sensor informatics",
+      "institution": "Talentech",
+      "country": "SE",
+      "city": "",
+      "department": "",
+      "posted": "2026-11-24",
+      "deadline": null,
+      "profile": "R1",
+      "research_fields": [
+        "Engineering",
+        "AI & Machine Learning",
+        "Agriculture & Food"
+      ],
+      "description_html": "\n<h2>Offer Description</h2>\n<p>We have the power of over 50,000 students and co-workers. Students who provide hope for the future. Co-workers who contribute to Linköping University meeting challenges of today. Our fundamental values rest on credibility, trust and security. By having the courage to think freely and innovate, our actions together, large and small, contribute to a better world. We look forward to receiving your application!<br/></p><p>We are looking for a PhD student in automatic control at the Department of Electrical Engineering (ISY).</p><p><strong>Your work assignments</strong></p><p>This PhD project is part of a close collaboration between Linköping University and Lund University within the ELLIIT programme (<a href=\"https://elliit.se/\" rel=\"noopener noreferrer\" target=\"_blank\">https://elliit.se/</a>) and aims to develop the next generation of intelligent sensor systems capable of providing reliable situational awareness in complex and dynamic environments. The research is driven by applications where current technology is insufficient, such as large-scale biodiversity monitoring in natural environments, smart agricultural and ecosystem applications within AgTech (<a href=\"https://agtechsweden.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://agtechsweden.com/</a>), search-andrescue operations in challenging terrain, and intelligent surveillance for societal security. By combining machine learning with model-based methods, the project enables systems that can detect, distinguish, and track multiple simultaneous events or objects using sensor information from, for example, radio, audio, and vibration signals, even under uncertain and disturbed conditions. The goal is to develop robust and scalable solutions that can form the basis for future technological breakthroughs in areas ranging from environmental monitoring and emergency response to security and biodiversity conservation.</p><p>As a PhD student, you devote most of your time to doctoral studies and the research projects of which you are part. Your work may also include teaching or other departmental duties, up to a maximum of 20 per cent of full-time.</p><p><strong>Your qualifications</strong></p><p>You have a master’s degree in electrical engineering, engineering physics, mechanical engineering, computer engineering, engineering mathematics or have completed courses with a minimum of 240 credits, at least 60 of which must be in advanced courses within the subjects<br/>mentioned above. Alternatively, you have gained essentially corresponding knowledge in another way. The degree requirement must be met no later than at the time the employment decision is finalized, which occurs when the employment contract is signed.</p><p>Furthermore, you must be eager to learn new things and explore the unknown, and you pay attention to details. You must also have strong communication skills in English, both in writing and orally.</p><p><strong>Your workplace<br/></strong></p><p>The Division of Automatic Control is successfully conducting research as well as postgraduate and undergraduate education within areas such as autonomous systems, complex networks, data-driven modeling, learning control, optimization, and sensor fusion. The division has extensive<br/>collaborations both with industry and other research groups around the world.</p><p>Read more about the division here: <a href=\"https://liu.se/en/organisation/liu/isy/rt\" rel=\"noopener noreferrer\" target=\"_blank\">https://liu.se/en/organisation/liu/isy/rt</a>. For more information about ISY, go to: <a href=\"https://liu.se/en/article/open-positions-at-isy\" rel=\"noopener noreferrer\" target=\"_blank\">https://liu.se/en/article/open-positions-at-isy</a>.</p><p><strong>The employment<br/></strong></p><p>When taking up the post, you will be admitted to the program for doctoral studies. More information about the doctoral studies at each faculty is available at <a href=\"https://liu.se/en/research/doctoral-studies\" rel=\"noopener noreferrer\" target=\"_blank\">Doctoral studies at Linköping University</a>.</p><p>The employment has a duration of normally four years’ full-time equivalent. Extension of employment up to five years is based on the degree of teaching and institutional assignment. Further extensions may be granted in exceptional circumstances. You will initially be employed for one year, after which your employment will be renewed for a maximum of two years at a time, depending on your progress through the study plan.</p><p>To learn more on working as a PhD student at ISY, please contact: <a href=\"mailto:%20isyphdcouncil@groups.liu.se\" rel=\"noopener noreferrer\" target=\"_blank\">isyphdcouncil@groups.liu.se</a>. </p><p>Starting date by agreement, but we expect you to start your employment no later than May 31, 2027.</p><p>Background screening may be carried out before any decision on employment is made.</p><p><strong>Salary and employment benefits<br/></strong></p><p>The salary of PhD students is determined according to a locally negotiated salary progression.</p><p>More information about employment benefits at Linköping University is available <a href=\"https://liu.se/en/work-at-liu/employee-benefits\" rel=\"noopener noreferrer\" target=\"_blank\">here.</a></p><p><strong>Union representatives</strong></p><p>Information about union representatives, see <a href=\"https://liu.se/en/work-at-liu/hjalp%20for%20sokande\" rel=\"noopener noreferrer\" target=\"_blank\">Help for applicants</a>.</p><p><strong>Application procedure<br/></strong></p><p>Apply for the position by clicking the “Apply” button below. Your application must reach Linköping University no later than December 14, 2026.</p><p>Applications and documents received after the date above will not be considered.</p><p><br/>We welcome applicants with different backgrounds, experiences and perspectives - diversity enriches our work and helps us grow. Preserving everybody's equal value, rights and opportunities is a natural part of who we are. Read more about our work with: <a href=\"https://liu.se/en/article/lika-villkor/\" rel=\"noopener noreferrer\" target=\"_blank\">Equal opportunities</a>.<br/><br/><br/></p><p>We look forward to receiving your application!<br/><br/><br/><br/></p><p>Linköping university has framework agreements and wishes to decline direct contacts from staffing- and recruitment companies as well as vendors of job advertisements.</p>\n",
+      "contacts": [],
+      "opportunity_type": "phd",
+      "status": "deadline_unspecified",
+      "details_checked_at": "2026-11-24T10:02:48.643767+00:00",
+      "last_seen": "2026-11-24T10:03:35Z"
+    },
+    {
+      "id": "euraxess-482420",
+      "source": "euraxess",
+      "source_url": "https://euraxess.ec.europa.eu/jobs/482420",
+      "title": "PhD position in forest pathology",
+      "institution": "Talentech",
+      "country": "SE",
+      "city": "",
+      "department": "",
+      "posted": "2026-11-24",
+      "deadline": null,
+      "profile": "R1",
+      "research_fields": [
+        "Medicine & Health",
+        "Biology & Life Sciences",
+        "Earth & Environmental Science"
+      ],
+      "description_html": "\n<h2>Offer Description</h2>\n<p><strong>Southern Swedish Forest Research Centre</strong><br/><strong>Third-cycle subject area</strong></p><p>Forest Management</p><p><strong>Description of the doctoral project<br/></strong></p><p><strong>Douglas-fir is a promising alternative for diversifying Swedish production forests under a changing climate. Its wider use requires better knowledge of needle diseases that can cause needle loss, crown thinning and reduced growth. This four-year PhD project will investigate how host genetics, fungal communities and environmental conditions influence Douglas-fir health and productivity. It will examine disease patterns across Swedish growing conditions, identify the fungi involved and explore genetic variation in a major needle-disease pathogen. The project will also investigate differences in resistance and tolerance among provenances and how disease affects growth. The aim is to support the selection of suitable planting material and sites for future forestry.</strong></p><p><strong>The project is based at the Southern Swedish Forest Research Centre in Alnarp, in collaboration with Skogforsk, Södra and international researchers. The doctoral student will join a multidisciplinary forestry research environment. The project combines field surveys and established forestry trials with fungal diagnostics, sequencing and population genetics analysis.<br/></strong></p><p><strong>About the position</strong></p><p>The doctoral student will plan and conduct field and laboratory studies, manage and analyse data, write scientific papers and a doctoral thesis, and communicate results through conferences and dialogue with project partners. Work includes field surveys and sampling at sites across Sweden, microscopy, fungal isolation and culturing, molecular identification, sequencing-based analyses and statistical modelling. The student will complete relevant doctoral courses and progressively develop independence in research planning, analysis and scientific writing.</p><p><strong>Requirements</strong></p><p>To meet the general entry requirements you must have been awarded a second-cycle (Master’s) qualification, satisfied the requirements for courses comprising at least 240 credits of which at least 60 credits were awarded in the second-cycle, or acquired substantially equivalent knowledge in some other way in Sweden or abroad (Higher Education Ordinance 1993:100, Chapter 7, Section 39).</p><p>Specific entry requirements for the third-cycle courses and study programme in Forest Management. To meet the specific entry requirements, you must have at least 90 credits in subjects relevant to Forest Management, including at least 30 credits at second-cycle level. </p><p>You must also meet the equivalent English language requirements as those necessary for the Swedish upper-secondary qualification Engelska B/6.</p><p><strong>Your profile</strong></p><p>We are looking for a motivated candidate with a strong interest in forest pathology and in how tree genetics and environmental conditions influence disease and forest productivity.</p><p>Required qualifications:</p><p>University education in forestry is essential. Applicants must have a Master’s degree in forestry or forest science, or an equivalent degree with a substantial forestry component, and meet the eligibility requirements above.</p><p>Documented practical experience in forest pathology, acquired through a degree project, research or relevant employment, including assessment or diagnosis of fungal diseases of forest trees.</p><p>A sound understanding of forest ecology and silviculture, and basic competence in experimental design and statistical data analysis.</p><p>Ability to communicate scientific work clearly in spoken and written English.</p><p>Ability to work independently and collaboratively, organise field and laboratory work, and undertake fieldwork involving travel within Sweden.</p><p>The following are considered merits:</p><p>Experience of forest health surveys, disease assessment, needle or crown condition assessments, or work in forestry field trials.</p><p>Experience of microscopy, fungal isolation and culturing, or morphological identification of fungi.</p><p>Experience of DNA extraction, PCR, sequence-based fungal identification or other molecular diagnostic methods.</p><p>Experience of high-throughput sequencing, ITS metabarcoding, bioinformatics or analysis of fungal community data.</p><p>Knowledge of population genetics, molecular markers, phylogenetic analysis or pathogen population structure.</p><p>Experience of statistical analysis in R or comparable software, particularly mixed models, multivariate analysis, or integration of climate, site and growth data.</p><p>Knowledge of Swedish or another Scandinavian language, or willingness to learn Swedish, and a valid driving licence.</p><p><strong>About us</strong></p><p>The Southern Swedish Forest Research Centre conducts research and teaching on sustainable forestry, with expertise in silviculture, forest ecology, forest pathology, forest policy and planning. We work closely with partners in the forest sector and offer a collegial, international research environment at SLU’s Alnarp campus. The doctoral student will join the department’s forest pathology research environment and a multidisciplinary network of researchers and practitioners. </p><p>Read more about staff benefits and life as an SLU employee on <a href=\"https://www.slu.se/om-slu/jobba-pa-slu/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.slu.se/om-slu/jobba-pa-slu/</a> </p><p>Read more about third-cycle courses and study programmes on <a href=\"http://www.slu.se/utbildning/program-kurser/forskarutbildning/\" rel=\"noopener noreferrer\" target=\"_blank\">www.slu.se/utbildning/program-kurser/forskarutbildning/.</a></p><p><strong>Form of employment / Funding</strong><br/>Employment as a doctoral student (4-year programme) </p><p>Doctoral student’s salaries are set following the local collective agreement. Salary progression is fixed.</p><p><strong>Location:<br/></strong>Alnarp</p><p><strong>Scope:</strong><br/>100%</p><p><strong>Start date:</strong></p><p>January 25 or by agreement.</p><p><strong>Application and selection:<br/></strong>Please submit your application using the link below. The deadline is 8 December 2026.</p><p>Read more about the attachments that your application should include at <a href=\"https://www.slu.se/en/study/programmes-courses/doctoral-education/how-can-i-become-a-doctoral-student/application/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.slu.se/en/study/programmes-courses/doctoral-education/how-can-i-become-a-doctoral-student/application/</a></p><p>Selection among eligible applicants is based on the documents attached to the application, and is carried out with regard to the applicant’s ability to complete the programme within the allotted time.</p><p><strong>Academic union representatives:</strong></p><p><a href=\"https://internt.slu.se/en/my-employment/employee-associations/kontaktpersoner-vid-rekrytering/\" rel=\"noopener noreferrer\" target=\"_blank\">https://internt.slu.se/en/my-employment/employee-associations/kontaktpersoner-vid-rekrytering/</a></p><p><br/>  </p><p><br/><br/>\nThe Swedish University of Agricultural Sciences (SLU) has a key role in the development for sustainable life, based on science and education. Through our focus on the interaction between humans, animals and ecosystems and the responsible use of natural resources, we contribute to sustainable societal development and good living conditions on our planet. Our main campuses are located in Alnarp, Umeå and Uppsala, however, the university also operates at research stations, experimental forests and teaching sites throughout Sweden. </p><p>SLU has around 4,000 employees, 6,000 students and doctoral students and a turnover of over SEK 4,5 billion. We are investing in attractive environments on all of our campuses. We strive to provide a work environment characterised by inclusivity and gender equality, where different experiences generate conversations between people and pave the way for science, creativity and development. Therefore, we welcome applications from people with diverse backgrounds and perspectives.</p>\n",
+      "contacts": [],
+      "opportunity_type": "phd",
+      "status": "deadline_unspecified",
+      "details_checked_at": "2026-11-24T10:02:49.145414+00:00",
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "academics-1112665",
@@ -646,8 +694,8 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "details_checked_at": "2026-11-24T00:00:29.250315+00:00",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "details_checked_at": "2026-11-24T10:02:50.115677+00:00",
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "academics-1111228",
@@ -670,8 +718,8 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "details_checked_at": "2026-11-24T00:00:29.896246+00:00",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "details_checked_at": "2026-11-24T10:02:50.759910+00:00",
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "academics-1112384",
@@ -694,8 +742,8 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "details_checked_at": "2026-11-24T00:00:30.550560+00:00",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "details_checked_at": "2026-11-24T10:02:51.374928+00:00",
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "academics-1112372",
@@ -718,8 +766,8 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "details_checked_at": "2026-11-24T00:00:31.207964+00:00",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "details_checked_at": "2026-11-24T10:02:52.005595+00:00",
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "academics-1112242",
@@ -742,8 +790,8 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "details_checked_at": "2026-11-24T00:00:31.868210+00:00",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "details_checked_at": "2026-11-24T10:02:52.641883+00:00",
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "academics-1112201",
@@ -765,8 +813,8 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "details_checked_at": "2026-11-24T00:00:32.537632+00:00",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "details_checked_at": "2026-11-24T10:02:53.290988+00:00",
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "academics-1111897",
@@ -788,8 +836,8 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "details_checked_at": "2026-11-24T00:00:33.188103+00:00",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "details_checked_at": "2026-11-24T10:02:53.916835+00:00",
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "academics-1111730",
@@ -812,8 +860,8 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "details_checked_at": "2026-11-24T00:00:33.836229+00:00",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "details_checked_at": "2026-11-24T10:02:54.521551+00:00",
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "academics-1111676",
@@ -836,8 +884,8 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "details_checked_at": "2026-11-24T00:00:34.454594+00:00",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "details_checked_at": "2026-11-24T10:02:55.123305+00:00",
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-986205",
@@ -858,7 +906,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:986205/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-986577",
@@ -879,7 +927,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:986577/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-986669",
@@ -901,7 +949,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:986669/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-986687",
@@ -923,7 +971,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:986687/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-986697",
@@ -946,7 +994,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:986697/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-986725",
@@ -967,7 +1015,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:986725/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-986731",
@@ -988,7 +1036,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:986731/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-986951",
@@ -1009,7 +1057,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:986951/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-986960",
@@ -1030,7 +1078,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:986960/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-987600",
@@ -1051,7 +1099,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:987600/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-987607",
@@ -1072,7 +1120,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:987607/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-987616",
@@ -1095,7 +1143,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:987616/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-987627",
@@ -1116,7 +1164,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:987627/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-987629",
@@ -1137,7 +1185,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:987629/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-987634",
@@ -1160,7 +1208,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:987634/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-991022",
@@ -1182,7 +1230,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:991022/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-988083",
@@ -1205,7 +1253,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:988083/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-987970",
@@ -1226,7 +1274,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:987970/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-986999",
@@ -1249,7 +1297,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:986999/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-970516",
@@ -1271,7 +1319,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:970516/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-982662",
@@ -1294,7 +1342,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:982662/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-984146",
@@ -1317,7 +1365,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:984146/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-982431",
@@ -1340,7 +1388,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:982431/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-lu-970808",
@@ -1363,7 +1411,7 @@
       "source_url": "https://lu.varbi.com/en/what:job/jobID:970808/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-kth-978622",
@@ -1386,7 +1434,7 @@
       "source_url": "https://kth.varbi.com/en/what:job/jobID:978622/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-kth-978857",
@@ -1409,7 +1457,7 @@
       "source_url": "https://kth.varbi.com/en/what:job/jobID:978857/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-kth-979760",
@@ -1431,7 +1479,7 @@
       "source_url": "https://kth.varbi.com/en/what:job/jobID:979760/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-kth-979786",
@@ -1453,7 +1501,7 @@
       "source_url": "https://kth.varbi.com/en/what:job/jobID:979786/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-kth-980433",
@@ -1476,7 +1524,7 @@
       "source_url": "https://kth.varbi.com/en/what:job/jobID:980433/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-kth-981025",
@@ -1499,7 +1547,7 @@
       "source_url": "https://kth.varbi.com/en/what:job/jobID:981025/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-kth-981104",
@@ -1521,7 +1569,7 @@
       "source_url": "https://kth.varbi.com/en/what:job/jobID:981104/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-kth-982854",
@@ -1544,7 +1592,7 @@
       "source_url": "https://kth.varbi.com/en/what:job/jobID:982854/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-kth-982870",
@@ -1567,7 +1615,7 @@
       "source_url": "https://kth.varbi.com/en/what:job/jobID:982870/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-kth-984498",
@@ -1590,7 +1638,7 @@
       "source_url": "https://kth.varbi.com/en/what:job/jobID:984498/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-kth-985374",
@@ -1613,7 +1661,7 @@
       "source_url": "https://kth.varbi.com/en/what:job/jobID:985374/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-kth-987217",
@@ -1634,7 +1682,7 @@
       "source_url": "https://kth.varbi.com/en/what:job/jobID:987217/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-uu-993654",
@@ -1657,7 +1705,7 @@
       "source_url": "https://uu.varbi.com/en/what:job/jobID:993654/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-uu-993807",
@@ -1680,7 +1728,7 @@
       "source_url": "https://uu.varbi.com/en/what:job/jobID:993807/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-uu-992398",
@@ -1702,7 +1750,7 @@
       "source_url": "https://uu.varbi.com/en/what:job/jobID:992398/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-uu-990995",
@@ -1725,7 +1773,7 @@
       "source_url": "https://uu.varbi.com/en/what:job/jobID:990995/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-uu-991261",
@@ -1748,7 +1796,7 @@
       "source_url": "https://uu.varbi.com/en/what:job/jobID:991261/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-uu-988704",
@@ -1771,7 +1819,7 @@
       "source_url": "https://uu.varbi.com/en/what:job/jobID:988704/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-uu-989218",
@@ -1794,7 +1842,7 @@
       "source_url": "https://uu.varbi.com/en/what:job/jobID:989218/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-uu-989226",
@@ -1817,7 +1865,7 @@
       "source_url": "https://uu.varbi.com/en/what:job/jobID:989226/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-uu-989233",
@@ -1840,7 +1888,7 @@
       "source_url": "https://uu.varbi.com/en/what:job/jobID:989233/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-uu-989360",
@@ -1863,7 +1911,7 @@
       "source_url": "https://uu.varbi.com/en/what:job/jobID:989360/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-uu-985215",
@@ -1886,7 +1934,7 @@
       "source_url": "https://uu.varbi.com/en/what:job/jobID:985215/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-uu-984673",
@@ -1909,7 +1957,7 @@
       "source_url": "https://uu.varbi.com/en/what:job/jobID:984673/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-uu-985893",
@@ -1932,7 +1980,7 @@
       "source_url": "https://uu.varbi.com/en/what:job/jobID:985893/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-uu-981431",
@@ -1955,7 +2003,7 @@
       "source_url": "https://uu.varbi.com/en/what:job/jobID:981431/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-uu-972566",
@@ -1978,7 +2026,7 @@
       "source_url": "https://uu.varbi.com/en/what:job/jobID:972566/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "varbi-miun-987289",
@@ -1999,7 +2047,7 @@
       "source_url": "https://miun.varbi.com/en/what:job/jobID:987289/",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310606",
@@ -2020,7 +2068,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310606",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311685",
@@ -2042,7 +2090,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311685",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311454",
@@ -2063,7 +2111,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311454",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311832",
@@ -2082,7 +2130,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311832",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-312066",
@@ -2103,7 +2151,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/312066",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-312070",
@@ -2124,7 +2172,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/312070",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-312072",
@@ -2145,7 +2193,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/312072",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-312113",
@@ -2167,7 +2215,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/312113",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-312114",
@@ -2188,7 +2236,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/312114",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-312079",
@@ -2210,7 +2258,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/312079",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311388",
@@ -2229,7 +2277,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311388",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311397",
@@ -2248,7 +2296,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311397",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311468",
@@ -2269,7 +2317,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311468",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311482",
@@ -2288,7 +2336,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311482",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311742",
@@ -2309,7 +2357,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311742",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-312109",
@@ -2330,7 +2378,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/312109",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311032",
@@ -2351,7 +2399,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311032",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311988",
@@ -2372,7 +2420,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311988",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311998",
@@ -2395,7 +2443,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311998",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311986",
@@ -2414,7 +2462,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311986",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311884",
@@ -2435,7 +2483,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311884",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311300",
@@ -2456,7 +2504,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311300",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311377",
@@ -2477,7 +2525,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311377",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311412",
@@ -2496,7 +2544,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311412",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311670",
@@ -2517,7 +2565,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311670",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311765",
@@ -2536,7 +2584,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311765",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311782",
@@ -2557,7 +2605,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311782",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311758",
@@ -2578,7 +2626,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311758",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311777",
@@ -2599,7 +2647,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311777",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310588",
@@ -2618,7 +2666,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310588",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311059",
@@ -2637,7 +2685,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311059",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311287",
@@ -2658,7 +2706,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311287",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311584",
@@ -2677,7 +2725,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311584",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311698",
@@ -2700,7 +2748,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311698",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311207",
@@ -2719,7 +2767,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311207",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311235",
@@ -2740,7 +2788,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311235",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-299655",
@@ -2759,7 +2807,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/299655",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310921",
@@ -2781,7 +2829,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310921",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311478",
@@ -2802,7 +2850,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311478",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311345",
@@ -2823,7 +2871,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311345",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311563",
@@ -2845,7 +2893,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311563",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311326",
@@ -2866,7 +2914,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311326",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311337",
@@ -2887,7 +2935,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311337",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311117",
@@ -2906,7 +2954,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311117",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-308486",
@@ -2927,7 +2975,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/308486",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-308500",
@@ -2948,7 +2996,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/308500",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310286",
@@ -2969,7 +3017,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310286",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310313",
@@ -2990,7 +3038,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310313",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311254",
@@ -3009,7 +3057,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311254",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311353",
@@ -3031,7 +3079,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311353",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311283",
@@ -3053,7 +3101,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311283",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311332",
@@ -3072,7 +3120,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311332",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310482",
@@ -3093,7 +3141,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310482",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311174",
@@ -3114,7 +3162,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311174",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310544",
@@ -3135,7 +3183,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310544",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-309245",
@@ -3154,7 +3202,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/309245",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310944",
@@ -3175,7 +3223,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310944",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311057",
@@ -3197,7 +3245,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311057",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311077",
@@ -3218,7 +3266,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311077",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311082",
@@ -3239,7 +3287,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311082",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-311089",
@@ -3260,7 +3308,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/311089",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310898",
@@ -3281,7 +3329,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310898",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-306562",
@@ -3303,7 +3351,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/306562",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-306640",
@@ -3322,7 +3370,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/306640",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-306662",
@@ -3341,7 +3389,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/306662",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-306665",
@@ -3360,7 +3408,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/306665",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-306667",
@@ -3379,7 +3427,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/306667",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-306670",
@@ -3398,7 +3446,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/306670",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-306671",
@@ -3417,7 +3465,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/306671",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-306673",
@@ -3439,7 +3487,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/306673",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-307984",
@@ -3460,7 +3508,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/307984",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310693",
@@ -3481,7 +3529,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310693",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310799",
@@ -3502,7 +3550,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310799",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310855",
@@ -3524,7 +3572,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310855",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310871",
@@ -3543,7 +3591,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310871",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310630",
@@ -3562,7 +3610,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310630",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310802",
@@ -3581,7 +3629,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310802",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310453",
@@ -3603,7 +3651,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310453",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310604",
@@ -3624,7 +3672,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310604",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-308356",
@@ -3645,7 +3693,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/308356",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310579",
@@ -3666,7 +3714,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310579",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310496",
@@ -3687,7 +3735,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310496",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-308969",
@@ -3706,7 +3754,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/308969",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310430",
@@ -3728,7 +3776,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310430",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310457",
@@ -3750,7 +3798,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310457",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-310297",
@@ -3772,7 +3820,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/310297",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-309937",
@@ -3793,7 +3841,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/309937",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-308778",
@@ -3812,7 +3860,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/308778",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-309629",
@@ -3831,7 +3879,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/309629",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-309707",
@@ -3850,7 +3898,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/309707",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-309783",
@@ -3871,7 +3919,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/309783",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-309803",
@@ -3892,7 +3940,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/309803",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-308272",
@@ -3913,7 +3961,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/308272",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "jobbnorge-308444",
@@ -3934,7 +3982,7 @@
       "source_url": "https://www.jobbnorge.no/ledige-stillinger/stilling/308444",
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_ZnkO2YODGFfyYMEGRq",
@@ -3951,7 +3999,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_Q3lQbTTmH0B3RgzYza",
@@ -3970,7 +4018,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-12394",
@@ -3987,7 +4035,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_9IsXaApO43zfSPqD2k",
@@ -4007,7 +4055,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_eKwg0ABzcwTx9yvDIB",
@@ -4024,7 +4072,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_28nw3OdOnBHEgtmTKT",
@@ -4041,7 +4089,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_KsDZEfdFynQBP2lze3",
@@ -4060,7 +4108,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_aeloET1t4I7y99lddS",
@@ -4079,7 +4127,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_AUmT7tc75KfdQZK3sA",
@@ -4098,7 +4146,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_yAAtbZbymFGeRxTPco",
@@ -4117,7 +4165,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_VHL83kyFBbwBQD0AfO",
@@ -4134,7 +4182,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_Ffaznrmc4kvEhwnOKA",
@@ -4151,7 +4199,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_ACbZ6WgYvqjyQeQDqK",
@@ -4168,7 +4216,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_0QyK6OH03ypOvLdZ70",
@@ -4187,7 +4235,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_gvWYiNfMDZM3xWTKPj",
@@ -4204,7 +4252,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_SbmISbke8WdGnkbzJk",
@@ -4223,7 +4271,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_SZB4DUUjP3DKNXqXfX",
@@ -4242,7 +4290,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_o0hFrG5T51aXJSr1x4",
@@ -4259,7 +4307,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_1VGWmPweQ1WxoDNZU6",
@@ -4279,7 +4327,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_j6FN1WlWccXpZipQja",
@@ -4298,7 +4346,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_sqsOtdedQzvLzst350",
@@ -4315,7 +4363,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_ImqWbdbtPQtWCAnkbZ",
@@ -4332,7 +4380,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_Nnf6ZULCr5G0ihsC1R",
@@ -4349,7 +4397,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_kMQAkdBBjFt0CMGG8W",
@@ -4366,7 +4414,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_uXPVmZM0iJ2XgWYNvF",
@@ -4383,7 +4431,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_zBtPwWHnM0fumyTFso",
@@ -4400,7 +4448,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_TIiC0vSwRKzG8cjCb4",
@@ -4417,7 +4465,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_eMp6VK8Hmtj3lkloXX",
@@ -4434,7 +4482,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_7i39aKM0RXxfeH2plT",
@@ -4451,7 +4499,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_QTalV0i5PTKnk4q8kN",
@@ -4471,7 +4519,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_hfJQki76KJw8Dwn0Pv",
@@ -4488,7 +4536,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_EdNelUTz9tatugJayG",
@@ -4507,7 +4555,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_pAPaF3G1Cho8jqgZse",
@@ -4524,7 +4572,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_DPag8hXtGdgomqwMdO",
@@ -4541,7 +4589,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_fEsJT6dU0XVbGPtHhO",
@@ -4558,7 +4606,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_4pQ2q5Y9qBeuGF9aBv",
@@ -4577,7 +4625,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_d3lDgHgDI4ewDFQ1Fb",
@@ -4596,7 +4644,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_RXOaQH0DOpiNTKwE75",
@@ -4613,7 +4661,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_mZ7lFXZluUIyWaON1N",
@@ -4630,7 +4678,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_PItOe6oQJFLOGTo0rn",
@@ -4647,7 +4695,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_N5adwDR63ei5mvEd2z",
@@ -4664,7 +4712,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_fV3FNoofTG427Xo88T",
@@ -4681,7 +4729,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_8mKiqyt08ncBT4Vjmf",
@@ -4698,7 +4746,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "id": "ethz-JOPG_ethz_PeBFLlVSXBQT8tuOqj",
@@ -4715,7 +4763,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_unspecified",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -4737,7 +4785,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -4759,7 +4807,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -4779,7 +4827,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -4800,7 +4848,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -4822,7 +4870,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -4844,7 +4892,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -4866,7 +4914,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -4888,29 +4936,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
-    },
-    {
-      "source": "academictransfer",
-      "source_url": "https://www.academictransfer.com/en/jobs/363562/phd-student-harnessing-phase-transitions-for-optical-information-processing/",
-      "country": "NL",
-      "institution": "AMOLF",
-      "title": "PhD- student: Harnessing phase transitions for optical information processing",
-      "description_html": "<strong>Work Activities</strong><br>This PhD project will investigate how phase transitions can be harnessed for information processing with light. Near a continuous phase transition, the susceptibility of a material can increase strongly. This allows weak input signals to generate large responses, which can in turn reduce the optical energy required for an operation. However, critical slowing down and enhanced fluctuations may limit processing speed and accuracy. The main objective of this PhD project is to quantify this trade-off between energy consumption, speed and accuracy in information processing near a phase transition, and to determine how it depends on properties of the signal such as amplitude and bandwidth.<br><br>The project builds on a recent work by the host group [Keijsers <em>et al.</em>, Nature Photon. 19, 733 (2025)], where signatures of a phase transition were observed in the nonlinear response of a laser-driven optical cavity containing a perovskite crystal. The first objective is to characterize the spectral and temporal response of this system near the transition, which is expected to include memory effects and strong fluctuations. Next, controlled time-dependent signals and benchmark optical information-processing operations will be used to compare performance at different distances from the phase transition. Experiments will be combined with theoretical modelling, statistical data analysis, and numerical simulations to identify the governing mechanisms and to determine whether and how proximity to a phase transition offers an advantage for processing certain signals. The project is primarily experimental and will involve optical cavity measurements, materials characterization and, where needed, nanofabrication. Its expected outcome is an experimentally tested framework for designing photonic information-processing systems that exploit phase-transition physics.<br><br><strong>Qualifications</strong><br>You have an MSc degree in physics, optics, photonics, nanoscience, or a related field. Laboratory experience in optics or photonics is preferable but not strictly necessary. A background in, or strong interest in, one or more of the following areas is valued: nonlinear dynamics, condensed-matter physics, and stochastic processes. The ideal candidate is an experimentalist who enjoys not only setting up and performing complex experiments, but also thinking deeply about the results and modelling them. Applicants are not expected to bring expertise in all listed areas; the required methods will be learned during the project.<br><br>This is a collaborative project between AMOLF and Utrecht University. Your host will be the Interacting Photons group led by Prof. Said R. K. Rodriguez at AMOLF, but you will also work part time at Utrecht University with Prof. Allard Mosk and his group. We are therefore looking for someone who has the personal and communication skills required to connect two groups at different locations (half hour away), besides being able to work independently. The appointment also includes a contribution to teaching at Utrecht University and participation in the relevant training programs.<br><br><strong>Work environment</strong><br>AMOLF is a part of NWO-I and initiate and performs leading fundamental research on the physics of complex forms of matter, and to create new functional materials, in partnership with academia and industry. The institute is located at Amsterdam Science Park and currently employs about 140 researchers and 80 support employees. <a href=\"http://www.amolf.nl\">www.amolf.nl</a><br><br>In the Interacting Photons group, we search for new physics emerging from photon interactions. As a testbed for new ideas, we use nonlinear nanophotonic resonators. We are driven by fundamental physics questions relevant to improve the energy efficiency, speed, and precision of optical technologies such as novel sensors and computers.<br><br><strong>Working conditions</strong><br><ul> <li>The working atmosphere at the institute is largely determined by young, enthusiastic, mostly foreign employees. Communication is informal and runs through short lines of communication.</li> <li>The position is intended as full-time (40 hours / week, 12 months / year) appointment in the service of the Netherlands Foundation of Scientific Research Institutes (NWO-I) for the duration of four years</li> <li>The starting salary is 3.115 Euro’s gross per month and a <a href=\"https://www.nwo-i.nl/en/working-at-nwo-i/informationforapplicants/\">range of employment benefits</a>.</li> <li>After successful completion of the PhD research a PhD degree will be granted at a Dutch University.</li> <li>Several courses are offered, specially developed for PhD-students.</li> <li>AMOLF assists any new foreign PhD-student with housing and visa applications and compensates their transport costs and furnishing expenses.</li>\n</ul>\n<br><strong>More information?</strong><br>For further information about the position, please contact Said R.K. Rodriguez: <a href=\"mailto:s.rodriguez@amolf.nl\">s.rodriguez@amolf.nl</a><br><br><strong>Application</strong><br>You can respond to this vacancy online via the button below.<br><br><em>Online screening may be part of the selection.</em><br><br><strong>Diversity code</strong><br>AMOLF is highly committed to an inclusive and diverse work environment: we want to develop talent and creativity by bringing together people from different backgrounds and cultures. We recruit and select on the basis of competencies and talents. We strongly encourage anyone with the right qualifications to apply for the vacancy, regardless of age, gender, origin, sexual orientation or physical ability.<br><br>AMOLF has won the NNV Diversity Award 2022, which is awarded every two years by the Netherlands Physical Society for demonstrating the most successful implementation of equality, diversity and inclusion (EDI).<br><br><em><strong>Commercial activities in response to this ad are not appreciated.</strong></em>",
-      "deadline": "2027-02-24",
-      "posted": "2026-08-28",
-      "city": "Amsterdam",
-      "department": "",
-      "profile": "R1",
-      "research_fields": [
-        "Physics & Astronomy",
-        "Mathematics & Statistics",
-        "Energy & Environment"
-      ],
-      "contacts": [],
-      "opportunity_type": "phd",
-      "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -4932,7 +4958,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -4954,7 +4980,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -4974,7 +5000,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -4994,7 +5020,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5016,7 +5042,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5037,7 +5063,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5059,7 +5085,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5080,7 +5106,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5102,7 +5128,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5124,7 +5150,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5145,7 +5171,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5166,7 +5192,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5187,7 +5213,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5209,7 +5235,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5230,7 +5256,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5252,7 +5278,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5274,7 +5300,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5294,7 +5320,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5316,7 +5342,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5336,7 +5362,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5358,7 +5384,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5380,7 +5406,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5402,7 +5428,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5420,7 +5446,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5442,7 +5468,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5463,7 +5489,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5483,7 +5509,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5503,7 +5529,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5525,7 +5551,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5547,7 +5573,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5567,7 +5593,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5585,7 +5611,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5607,7 +5633,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5629,7 +5655,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5651,7 +5677,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5672,7 +5698,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5694,7 +5720,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5716,7 +5742,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5736,7 +5762,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5758,7 +5784,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5780,7 +5806,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5802,7 +5828,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5822,7 +5848,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5842,7 +5868,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5864,7 +5890,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5885,7 +5911,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5907,7 +5933,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5929,7 +5955,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5950,7 +5976,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5972,7 +5998,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -5993,7 +6019,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6014,7 +6040,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6036,7 +6062,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6056,7 +6082,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6078,7 +6104,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6099,7 +6125,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6120,7 +6146,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6142,7 +6168,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6163,7 +6189,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6185,7 +6211,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6207,7 +6233,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6228,7 +6254,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6246,7 +6272,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6268,7 +6294,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6290,7 +6316,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6312,7 +6338,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6334,7 +6360,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6356,7 +6382,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6377,7 +6403,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6399,7 +6425,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6421,7 +6447,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6443,7 +6469,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6465,7 +6491,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6486,7 +6512,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6504,7 +6530,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6526,7 +6552,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6548,7 +6574,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6566,7 +6592,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6588,7 +6614,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6608,7 +6634,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6626,7 +6652,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6648,7 +6674,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6666,7 +6692,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6688,7 +6714,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6710,7 +6736,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6732,7 +6758,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6753,7 +6779,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6775,7 +6801,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6797,7 +6823,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6817,7 +6843,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6839,7 +6865,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6860,7 +6886,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6880,7 +6906,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6900,7 +6926,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6922,7 +6948,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6944,7 +6970,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6964,7 +6990,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -6984,7 +7010,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -7006,7 +7032,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -7028,7 +7054,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -7049,7 +7075,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -7070,7 +7096,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -7092,7 +7118,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -7113,7 +7139,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -7135,7 +7161,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -7153,7 +7179,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -7175,7 +7201,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -7193,28 +7219,7 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
-    },
-    {
-      "source": "academictransfer",
-      "source_url": "https://www.academictransfer.com/en/jobs/365755/phd-candidate-development-of-ultrasonic-diffusion-weighted-mri/",
-      "country": "NL",
-      "institution": "Radboud University Medical Center (Radboudumc)",
-      "title": "PhD candidate 'Development of ultrasonic diffusion weighted MRI'",
-      "description_html": "<strong>Job description</strong><br><em>Development of ultrasonic diffusion weighted MRI: Implementation and validation of novel gradients and reconstruction technology for autonomous prostate cancer detection.</em><br><br>Recent advances in acquisition hardware and reconstruction power have made the acquisition and reconstruction of MRI to such a comfortable level that it may be applied as an autonomous imaging modality. The order of magnitude faster (x and y) and stronger (z) gradient system that can be enabled with a dedicated setup (i.e. head, breast and soon prostate) facilitates new imaging capabilities like ultrasonic (non-audible) scanning, yet its capabilities are hardly explored.<br><br>The MRI lab is leading the development of a cutting-edge MRI system for autonomous scanning of men to detect or surveille prostate cancer. Together with 22 industries and institutes we will design a 3T open magnet, close fitting gradient and RF system with novel MRI acquisitions followed by governed AI image to diagnose generation.<br><br>In this project you will develop and validate MR image acquisition methods with unconventional magnetic field gradient setups, starting with ultrasonic monopoles for head scans in a conventional 3T MRI, followed by single axis diffusion in breast MRI and finalizing completion of ultrasonic diffusion-weighted MRI in the dedicated prostate scanner. There will be close collaboration with other team members focusing on the remaining aspects of the project, and industry partners to facilitate the translation of these methods into clinical evaluation and use.<br><br>Tasks will also include active attendance at international scientific conferences and publishing newly developed methods and study results.",
-      "deadline": "2026-12-10",
-      "posted": "2026-11-19",
-      "city": "Nijmegen",
-      "department": "",
-      "profile": "R1",
-      "research_fields": [
-        "Medicine & Health",
-        "AI & Machine Learning"
-      ],
-      "contacts": [],
-      "opportunity_type": "phd",
-      "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
     },
     {
       "source": "academictransfer",
@@ -7236,7 +7241,29 @@
       "contacts": [],
       "opportunity_type": "phd",
       "status": "deadline_not_passed",
-      "last_seen": "2026-11-24T00:01:19Z"
+      "last_seen": "2026-11-24T10:03:35Z"
+    },
+    {
+      "source": "academictransfer",
+      "source_url": "https://www.academictransfer.com/en/jobs/365764/phd-student-diffusion-mri-of-brain-connectivity-in-mixed-dementia/",
+      "country": "NL",
+      "institution": "University Medical Center Utrecht (UMC Utrecht)",
+      "title": "PhD Student - Diffusion MRI of Brain Connectivity in Mixed Dementia",
+      "description_html": "Are you passionate about brain research and interested in understanding how different types of brain damage contribute to dementia? Do you enjoy analysing complex neuroimaging data, programming, and developing new (AI) models to investigate the brain? Are you inspired by working in a multidisciplinary research team? Join us in using advanced diffusion MRI to better understand the mechanisms underlying mixed dementia and ultimately improve its diagnosis and prognosis.<br><br><strong>About the position</strong><br>Dementia is often caused by a combination of neurodegenerative and vascular pathology, which can affect different parts of the brain and disrupt the connections between them. However, identifying the relative contributions of these processes in individual patients remains challenging. Diffusion MRI provides a unique opportunity to investigate the brain’s white matter connections in vivo, offering insights into the structural damage that may underlie cognitive decline.<br><br>In this PhD project, you will investigate how diffusion MRI can be used to characterize damage to brain connections in patients with mixed dementia. You will work at the intersection of medical imaging, neuroscience, and clinical research, developing and applying advanced image analysis methods to better understand the relationship between brain connectivity, underlying pathology, and clinical outcomes. This project is part of the <a href=\"https://www.geheugenpoliklinieken.nl/onderzoek/tap-dementia\">Dutch national collaborative TAP dementia consortium</a>, which falls under the national program against dementia financed by ZonMW.<br><br>Your research will focus on translating quantitative measures of brain connections into clinically meaningful information. In particular, you will investigate whether these measures can help distinguish different contributions to brain damage, improve the characterization of disease severity, and support predictions of disease progression.<br><br>You will:<br><ul> <li>Investigate how measures of structural connectivity relate to vascular and neurodegenerative brain pathology.</li> <li>Study the potential of diffusion MRI measures to improve etiological diagnosis, disease staging.</li> <li>Build and validate models to explain and predict cognitive decline.</li> <li>Collaborate with imaging researchers, neuroscientists, and clinicians to translate methodological developments into clinically relevant insights.</li>\n</ul>",
+      "deadline": "2026-12-03",
+      "posted": "2026-11-20",
+      "city": "Utrecht",
+      "department": "",
+      "profile": "R1",
+      "research_fields": [
+        "Medicine & Health",
+        "Biology & Life Sciences",
+        "Engineering"
+      ],
+      "contacts": [],
+      "opportunity_type": "phd",
+      "status": "deadline_not_passed",
+      "last_seen": "2026-11-24T10:03:35Z"
     }
   ]
 }

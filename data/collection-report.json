@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-11-24T00:01:19Z",
+  "attempted_at": "2026-11-24T10:03:35Z",
   "sources": [
     {
       "source": "liu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 14,
-      "seconds": 1.8,
+      "seconds": 1.6,
       "details": {},
       "warnings": []
     },
@@ -29,7 +29,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 5,
-      "seconds": 3.4,
+      "seconds": 3.6,
       "details": {},
       "warnings": []
     },
@@ -38,10 +38,10 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 17.1,
+      "seconds": 17.8,
       "details": {
-        "attempted": 0,
-        "with_description": 0,
+        "attempted": 2,
+        "with_description": 2,
         "unavailable": 0
       },
       "warnings": [
@@ -52,8 +52,8 @@
       "source": "academics",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 12,
-      "seconds": 6.3,
+      "raw_count": 11,
+      "seconds": 6.0,
       "details": {
         "attempted": 9,
         "with_description": 9,
@@ -79,7 +79,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 3.1,
+      "seconds": 2.9,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -92,7 +92,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 53,
-      "seconds": 45.8,
+      "seconds": 45.2,
       "details": {},
       "warnings": []
     },
@@ -101,7 +101,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 94,
-      "seconds": 46.5,
+      "seconds": 45.5,
       "details": {},
       "warnings": []
     },
@@ -110,7 +110,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 44,
-      "seconds": 28.5,
+      "seconds": 28.0,
       "details": {},
       "warnings": []
     },
@@ -118,8 +118,8 @@
       "source": "academictransfer",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 120,
-      "seconds": 66.6,
+      "raw_count": 119,
+      "seconds": 62.7,
       "details": {},
       "warnings": []
     }
