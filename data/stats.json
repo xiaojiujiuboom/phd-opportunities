@@ -1,62 +1,32 @@
 {
-  "updated_at": "2026-11-26T08:34:40Z",
-  "data_updated_at": "2026-11-26T08:34:40Z",
+  "updated_at": "2026-11-26T21:42:46Z",
+  "data_updated_at": "2026-11-26T21:42:46Z",
   "operation": "collection",
-  "total": 337,
+  "total": 345,
   "by_source": {
     "academictransfer": 119,
-    "jobbnorge": 95,
+    "jobbnorge": 98,
     "ethz": 44,
-    "varbi-lu": 24,
+    "varbi-lu": 26,
     "liu": 14,
     "varbi-uu": 14,
     "varbi-kth": 11,
-    "academics": 9,
+    "academics": 10,
+    "euraxess": 4,
     "umu": 4,
-    "euraxess": 2,
     "varbi-miun": 1
   },
   "by_country": {
     "NL": 119,
-    "NO": 95,
+    "NO": 98,
     "SE": 70,
     "CH": 44,
-    "DE": 8,
-    "AT": 1
+    "DE": 9,
+    "ES": 3,
+    "AT": 1,
+    "CZ": 1
   },
   "history": [
-    {
-      "ts": "2026-10-30T22:32:02Z",
-      "total": 551,
-      "by_source": {
-        "jobsac_uk": 194,
-        "academictransfer": 120,
-        "jobbnorge": 107,
-        "ethz": 45,
-        "academics": 19,
-        "varbi-su": 18,
-        "varbi-uu": 12,
-        "liu": 9,
-        "varbi-lu": 9,
-        "aalto": 7,
-        "umu": 5,
-        "varbi-kth": 3,
-        "euraxess": 1,
-        "varbi-kau": 1,
-        "varbi-miun": 1
-      },
-      "by_country": {
-        "GB": 194,
-        "NL": 120,
-        "NO": 107,
-        "SE": 58,
-        "CH": 45,
-        "DE": 18,
-        "FI": 7,
-        "AT": 1,
-        "BE": 1
-      }
-    },
     {
       "ts": "2026-10-31T05:59:34Z",
       "total": 545,
@@ -1754,6 +1724,33 @@
         "CH": 44,
         "DE": 8,
         "AT": 1
+      }
+    },
+    {
+      "ts": "2026-11-26T21:42:46Z",
+      "total": 345,
+      "by_source": {
+        "academictransfer": 119,
+        "jobbnorge": 98,
+        "ethz": 44,
+        "varbi-lu": 26,
+        "liu": 14,
+        "varbi-uu": 14,
+        "varbi-kth": 11,
+        "academics": 10,
+        "euraxess": 4,
+        "umu": 4,
+        "varbi-miun": 1
+      },
+      "by_country": {
+        "NL": 119,
+        "NO": 98,
+        "SE": 70,
+        "CH": 44,
+        "DE": 9,
+        "ES": 3,
+        "AT": 1,
+        "CZ": 1
       }
     }
   ],
