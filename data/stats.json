@@ -1,60 +1,30 @@
 {
-  "updated_at": "2026-11-27T21:27:00Z",
-  "data_updated_at": "2026-11-27T21:26:59Z",
+  "updated_at": "2026-11-28T08:01:04Z",
+  "data_updated_at": "2026-11-28T08:01:04Z",
   "operation": "collection",
-  "total": 339,
+  "total": 336,
   "by_source": {
     "academictransfer": 119,
-    "jobbnorge": 97,
+    "jobbnorge": 93,
     "ethz": 44,
-    "varbi-lu": 26,
+    "varbi-lu": 25,
     "liu": 15,
-    "varbi-uu": 15,
+    "varbi-uu": 14,
     "academics": 11,
     "umu": 6,
     "varbi-kth": 5,
+    "euraxess": 3,
     "varbi-miun": 1
   },
   "by_country": {
-    "NL": 119,
-    "NO": 97,
-    "SE": 68,
+    "NL": 122,
+    "NO": 93,
+    "SE": 66,
     "CH": 44,
     "DE": 10,
     "AT": 1
   },
   "history": [
-    {
-      "ts": "2026-10-31T21:46:43Z",
-      "total": 545,
-      "by_source": {
-        "jobsac_uk": 194,
-        "academictransfer": 120,
-        "jobbnorge": 104,
-        "ethz": 45,
-        "academics": 19,
-        "varbi-su": 18,
-        "varbi-uu": 10,
-        "varbi-lu": 9,
-        "liu": 8,
-        "aalto": 7,
-        "umu": 5,
-        "euraxess": 2,
-        "varbi-kth": 2,
-        "varbi-kau": 1,
-        "varbi-miun": 1
-      },
-      "by_country": {
-        "GB": 194,
-        "NL": 121,
-        "NO": 104,
-        "SE": 55,
-        "CH": 45,
-        "DE": 18,
-        "FI": 7,
-        "AT": 1
-      }
-    },
     {
       "ts": "2026-11-01T06:25:08Z",
       "total": 542,
@@ -1738,12 +1708,32 @@
         "DE": 10,
         "AT": 1
       }
+    },
+    {
+      "ts": "2026-11-28T08:01:04Z",
+      "total": 336,
+      "by_source": {
+        "academictransfer": 119,
+        "jobbnorge": 93,
+        "ethz": 44,
+        "varbi-lu": 25,
+        "liu": 15,
+        "varbi-uu": 14,
+        "academics": 11,
+        "umu": 6,
+        "varbi-kth": 5,
+        "euraxess": 3,
+        "varbi-miun": 1
+      },
+      "by_country": {
+        "NL": 122,
+        "NO": 93,
+        "SE": 66,
+        "CH": 44,
+        "DE": 10,
+        "AT": 1
+      }
     }
   ],
-  "alerts": [
-    "source 'aalto' returned 0 jobs (was 4 last run)",
-    "source 'euraxess' returned 0 jobs (was 2 last run)",
-    "source 'aalto' missing entirely from this run",
-    "source 'euraxess' missing entirely from this run"
-  ]
+  "alerts": []
 }
