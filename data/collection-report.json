@@ -1,12 +1,12 @@
 {
-  "attempted_at": "2026-11-28T08:01:04Z",
+  "attempted_at": "2026-11-28T20:17:54Z",
   "sources": [
     {
       "source": "liu",
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 15,
-      "seconds": 2.5,
+      "seconds": 1.7,
       "details": {},
       "warnings": []
     },
@@ -15,7 +15,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 1.1,
+      "seconds": 1.0,
       "details": {},
       "warnings": []
     },
@@ -29,7 +29,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 7,
-      "seconds": 6.0,
+      "seconds": 4.4,
       "details": {},
       "warnings": []
     },
@@ -38,7 +38,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 10,
-      "seconds": 19.5,
+      "seconds": 18.3,
       "details": {
         "attempted": 3,
         "with_description": 3,
@@ -53,7 +53,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 13,
-      "seconds": 8.3,
+      "seconds": 7.2,
       "details": {
         "attempted": 11,
         "with_description": 11,
@@ -66,7 +66,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 0.5,
+      "seconds": 0.3,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -79,7 +79,7 @@
       "mode": "list_and_details",
       "result": "empty_or_adapter_error",
       "raw_count": 0,
-      "seconds": 4.4,
+      "seconds": 2.9,
       "details": {
         "attempted": 0,
         "with_description": 0,
@@ -92,7 +92,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 46,
-      "seconds": 43.1,
+      "seconds": 38.6,
       "details": {},
       "warnings": []
     },
@@ -101,7 +101,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 93,
-      "seconds": 48.0,
+      "seconds": 43.5,
       "details": {},
       "warnings": []
     },
@@ -109,8 +109,8 @@
       "source": "ethz",
       "mode": "list_and_details",
       "result": "records_returned",
-      "raw_count": 44,
-      "seconds": 30.9,
+      "raw_count": 43,
+      "seconds": 27.6,
       "details": {},
       "warnings": []
     },
@@ -119,7 +119,7 @@
       "mode": "list_and_details",
       "result": "records_returned",
       "raw_count": 120,
-      "seconds": 76.9,
+      "seconds": 61.2,
       "details": {},
       "warnings": []
     }
